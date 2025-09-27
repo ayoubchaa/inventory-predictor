@@ -1,0 +1,56 @@
+{
+  "feature_names": [
+    "current_stock",
+    "cycle",
+    "month",
+    "max_stock",
+    "product_encoded",
+    "category_encoded",
+    "storage_unit_encoded",
+    "stock_class_encoded"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Raw Features Only (Same Dataset)",
+      "train_metrics": {
+        "r2": 0.7806014049005662,
+        "mae": 277.7506732112346,
+        "rmse": 795.269189360956,
+        "mape": 1150.852956644829
+      },
+      "test_metrics": {
+        "r2": 0.7169318776706944,
+        "mae": 213.76261362465476,
+        "rmse": 602.4454540413943,
+        "mape": 1079.2620779385788
+      },
+      "epochs_trained": 11,
+      "features_used": 8,
+      "approach": "raw_features_only_same_dataset"
+    },
+    "bidirectional_lstm": {
+      "description": "Bidirectional LSTM - Raw Features Only (Same Dataset)",
+      "train_metrics": {
+        "r2": 0.8563999565768847,
+        "mae": 219.52361997791144,
+        "rmse": 643.3903186948601,
+        "mape": 478.2057452295182
+      },
+      "test_metrics": {
+        "r2": 0.7389383107548332,
+        "mae": 195.36990521059775,
+        "rmse": 578.5538946673054,
+        "mape": 797.5559519187337
+      },
+      "epochs_trained": 16,
+      "features_used": 8,
+      "approach": "raw_features_only_same_dataset"
+    }
+  },
+  "sequence_length": 10,
+  "approach": "raw_features_only_same_dataset",
+  "num_features": 8,
+  "dataset_used": "products_filtered_final.csv",
+  "saved_date": "2025-09-23T13:25:31.583642",
+  "system_version": "raw_features_same_dataset_v1"
+}

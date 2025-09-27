@@ -1,0 +1,58 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "ma_3",
+    "ma_5",
+    "std_3",
+    "std_5",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "near_capacity",
+    "low_stock",
+    "group_encoded",
+    "stock_class_encoded",
+    "storage_unit_encoded",
+    "trend_1_3",
+    "volatility",
+    "volatility_normalized",
+    "ma_ratio_3_7",
+    "stock_class_util_interaction",
+    "is_weekend",
+    "is_friday"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Clean Dataset",
+      "train_metrics": {
+        "r2": 0.8517714218502026,
+        "mae": 253.2975548501329,
+        "rmse": 718.87465105231,
+        "mape": 96.45789755424796
+      },
+      "test_metrics": {
+        "r2": 0.8057524201537198,
+        "mae": 198.87394326906124,
+        "rmse": 562.1337995566798,
+        "mape": 95.09017388163346
+      },
+      "epochs_trained": 40,
+      "features_used": 26,
+      "dataset_type": "clean",
+      "dataset_size": 11067,
+      "sequences_created": 7380
+    }
+  },
+  "sequence_length": 10,
+  "cycles_per_year": 36.5,
+  "dataset_type": "clean",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T17:56:53.567409",
+  "system_version": "dual_dataset_clean_v1"
+}

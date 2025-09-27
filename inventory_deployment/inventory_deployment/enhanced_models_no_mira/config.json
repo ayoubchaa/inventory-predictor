@@ -1,0 +1,74 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "ma_3",
+    "ma_5",
+    "std_3",
+    "std_5",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "near_capacity",
+    "low_stock",
+    "group_encoded",
+    "stock_class_encoded",
+    "storage_unit_encoded",
+    "trend_1_3",
+    "volatility",
+    "volatility_normalized",
+    "ma_ratio_3_7",
+    "stock_class_util_interaction",
+    "is_weekend",
+    "is_friday"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "Enhanced GRU - No MIRA 0.6L",
+      "train_metrics": {
+        "r2": 0.7771397669313862,
+        "mae": 228.96084603669237,
+        "rmse": 800.4034657537408,
+        "mape": 92.55833636315629
+      },
+      "test_metrics": {
+        "r2": 0.803396429818898,
+        "mae": 162.90806052995435,
+        "rmse": 502.07425161041,
+        "mape": 111.1351691280084
+      },
+      "epochs_trained": 35,
+      "features_used": 26,
+      "data_version": "no_mira_0.6L"
+    },
+    "bidirectional_lstm": {
+      "description": "Enhanced LSTM - No MIRA 0.6L",
+      "train_metrics": {
+        "r2": 0.7922356708302674,
+        "mae": 225.9083563814521,
+        "rmse": 772.8196628822245,
+        "mape": 121.43060053909053
+      },
+      "test_metrics": {
+        "r2": 0.7758843954355622,
+        "mae": 188.48899276944906,
+        "rmse": 536.0536996733686,
+        "mape": 183.32732157005867
+      },
+      "epochs_trained": 35,
+      "features_used": 26,
+      "data_version": "no_mira_0.6L"
+    }
+  },
+  "sequence_length": 10,
+  "cycles_per_year": 36.5,
+  "data_version": "no_mira_0.6L",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-25T12:51:42.795688",
+  "system_version": "enhanced_no_mira_v1"
+}

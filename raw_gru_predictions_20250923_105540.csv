@@ -1,0 +1,445 @@
+Product_Name,Current_Stock,Predicted_Next_Transaction,Category,Model_Type,Model_Name,Features_Used,Business_Purpose,Transaction_Change,Transaction_Change_Pct
+AC-SMOOTHIE DETOX,20.0,27.158978,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.158977508544922,34.09036908830915
+AC-SMOOTHIE EXOTIC,20.0,27.233452,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.233451843261719,34.44500877743676
+AC-SMOOTHIE LE CLASSIQUE,20.0,27.165104,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.165103912353516,34.11954243977864
+AC-SMOOTHIE PEACH'TINI,20.0,27.096882,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.096881866455078,33.79467555454799
+AC-SMOOTHIE TROPIC TRIP,20.0,27.02877,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.028770446777344,33.47033546084449
+AGRAFFE,8.0,19.719475,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.719474792480469,130.2163865831163
+AIL,1.75,17.819733,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,16.069732666015625,584.3539151278409
+AIL EN POUDRE,1.0,18.831451,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.831451416015625,891.5725708007812
+AJAX VITRE,16.0,26.93893,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.93893051147461,64.3466500674977
+ALKASURF DDA 5KG,5.0,26.666836,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.66683578491211,361.11392974853516
+AMANDE EFFILEE,1.0,18.357819,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.357818603515625,867.8909301757812
+AMANDES GRILEES SALEES 70GR,36.0,37.994263,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1.9942626953125,5.38989917652027
+AMSTEL BEER BLLE 33CL,90.0,236.3006,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,146.30059814453125,160.76988807091345
+ANANAS GRAND,27.0,27.903233,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,0.9032325744628906,3.2258306230817526
+ANANAS PCES,9.0,30.43608,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.436080932617188,214.36080932617188
+ASEPCLOR,10.0,31.187145,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.187145233154297,192.6104112104936
+AUBERGINE,6.25,20.644814,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.394813537597656,198.54915224272628
+AUBERGINE LEGUME,3.0,20.118904,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.11890411376953,427.9726028442383
+AVOCAT FRUIT PIECE,43.0,25.872604,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-17.127395629882812,-38.92589915882457
+BACON BOEUF FUME TRANCHES ( 300GR),0.6,18.221756,Viandes Fraiches,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.62175598144531,1101.3597488403318
+BACON DE DINDE TRANCHES (1 - 1.5 KG),20.0,25.15036,Charcuterie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.150360107421875,24.525524321056547
+BACTYGEL 703 CF,1.0,15.96476,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.964759826660156,748.2379913330078
+BAGUETTE,1120.0,1493.6829,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,373.682861328125,33.334777995372434
+BAGUETTE CONG.,490.0,246.08144,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-243.91856384277344,-49.67791524292738
+BALAIS SANS MANCHE,9.0,19.274979,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.274978637695312,102.74978637695314
+BANANE,123.0,41.173256,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-81.82674407958984,-65.98930974160471
+BARQUETTE 5L,15.0,24.786533,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.78653335571289,61.165833473205566
+BARQUETTE CARTON CIG,1000.0,904.57654,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-95.4234619140625,-9.532813378028223
+BARQUETTE CARTON DB,1800.0,999.5827,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-800.4172973632812,-44.44293711067636
+BASILIC BARQUETTE,2.9,17.683388,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.783387756347656,379.06122452173474
+BASILIC LA BOTTE,1.0,19.335693,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,18.335693359375,916.78466796875
+BECK'S JET 24CL,63.0,168.12938,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,105.12937927246094,164.26465511322021
+BEURRE MARGARINE  KG,4.5,23.74052,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.240520477294922,349.8276450417258
+BIOSPOT,1800.0,975.2607,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-824.7393188476562,-45.79341026361223
+BISCUIT TUC,24.0,39.297955,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.297954559326172,61.19181823730469
+BLOUSE NON TISSEE,17.0,25.807796,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.807796478271484,48.9322026570638
+BOGA CIDRE BOITE,90.0,92.85634,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.8563385009765625,3.138833517556662
+BOGA CIDRE PET 30 CL,24.0,45.555256,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.555255889892578,86.22102355957031
+BOGA LIME BOITE 24CL,476.0,405.13596,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-70.86404418945312,-14.85619375040946
+BOGA LIME PET 30 CL,48.0,67.42929,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.429290771484375,39.651613819355866
+BOGA PET 30CL,96.0,211.28708,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,115.28707885742188,118.85265861589885
+BOITE A CREPE,500.0,1170.5787,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,670.5787353515625,133.84805096837576
+BOITE D'ARCHIVE,35.0,23.152924,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-11.847076416015625,-32.908545600043404
+BOITE FRAPPE CAFE 1.36KG MONIN,1.0,22.284416,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.28441619873047,1064.2208099365234
+BOITE FRAPPE VANILLE 1.36KG MONIN,2.0,22.292404,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,20.292404174804688,676.4134724934895
+BOITE PIZZA 32 cm,100.0,135.7822,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,35.782196044921875,35.42791687616027
+BOITE PIZZA ONDULEE 31/31,100.0,50.30222,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-49.69778060913086,-49.20572337537708
+BOITE PIZZA PM CIG,100.0,115.30234,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.302337646484375,15.150829352954826
+BON DE TRANSFERT 50*3,13.0,18.059303,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.059303283691406,36.13788059779576
+BORGHELL,5.0,17.795113,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.795112609863281,213.2518768310547
+BOUTEILLE DE VINAIGRETTE 250ML,3.0,17.459488,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.459487915039062,361.48719787597656
+BRIOCHE TORSADEE PUR BEURRE PEPITE CHOCO GF,200.0,300.40527,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,100.4052734375,49.95287235696517
+BROCHETTE BAMBOO 20,6.0,13.584946,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.5849456787109375,108.35636683872767
+Beurre 200Gr,83.0,39.18299,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-43.81700897216797,-52.16310591924758
+CACAHUETES GRILLEES SALEES 70GR,36.0,27.87658,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-8.123420715332031,-21.955191122519004
+CAKE CHOCOLAT PBC,32.0,42.74662,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.746620178222656,32.565515691583805
+CAKE CITRON PBC,36.0,47.506676,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.506675720214844,31.099123568148222
+CAKE MARBRE MARGARINE,220.0,237.83887,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.8388671875,8.07188560520362
+CAKE MARBRE PBC,220.0,125.96062,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-94.03938293457031,-42.55175698396847
+CAKE NATURE MARGARINE,110.0,77.18889,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-32.81111145019531,-29.559559865040825
+CAKE ORANGE PBC,36.0,62.906635,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,26.906635284423828,72.72063590384819
+CAPRE VRAC,2.0,18.189857,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,16.189857482910156,539.6619160970051
+CAPSULE CAFEITALY COLOMBIA,300.0,134.52315,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-165.4768524169922,-54.97569847740604
+CAPSULE CAFFITALY INTENSO,192.0,195.50288,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.5028839111328125,1.8149657570636333
+CAPSULE CAFFITALY VIGOROSO,390.0,184.34373,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-205.65626525878906,-52.59751029636549
+CAROTTE,22.05,30.093853,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.043852996826171,34.8974099645387
+CAROTTE CAKE PBC,220.0,96.31618,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-123.68382263183594,-55.9655306026407
+CELTIA FUT DE 50L,1.0,13.913467,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.913467407226562,645.6733703613281
+CELTIA JET 25CL,83.0,154.753,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,71.75300598144531,85.42024521600634
+CHAMPIGNON FRAIS,10.0,21.635483,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.635482788085938,105.7771162553267
+CHAMPIGNON FRAIS BARQUETTE,17.0,21.497185,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.497184753417969,24.984359741210938
+CHAPLUR,5.0,17.530006,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.530006408691406,208.83344014485678
+CHEMISE CRAFT,40.0,25.145164,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-14.854835510253906,-36.23130612257051
+CHEWING GUM FLORIDENT  EXTRA WHITE 60G,24.0,22.243935,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.7560653686523438,-7.024261474609375
+CHOCOLAT CHAUD EN POUDRE,1.0,16.255753,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.255752563476562,762.7876281738281
+CHOUX ROUGE,2.15,16.858116,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.708116149902343,466.924322219122
+CHOUX VERT,4.65,16.973839,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.323838806152343,218.12104081685564
+CITRON,1.1,14.647133,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.547132873535157,645.101565406436
+CITRON FRAIS,17.7,19.221977,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1.5219772338867195,8.138915689233794
+CITRON SALLE,1.0,16.820084,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.820083618164062,791.0041809082031
+COCA BOITE ZERO,150.0,426.71747,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,276.71746826171875,183.25660149782698
+COCA COLA BOITE 24CL,1623.0,1015.51685,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-607.483154296875,-37.40659817098984
+COCA COLA BOITE ZERO 24CL,505.0,415.74802,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-89.25198364257812,-17.638731945173543
+COCA COLA PET 0.5,244.0,533.60767,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,289.607666015625,118.20721061862245
+COCA COLA PET 30CL,144.0,296.4331,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,152.43310546875,105.12627963362068
+COCA COLA PET 30CL.,24.0,202.7058,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,178.70579528808594,714.8231811523438
+COCA COLA ZERO 30 CL,120.0,78.72338,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-41.27661895751953,-34.112908229354986
+COCA ZERO PET 30 CL,6.0,52.34508,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,46.3450813293457,662.0725904192243
+COFFRET CHECHIA AV SEP 16/16,50.0,39.27403,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-10.725971221923828,-21.031316121419273
+COFFRET PORTRAIT AV SEP 11.5/11.5,100.0,53.520123,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-46.47987747192383,-46.01968066527112
+COFFRET PORTRAIT AV SEP 19.5/19.5,50.0,41.679947,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-8.320053100585938,-16.313829608992034
+COFFRET PORTRAIT AV SEP24.5/14.5,50.0,40.754448,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-9.245552062988281,-18.12853345683977
+COIFFE EN PAPIER,5.0,29.888214,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,24.888214111328125,414.80356852213544
+CONCOMBRE,70.6,60.48358,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-10.116418457031244,-14.129076057306209
+COOKIES,80.0,59.00915,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-20.990848541259766,-25.91462782871576
+CORNICHON FRAIS,2.0,17.366043,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.366043090820312,512.201436360677
+COURGE,14.25,19.55748,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.3074798583984375,34.80314661244877
+COURGETTE,4.0,18.580513,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.580513000488281,291.6102600097656
+COUSCOUS,14.0,17.814377,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.8143768310546875,25.429178873697918
+COUSCOUS EN PAQUET,18.0,23.022327,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.022327423095703,26.43330222681949
+COUTEAU A PAIN 20CM,5.0,17.869614,Accessoire & couvert,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.869613647460938,214.49356079101562
+COUTEAU A PAIN 21 CM,3.0,15.858604,Accessoire & couvert,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.858604431152344,321.4651107788086
+COUTEAU NOIRE EMBALLE EJEM,1002.0,80.203094,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-921.7969055175781,-91.90397861591009
+COUVERCLE AVEC TROU BOMBE 95KY,100.0,1097.0883,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,997.0882568359375,987.2160958771658
+COUVERCLE DOM PET 450ML AVEC TROU,1000.0,987.0132,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-12.98681640625,-1.2973842563686313
+COUVERCLE GOBLET 9 OU 12 PLAN B,500.0,659.6085,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,159.6085205078125,31.857988125311877
+COUVERCLE GOBLET TRSP 35 CL EJEM,1000.0,1174.9861,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,174.986083984375,17.481127271166333
+CREME A FOUETTER,6.0,16.83506,GLACES,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.835060119628906,154.7865731375558
+CREME A FOUETTER 1LT HOLE,8.0,20.049591,GLACES,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.049591064453125,133.88434516059027
+CREME CHANTILLY,10.0,19.824196,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.824195861816406,89.31087147105823
+CREME DE BALSAMIQUE,3.0,24.58443,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.584430694580078,539.610767364502
+CREME SUPERIEUR,16.0,15.997215,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-0.00278472900390625,-0.016380758846507353
+CREVETTE 26/30 AVEC QUEUE  SURG.,3.0,16.575645,Poisson Surgelé_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.575645446777344,339.3911361694336
+CROISSANT AU CHOCOLAT MARGARINE,150.0,289.4477,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,139.44769287109375,92.34946547754554
+CROISSANT AUX AMANDES  PUR BEURRE GF,200.0,305.30835,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,105.308349609375,52.39221373600746
+CROISSANT NATURE  PUR BEURRE GF,1000.0,1108.5863,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,108.5863037109375,10.847782588505245
+CROISSANT NATURE MARGARINE,100.0,230.51474,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,130.51473999023438,129.2225148418162
+CUILLERE A CAFE PLASTIQUE,84.0,84.45767,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,0.457672119140625,0.5384377872242647
+CUILLIERE NOIRE EJEM,13.0,11.635513,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.3644866943359375,-9.746333530970983
+CUISSE DE POULET FRAIS,22.83,25.779392,Volaille Fraiche,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.9493922424316423,12.376803367317006
+CURCUMIN MOULU,1.0,9.061287,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.061286926269531,403.06434631347656
+Cookies  individual Margarine,5.0,25.713139,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,20.713138580322266,345.21897633870446
+DADDY'S CHIPS CLASSIC SEL DE MER 70G,45.0,72.09478,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,27.09477996826172,58.90169558317765
+DADDY'S CHIPS SAVORY TRUFFE PARMESAN 70G,45.0,45.621807,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,0.6218070983886719,1.3517545617145041
+DADDY'S CHIPS SPICY PAPRIKA 70G,15.0,53.074768,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,38.07476806640625,237.96730041503906
+DATTE EN VRAC,4.0,15.592751,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.592750549316406,231.85501098632812
+DINOL,52.0,48.686626,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-3.313373565673828,-6.25164823712043
+DOSETTE KETCHUP PB,1000.0,1628.9362,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,628.9361572265625,62.83078493771853
+DOSETTE MAYO PB,1000.0,1668.4036,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,668.403564453125,66.77358286245006
+EAU MINERALE 1.5L,1308.0,1141.3015,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-166.698486328125,-12.734796510933919
+EAU MINÉRALE 6L,51.0,44.308784,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-6.691215515136719,-12.86772214449369
+EMBALLAGE CREPE CIG,2000.0,663.31494,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1336.68505859375,-66.80085250343578
+EMBALLAGE EN CARTON 30*12*6,300.0,168.9269,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-131.07310485839844,-43.545882012756955
+EMINCE DE BOEUF PORT. SURGELE,11.585,20.952576,Viandes Surgelées,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.36757568359375,74.43445120058601
+EPINARD,6.0,13.347511,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.347511291503906,104.96444702148438
+ESCALOPE DE DINDE FUME EN TRANCHE,20.0,32.69518,Charcuterie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.695178985595703,60.45323326474145
+ESCALOPE POULET CONGELÉ,252.0,45.214035,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-206.7859649658203,-81.73358299044281
+ESCALOPE POULET FRAIS,64.9,198.44002,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,133.5400177001953,202.64039104733735
+ESCALOPE POULET PANE CONGELE,17.45,42.864456,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,25.414456176757813,137.74772995532692
+ESSUIES VERRES,4.0,14.658592,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.658592224121094,213.17184448242185
+ESSUIT TOUT JUMBO,79.0,81.04787,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.0478668212890625,2.559833526611328
+ETUI SANDWICH,500.0,1436.209,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,936.208984375,186.868060753493
+FANTA BOITE 24CL,441.0,437.7269,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-3.273101806640625,-0.7405207707331731
+FANTA PET 0.5 L,1.0,295.61526,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,294.6152648925781,14730.763244628906
+FANTA PET 30,24.0,53.49188,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,29.491878509521484,117.96751403808594
+FANTA PET 30CL,12.0,218.97005,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,206.9700469970703,1592.0772845928486
+FARINE EN PAQUET,124.0,124.97722,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,0.9772186279296875,0.7817749023437501
+FESTIFE MIX 100 GR,32.0,20.644096,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-11.355903625488281,-34.411829168146305
+FEUILLE DE BRIK,94.0,18.644333,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-75.35566711425781,-79.32175485711349
+FILM ETIRABLE,9.0,23.7835,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.783500671386719,147.8350067138672
+FILM ETIRABLE 725GR,10.0,27.118637,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.118637084960938,155.6239734996449
+FOND DE PLATEAU CIG,1000.0,925.8596,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-74.140380859375,-7.406631454483017
+FOND PLATEAU GOURM,2000.0,1844.0072,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-155.9927978515625,-7.7957420215673405
+FORNOX,6.0,23.11921,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.11920928955078,244.56013270786832
+FORTE NSPRS,900.0,1298.0547,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,398.0546875,44.17921059933407
+FOURCHETTE NOIRE EMBALEE EJEM,1.0,15.015587,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.015586853027344,700.7793426513672
+FRAISE FRAIS,19.1,31.20847,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.10846939086914,60.241141248105166
+FRITE SURGELE 9/9 CLASSIC 2.5 KG,80.0,132.35089,Legumes Surgelés,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,52.35089111328125,64.63072976948303
+FRITE SURGELE WEDGES 2.5 KG,40.0,23.33171,Legumes Surgelés,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-16.668289184570312,-40.654363864805646
+FROMAGE BLANC FONDU KG,2.2,18.560997,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,16.360997009277344,511.281156539917
+FROMAGE BUCHE BLANCHE CHEVRE KG,1.0,18.615173,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.61517333984375,880.7586669921875
+FROMAGE CHEDDAR EN BLOC,16.73,30.48994,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.759940643310546,77.60823825894273
+FROMAGE EDAM MEULE,8.905999999999999,22.890358,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.984357971191407,141.1705831939371
+FROMAGE GORGONZELA,2.0,16.129807,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.129806518554688,470.99355061848956
+FROMAGE GOUTA,4.0,23.28452,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.28451919555664,385.6903839111328
+FROMAGE LAND OR,24.6,20.225655,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-4.37434539794922,-17.087286710739143
+FROMAGE MAASDAM EN BLOC,19.0,31.263,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.26300048828125,61.31500244140625
+FROMAGE MAASDAM EN BLOC PB,6.0,39.07775,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,33.07775115966797,472.539302280971
+FROMAGE MEULE GOUDA,9.936,23.832893,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.896893371582031,127.07473821856283
+FROMAGE MEULE GOUDA KG,7.516,28.904465,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,21.38846472167969,251.15623205354262
+FROMAGE MOZARELLA CARRE KG,7.0,76.42847,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,69.428466796875,867.8558349609375
+FROMAGE MOZZARELLA  KG,40.0,79.73624,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,39.736236572265625,96.91765017625762
+FROMAGE PARMESAN PB,1.0,20.730255,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.730255126953125,986.5127563476562
+FROMAGE SICILIEN,2.938,31.881607,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,28.943607055664064,734.9824036481479
+FROMAGE TRIANGLE FONDU STREET &CO,13.0,21.086807,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.086807250976562,57.762908935546875
+FUT HEINEKEIN,6.0,24.868416,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,18.86841583251953,269.5487976074219
+GANT EN PLASTIQUE,24.0,21.529037,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-2.4709625244140625,-9.88385009765625
+GANT EN VINYL  XL,42.0,84.890755,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,42.89075469970703,99.74594116210938
+GANT EN VINYL MEDUIM,47.0,93.0301,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,46.03009796142578,95.89603741963705
+GARCI GAZ 1L,231.0,192.5481,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-38.451904296875,-16.5740966796875
+GARCI GAZ P.E.T 1 L,92.0,176.90337,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,84.90336608886719,91.29394203103999
+GATEAU CHOCOLAT PBC,40.0,31.81284,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-8.18716049194336,-19.96868412669112
+GEL ANTIBAC 500,6.0,10.414215,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.414215087890625,63.06021554129464
+GOBLET 6.5 0Z MF,500.0,552.61896,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,52.61895751953125,10.502785932042165
+GOBLET 6.5 PLAN B,1000.0,1396.3135,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,396.3134765625,39.59175590034965
+GOBLET 9 0Z MF,50.0,440.80197,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,390.8019714355469,766.2783753638174
+GOBLET 9 PLAN B,1000.0,1210.9758,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,210.975830078125,21.07650650131119
+GOBLET CAFE 192 ML CIG,1000.0,1746.0936,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,746.0936279296875,74.53482796500374
+GOBLET CARTON 17 CL CIGUSTA,500.0,628.0535,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,128.05352783203125,25.55958639361901
+GOBLET CARTON GOURM 19 CL,1000.0,1390.6272,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,390.627197265625,39.023696030531966
+GOBLET CARTON GOURM 25CL,1000.0,1450.0967,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,450.0966796875,44.964703265484516
+GOBLET CI CAFE CIGUSTA,300.0,320.23593,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,20.235931396484375,6.722900796174211
+GOBLET DB 19 CC,3000.0,2067.926,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-932.073974609375,-31.058779560459016
+GOBLET DB 25 CC,4000.0,2043.9054,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1956.0946044921875,-48.89014257666052
+GOBLET JUS TRANSPARENT CI GUSTA,400.0,325.15576,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-74.84423828125,-18.664398573877804
+GOBLET PET 16OZ/450 ML TRANSPARENT,1200.0,1345.735,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,145.7349853515625,12.134470054251665
+GOBLET PET 350 CC,1000.0,1510.2485,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,510.24853515625,50.97387963598901
+GOBLET PET 400CC,600.0,751.49335,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,151.49334716796875,25.20687972844738
+GOBLET PP TRANSPARENT 200CC/80MM YOZEL,400.0,362.9224,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-37.077606201171875,-9.24628583570371
+GOBLET TRA 270ML + COUVERCLE,500.0,360.77115,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-139.22885131835938,-27.790189883904066
+GRENAD,13.95,16.952278,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.002278137207032,20.082128008073795
+HARISSA 450G,4.0,21.85157,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.85157012939453,357.0314025878906
+HARISSA 5/2,21.0,31.657963,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.657962799072266,48.44528545032848
+HARISSA CONCENTRE EN BOITE,16.0,22.619232,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.619232177734375,38.93665986902574
+HEINEKEN BLLE 30CL,398.0,355.47003,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-42.52996826171875,-10.659139915217732
+HUILE D'OLIVE POMACE,19.0,20.574661,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1.5746612548828125,7.873306274414063
+HUILE VEGETALE,27.0,26.001343,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-0.9986572265625,-3.566632952008929
+HUILE VEGETALE 5L,13.0,29.31778,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,16.317779541015625,116.55556815011161
+INTENSO NSPRS,1050.0,451.36307,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-598.6369323730469,-56.95879470723567
+JAMBON DE BOEUF FUME,4.6,22.446228,Charcuterie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.84622802734375,318.6826433454241
+JAMBON DE DINDE,3.55,26.658226,Charcuterie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,23.108226013183593,507.87309919084817
+JEX CARRE,65.0,69.763756,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.763755798339844,7.217811815666431
+JOUR ET NUIT BLANC 1/2,5.0,22.76426,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.764259338378906,296.0709889729818
+JOUR ET NUIT ROSE 1/2,12.0,25.327072,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.327072143554688,102.5159395658053
+JOUR ET NUIT ROSE 3/4,12.0,17.985214,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.9852142333984375,46.04010948768028
+JOUR ET NUIT ROUGE 1/2,5.0,20.746773,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.746772766113281,262.4462127685547
+JOUR ET NUIT3/4 BLANC,6.0,17.802704,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.802703857421875,168.61005510602678
+JOUR ET NUIT3/4 ROUGE,12.0,15.153198,Alcools,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.1531982421875,24.25537109375
+JUS CITRONADE  CLASSIQUE 250 ml,390.0,836.65576,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,446.65576171875,114.23421015824809
+JUS FRAISE  MINI CAMAROSA 250 ml,175.0,614.4074,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,439.40740966796875,249.66330094770953
+JUS STILL 20 CL,153.0,194.11615,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,41.11614990234375,26.698798637885552
+KETCHUP,5.0,18.559204,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.5592041015625,225.98673502604166
+KETCHUP BIDON 5L,10.0,21.533478,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.533477783203125,104.84979802911931
+KETCHUP EN DOSETTE,1000.0,1358.7646,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,358.7646484375,35.84062421953047
+KINDER BUENO,60.0,138.97688,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,78.97688293457031,129.4702998927382
+KINDER T4,20.0,53.320953,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,33.320953369140625,158.67120651971726
+KIWI,173.0,294.268,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,121.26800537109375,69.6942559603987
+LAIT UHT DEMI ECREME,608.0,467.39963,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-140.60037231445312,-23.087089049992304
+LAVETTE COTON,84.0,78.983406,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-5.016593933105469,-5.901875215418198
+LENTILLE VRAC,2.0,11.647545,Legumes Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.647544860839844,321.5848286946615
+LEVURE BOULANGERE NORMALE,16.0,14.150711,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.8492889404296875,-10.87817023782169
+LEVURE CHIMIQUE,2.0,10.042465,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.042465209960938,268.0821736653646
+LIPTON ICE TEA FRAMBOISE 33 CL,1.0,71.384674,THE,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,70.38467407226562,3519.2337036132812
+LIPTON ICE TEA PASTEQUE 33CL,14.0,61.41718,THE,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,47.417179107666016,316.1145273844401
+LIPTON ICE TEA PECHE 33 CL,135.0,248.20082,THE,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,113.20082092285156,83.23589773739086
+LOT CAFE GRAIN BARISTA,1.0,32.81081,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,31.810810089111328,1590.5405044555664
+LOT CAFE GRAIN ESPRESSO ELITE 3,59.0,51.32519,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-7.674808502197266,-12.79134750366211
+LOT CAFE GRAINS  PUR EXPRESS,19.0,33.0147,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.014701843261719,70.0735092163086
+LOT DE CAFE TURC,0.375,11.152267,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.777267456054688,783.80126953125
+MAIS EN BOITE,51.0,32.788292,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-18.211708068847656,-35.022515517014725
+MAIS EN VRAC,2.0,9.960274,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.960273742675781,265.34245808919275
+MANCHE A BALAIS,4.0,13.129578,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.12957763671875,182.591552734375
+MANGUE,9.0,20.896965,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.896965026855469,118.96965026855469
+MARINADE EMINCE DE BOEUF 2KG,4.0,14.940231,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.940231323242188,218.80462646484372
+MARINADE POULET GRILLE 2KG PB,16.0,18.63559,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.635589599609375,15.503468232996322
+MARS CHOCOLAT,40.0,42.739433,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.7394332885742188,6.681544606278582
+MAY 0.5L,6534.0,2085.5115,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-4448.488525390625,-68.07174484147858
+MAYO 5L DEJ,23.0,52.857113,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,29.857112884521484,124.40463701883952
+MAYONAISE,17.0,9.64933,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-7.350669860839844,-40.83705478244358
+MAYONAISE EN DOSETTE,1000.0,1526.9491,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,526.9490966796875,52.64226740056818
+MELANGE EPICES VIANDE 500GR PB,1.0,14.224754,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.224754333496094,661.2377166748047
+MELANGE TENDER  PB,5.0,14.170944,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.170944213867188,152.8490702311198
+MELANGE TENDER 2KG PB,6.0,15.586906,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.586906433105469,136.955806187221
+MELON,10.3,17.238388,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.938388061523437,61.40166426126935
+MENTHE FRAICHE,6.0,10.054504,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.05450439453125,57.92149135044643
+MENTHE SECHE,1.0,12.001045,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.001045227050781,550.0522613525391
+MENTOS ROLLS FRUIT FLAVOUR,40.0,27.87521,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-12.12479019165039,-29.572659004025343
+MENTOS ROLLS MENTHE,80.0,36.49549,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-43.50450897216797,-53.70927033600984
+MENTOS ROLLS RAINBOW,40.0,33.03242,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-6.967578887939453,-16.994094848632812
+MENTOS ROLLS STRAWBERRY,80.0,32.101578,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-47.89842224121094,-59.13385461877893
+MENTOS ROLLS TUTTI FRUTTI,40.0,33.693367,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-6.306632995605469,-15.382031696598705
+MIEL DOUX & FRAIS,5.0,11.87809,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.878089904785156,114.63483174641927
+MIEL MILLE FLEURS,5.0,12.65406,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.654060363769531,127.56767272949219
+MIRA 0.6L,16.0,1312.7556,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1296.755615234375,7627.974207261029
+MIRA 1L,732.0,613.68536,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-118.31463623046875,-16.14115091820856
+MIX A CREPE FRAN,20.0,40.462097,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,20.46209716796875,97.43855794270834
+MIX A CREPE FRANCAISE,15.0,48.929146,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,33.92914581298828,212.05716133117676
+MOELLEUX CHOCOLAT,72.0,28.149452,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-43.850547790527344,-60.06924354866759
+MOUSSE CHOCOLAT,2.0,12.446152,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.446151733398438,348.2050577799479
+MOUTARDE DIJON,6.0,14.776421,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.776420593261719,125.37743704659599
+MOUTARDE DIJON 840 GR,10.0,17.226227,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.226226806640625,65.69297096946023
+MOZARELLA BOCCONCINI,3.0,13.460991,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.460990905761719,261.52477264404297
+MOZARELLA CERISE,20.0,19.946342,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-0.05365753173828125,-0.2555120558965774
+MUFFINS VANILLE,48.0,35.3356,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-12.664398193359375,-25.8457105986926
+Muffin daily'n,119.0,258.22614,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,139.22613525390625,116.02177937825522
+NAPPAGE,1.0,8.907028,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.9070281982421875,395.3514099121094
+NOISETTE GRILLEE CONCASSEE,1.0,8.256294,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.256294250488281,362.81471252441406
+NOIX DE CAJOU GRILLES SALEES 65GR,36.0,31.994484,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-4.005516052246094,-10.825719060124579
+NUGGETS PANE PB,50.0,75.59673,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,25.59673309326172,50.18967273188573
+NUTELLA & GO 52 GR,48.0,57.160538,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.160537719726562,18.694974938217474
+NUTELLA 600GR,2.0,21.479729,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.47972869873047,649.3242899576824
+NUTELLA GO 52 GR,48.0,63.672775,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.672775268554688,31.985255650111604
+OEUFS,50.0,48.016083,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.983917236328125,-3.8900337967218137
+OIGNION VERT,2.5,12.654297,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.154296875,290.12276785714283
+OIGNONS BLANC,32.2,34.45677,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.2567718505859347,6.79750557405402
+OIGNONS ROUGE,30.05,43.257534,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.207534027099609,42.53634147214044
+OLIVE DENOYETE,7.0,18.848244,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.848243713378906,148.10304641723633
+OLIVE NOIRE SLICE,14.0,18.769188,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.769187927246094,31.79458618164063
+OLIVE VIOLETTE,10.0,12.711121,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.71112060546875,24.646550958806817
+ORANGE A JUS,817.0,1017.0549,Jus Fruit Lait,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,200.05487060546875,24.456585648590313
+ORANGINA BOITE 24 CL,288.0,181.84839,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-106.151611328125,-36.7306613592128
+PACK FOOD BOWL + COUVERCLE 1.2 L,50.0,43.75602,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-6.243980407714844,-12.243098838656556
+PAILLE BUBBLE TEA 12MM COLORE,1.0,55.865074,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,54.865074157714844,2743.253707885742
+PAILLE ENVELOPPE 7.5MM COLORE,4.0,23.030354,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.030353546142578,380.60707092285156
+PAILLE ENVELOPPE 7.5MM NOIR,8.0,13.932686,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.932685852050781,65.91873168945312
+PAILLE NOIR,9.0,15.718636,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.718635559082031,67.18635559082031
+PAIN AU CHOCOLAT PUR BERRE GF SURG.,1000.0,1117.8949,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,117.8948974609375,11.77771203405969
+PAIN CHAWARMA *10,43.0,44.14983,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1.1498298645019531,2.6132496920498935
+PAIN CIABATTA NATURE,1120.0,1014.82184,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-105.17816162109375,-9.38253002864351
+PAIN DE MIE CEREALE,26.0,54.00568,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,28.005680084228516,103.72474105269819
+PAIN DE MIE NATURE,52.0,64.139206,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.139205932617188,22.90416213701356
+PAIN HAMBURGER AC,248.0,271.1672,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,23.167205810546875,9.30409871909513
+PAIN MACDO  GRAINS SESAME,530.0,969.204,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,439.2039794921875,82.71261384033663
+PAIN ROND FARINE,330.0,466.53732,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,136.53732299804688,41.24994652508969
+PAIN SANDWICH CI GUSTA,245.0,189.55441,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-55.445587158203125,-22.538856568375255
+PAIN SCHNECK AUX RAISINS SURG PUR BEURRE GF,200.0,296.28986,Viennoiserie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,96.28985595703125,47.90540097364739
+PAIN SHNEK AU RAISIN MARGARINE,100.0,150.58012,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,50.58012390136719,50.079330595413055
+PALETTE A GLACE,1000.0,503.7194,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-496.2806091308594,-49.57848243065528
+PAPIER ALUM DE 100,2.0,16.194626,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.194625854492188,473.15419514973956
+PAPIER CUISSON 40*60,1.0,5.7268753,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.726875305175781,236.34376525878906
+PAPIER SERVIETTE GOURMANDISE,120.0,54.52492,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-65.47507858276367,-54.11163519236667
+PAPRIKA DOUX,1.0,9.705063,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.705062866210938,435.2531433105469
+PAPRIKA FORT,1.0,11.031151,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.031150817871094,501.5575408935547
+PAQUET 17/4,100.0,155.63474,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,55.634735107421875,55.08389614596225
+PASTEQUE,23.0,45.589306,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,22.589305877685547,94.12210782368979
+PATE PIZZA FOCACCIA 12/40,72.0,64.94572,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-7.054283142089844,-9.663401564506636
+PATE PIZZA FOCACCIA D32 CM,50.0,25.801113,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-24.19888687133789,-47.44879778693704
+PATE PIZZA FOCCACIA 30/40,80.0,61.33057,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-18.669429779052734,-23.048678739571276
+PATE PIZZA PANCROCCHINO 12/40,110.0,78.36468,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-31.63532257080078,-28.50029060432503
+PATE PIZZA PANCROCCHINO 32cm,19.0,22.49929,Boulangerie_R,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.4992904663085938,17.49645233154297
+PATE PLUME COURTE,12.0,26.203587,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.20358657836914,109.25835829514723
+PATE SPAGHETTI,18.0,19.160393,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1.1603927612304688,6.107330322265625
+PECHES,12.15,24.172218,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.022218322753906,91.4237134810183
+PEPITTE DE DECORATION NOIRE KG,5.0,12.3660965,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.366096496582031,122.76827494303386
+PEPPERONI,2.1,24.179813,Charcuterie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,22.079813385009764,712.2520446777343
+PERSIL,0.8,12.459442,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.659442138671874,647.7467854817708
+PIECE RONDE BOEUF,10.9,16.65551,Viandes Surgelées,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.755509948730468,48.36562982126444
+PILLE AA,6.0,9.882828,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.8828277587890625,55.46896798270089
+PIMENT DOUX,31.2,27.718601,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-3.4813987731933587,-10.81179743227751
+PIMENT FORT,15.0,24.192444,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.19244384765625,57.45277404785156
+PIMENT ROUGE SALLE,5.0,17.423973,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,12.423973083496094,207.06621805826822
+PISTACHE CONCASSEE,1.0,7.214905,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.21490478515625,310.7452392578125
+POCHETTE CROISSANT 15*7*29,1.0,8.798599,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.7985992431640625,389.9299621582031
+POCHETTE CROISSANT CRAFT 11*5*28,1000.0,1414.0653,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,414.0653076171875,41.36516559612263
+POIS CHICHE KG,3.0,8.858917,Legumes Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.858917236328125,146.47293090820312
+POIVRE NOIR MOULU,2.0,9.331825,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,7.331825256347656,244.39417521158853
+POMME (FRUIT),13.0,22.417152,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.417152404785156,67.26537431989398
+POMME DE TERRE,77.2,83.16642,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.966419982910153,7.629693072775131
+POT NUTELLA,33.0,19.561302,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-13.438697814941406,-39.5255818086512
+POUDRE TENDERS PB,6.0,8.643417,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.6434173583984375,37.76310511997768
+POULET PAC FRAIS,41.97,28.89264,Volaille Fraiche,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-13.077360839843749,-30.433699883276123
+POULET PANE AMANDE PB,70.0,175.3943,Volaille Surgelée,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,105.39430236816406,148.4426793917804
+PUNCH CIDRE 30CL,147.0,153.72066,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.7206573486328125,4.54098469502217
+PUNCH CIDRE 50CL,24.0,50.07841,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,26.078411102294922,104.3136444091797
+PUNCH ORANGE 30CL,17.0,94.43275,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,77.43274688720703,430.18192715115015
+PUNCH ORANGE 50CL,53.0,51.79347,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.2065315246582031,-2.2343176382559315
+PUREE ANANAS 1 L,1.0,6.6953735,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.69537353515625,284.7686767578125
+PUREE DE BANANE 1L,1.0,7.0511856,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.051185607910156,302.5592803955078
+PUREE DE KIWI 1.32KG MONIN,1.0,24.303951,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,23.303951263427734,1165.1975631713867
+PUREE FRAISE 1.32KG MONIN,1.0,10.055923,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.055923461914062,452.7961730957031
+PUREE MANGUE 1L,1.0,6.5984497,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.59844970703125,279.9224853515625
+QUATRE EPICES MOULU,1.0,10.403564,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.403564453125,470.17822265625
+RACLETTE,2.0,11.80024,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.800239562988281,326.6746520996094
+RAISIN NOIR,4.2,28.318977,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,24.118977355957032,463.8264876145583
+RAISINS JAUNE,7.05,18.989105,Fruits & Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.939105224609374,148.3118661442158
+RAME PAPIER A4,19.0,17.744194,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.2558059692382812,-6.279029846191405
+RED BULL,191.0,232.61601,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,41.61601257324219,21.675006548563637
+REMANENT HERBE CF,10.0,12.494484,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,2.4944839477539062,22.677126797762785
+RIST INTENSO NSPRS,400.0,1338.0127,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,938.0126953125,233.91837788341644
+RISTRETTO NSPRS,150.0,1627.4375,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1477.4375,978.4354304635763
+RISTRETTO NSPRS_x0009_,50.0,1093.244,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1043.2440185546875,2045.5765069699755
+RIZ EN PAQUET,7.0,13.306282,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.306282043457031,78.82852554321289
+RIZ EN PQT,10.0,11.53302,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,1.53302001953125,13.936545632102273
+ROQUETTE FRAIS EN KG,1.9,7.143059,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.243058776855468,180.79513023639547
+ROQUETTE SALADE BARQUETTE,3.3,13.03434,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.734339904785156,226.37999778570128
+ROULEAU CAISSE 80*80,90.0,101.72796,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,11.727958679199219,12.887866680438703
+ROULEAU DE 750 ETIQUETTE BLANC,5.0,11.988823,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.988822937011719,116.48038228352864
+ROULEAU THERMIQUE BALANCE,4.0,10.682663,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.6826629638671875,133.65325927734375
+ROULEAU TPE,150.0,172.7034,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,22.703399658203125,15.03536401205505
+SAC A POUBELLE GEANT BLANC,825.0,987.98444,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,162.98443603515625,19.731771917089134
+SAC BOUTIQUE GDISE HD 40/35 BLANC,100.0,283.9004,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,183.900390625,182.0795946782178
+SAC BOUTIQUE GDISE HD 50/45 BLANC,50.0,304.31534,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,254.31533813476562,498.6575257544424
+SAC EN PAPIER KRAFT 30/30/26,150.0,116.640076,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-33.35992431640625,-22.092665110202812
+SAC GROUPAGE DB,1500.0,2081.4097,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,581.40966796875,38.734821317038644
+SAC PAPIER PLANB COFFEE,2500.0,2139.2966,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-360.703369140625,-14.422365819297282
+SAC SANDWICH,2000.0,2036.4874,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,36.4874267578125,1.8234596080865817
+SAC SANDWICH DAILY BREAK,3000.0,2115.1282,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-884.871826171875,-29.485898906093805
+SAC SOUS VIDE LISSE 15*20,100.0,328.2309,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,228.23089599609375,225.9711841545483
+SAC SOUS VIDE LISSE 20*30,7.0,174.3041,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,167.30409240722656,2091.301155090332
+SAC SOUS VIDE LISSE 30*30,2.0,21.099457,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.099456787109375,636.6485595703125
+SAC SOUS VIDE LISSE 40*40,5.0,214.07318,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,209.07318115234375,3484.553019205729
+SACHET BRETELLE GM,200.0,279.45358,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,79.45358276367188,39.5291456535681
+SACHET BRETELLES 38X60 MF,200.0,125.29647,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-74.70352935791016,-37.1659350039354
+SACHET CONGELATION,10.0,9.3806305,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-0.6193695068359375,-5.630631880326704
+SALADE LAITUE TUN,125.15,187.4567,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,62.30669555664062,49.390959616837584
+SANEX,3.0,21.1372,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,18.13719940185547,453.4299850463867
+SANIT SURF,17.0,34.761642,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.761642456054688,98.67579142252603
+SAUCE A L'AIL,6.0,15.544304,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.544303894042969,136.34719848632812
+SAUCE A L'AIL PB,4.0,23.016693,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,19.016693115234375,380.3338623046875
+SAUCE AU POIVRE SAC 500GR PB,0.5,14.554634,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.054634094238281,936.9756062825521
+SAUCE BARBECUE,5.0,13.871162,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.871162414550781,147.8527069091797
+SAUCE BARBECUE PB,10.0,15.9162445,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.9162445068359375,53.78404097123579
+SAUCE MAYONNAISE PESTO,4.0,18.26336,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.263359069824219,285.2671813964844
+SAUCE MAYONNAISE PESTO PB,6.0,23.275558,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,17.275558471679688,246.79369245256697
+SAUCE PESTO PB,2.0,20.725388,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,18.725387573242188,624.1795857747395
+SAUCE PLAN B,5.0,14.079849,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.079849243164062,151.33082071940106
+SAUCE PLAN B 5KG,10.0,13.32193,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.321929931640625,30.19936301491477
+SAVON LIQ OXY'SOAP 1L,10.0,18.596344,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.596343994140625,78.14858176491477
+SCHWEPPES TONIC 24 CL,17.0,10.125061,Eaux et Sodas,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-6.87493896484375,-38.19410536024306
+SEL,12.0,20.179382,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,8.17938232421875,62.91832557091346
+SEL FIN DE TABLE,6.0,21.548439,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,15.548439025878906,222.12055751255582
+SEMOULE FINE,75.0,62.634792,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-12.36520767211914,-16.270010094893607
+SERPILLERE,58.0,54.227283,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-3.772716522216797,-6.3944347834182995
+SERVIETTE 30*30 CIGUSTA,48.0,54.676643,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.676643371582031,13.625802799147003
+SERVIETTE 30*30 MF,36.0,30.864273,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-5.1357269287109375,-13.8803430505701
+SERVIETTE EN PAPIER 30*30,263.0,244.34795,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-18.652053833007812,-7.0651719064423535
+SET DE PLATEAU DB,4000.0,2081.7256,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1918.2744140625,-47.944874133029245
+SIROP DE CARAMEL 1L MONIN,1.0,6.4140472,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.4140472412109375,270.7023620605469
+SIROP DE NOISETTES GRILLEES 70CL MONIN,1.0,5.3667984,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.366798400878906,218.3399200439453
+SIROP DE VANILLE 1L MONIN,1.0,5.0104904,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.010490417480469,200.52452087402344
+SOUS FONDANT PERSONNALISE,400.0,349.46182,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-50.538177490234375,-12.603036780607077
+SOUS TARTE BLANCHE 12*12*2,800.0,433.00745,Consommable,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-366.9925537109375,-45.81679821609706
+SQUEEZE CREME  CHEDDAR 450GR,9.0,23.477379,Beurre Oeuf Fromage,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.477378845214844,144.77378845214844
+STEACK HACHE (PORTION 115GR),9.0,12.97361,Viandes Surgelées,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.9736099243164062,39.73609924316406
+STYLO BIC,38.0,33.08047,Fournitures de Bureau,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-4.919528961181641,-12.61417682354267
+SUCRE BLANC EN SACHET GOURM,2000.0,1456.5015,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-543.49853515625,-27.161346084770116
+SUCRE EN SACHET CI-GUSTA,20.0,33.071465,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.071464538574219,62.245069231305806
+SUCRE EN SACHET DAILY BREAK,50.0,87.237114,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,37.23711395263672,73.01394892673866
+SUCRE GLACE,5.0,9.282776,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.28277587890625,71.37959798177084
+SUCRE ROUX EN SACHET GOURM,2000.0,1777.3348,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-222.6651611328125,-11.127694209535857
+SUCRE VRAC KG,10.0,13.452217,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.4522171020507812,31.383791836825285
+THE NOIR MENTHE S SUCRE,720.0,364.39944,THE,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-355.6005554199219,-49.320465384177794
+THE SANS SUCRE 0.9g,20.0,438.08014,THE,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,418.08013916015625,1990.8578055245534
+THE VERT MENTHE SANS SUCRE,540.0,475.28738,THE,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-64.71261596679688,-11.961666537300717
+THYM MOULU,1.0,5.09359,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.093589782714844,204.6794891357422
+TIC TAC MENTHE,12.0,15.821625,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,3.821624755859375,29.397113506610577
+TIC TAC ORANGE,12.0,11.801476,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-0.19852447509765625,-1.527111346905048
+TIC TAC SPEARMINT,12.0,16.407166,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.40716552734375,33.90127328725961
+TIC TAC STRAWBERRY MIX,12.0,10.64521,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-1.3547897338867188,-10.421459491436298
+TOMATE CERISES,10.8,16.907257,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.107257080078124,51.75641593286545
+TOMATE CONCENTRE 4/4,12.0,11.814041,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-0.1859588623046875,-1.4304527869591346
+TOMATE FRAICHE,239.45,257.49957,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,18.04957275390626,7.506580475735605
+TOMATES SECHEES,0.5,14.266167,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,13.766166687011719,917.7444458007812
+TOQUE CHEF,1.0,5.685272,Hygiène,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,4.685272216796875,234.26361083984375
+TWIX,125.0,37.439415,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-87.56058502197266,-69.4925277952164
+VARIANTES,1.0,1.5779418,Legumes Frais,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,0.5779417753219604,28.897088766098022
+VIANDE HACHEE SPECIAL MAIGRE CONGELE KG,39.94,24.915047,Viandes Surgelées,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-15.024953308105466,-36.6999348024071
+VIANDE HACHEE SPECIAL RESTO,64.875,74.54441,Viandes Fraiches,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,9.669410705566406,14.678422323440465
+VIANDE SECHE FUME (BRESAOLA) TRANCHES 300GR,3.3,8.5205,Viandes Fraiches,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,5.220500183105469,121.40698100245277
+VINAIGRE 1L,2.0,8.827759,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.8277587890625,227.59195963541666
+VINAIGRE CREME DE BALSAMIQUE,2.0,8.430809,Epicerie,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,6.430809020996094,214.36030069986978
+VIPA ORIENTAL MIX 100 GR,8.0,22.088013,Fruits Secs,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,14.0880126953125,156.53347439236111
+fondant chocolat individual Margarine,54.0,19.236244,Pâtisseries,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,-34.763755798339844,-63.20682872425426
+sucre en buchette MF 10kg,1.0,11.81443,Cafe,Raw (Transaction-Level),gru,8,Predict next individual transaction amount,10.814430236816406,540.7215118408203

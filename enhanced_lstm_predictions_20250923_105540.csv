@@ -1,0 +1,445 @@
+Product_Name,Current_Stock,Predicted_Next_Cycle,Category,Model_Type,Model_Name,Features_Used,Business_Purpose,Stock_Change,Stock_Change_Pct
+AC-SMOOTHIE DETOX,20.0,59.74249,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.742488861083984,189.2499469575428
+AC-SMOOTHIE EXOTIC,20.0,62.70596,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,42.70595932006836,203.36171104794457
+AC-SMOOTHIE LE CLASSIQUE,20.0,51.070736,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,31.070735931396484,147.9558853876023
+AC-SMOOTHIE PEACH'TINI,20.0,59.312283,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.31228256225586,187.20134553455173
+AC-SMOOTHIE TROPIC TRIP,20.0,59.25622,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.256221771240234,186.93438938685827
+AGRAFFE,8.0,33.954403,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,25.954402923583984,288.3822547064887
+AIL,1.75,58.859493,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,57.109493255615234,2076.7088456587358
+AIL EN POUDRE,1.0,74.1969,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,73.1968994140625,3659.844970703125
+AJAX VITRE,16.0,95.84775,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,79.84774780273438,469.6926341337316
+ALKASURF DDA 5KG,5.0,85.0126,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,80.01260375976562,1333.5433959960938
+AMANDE EFFILEE,1.0,59.137356,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,58.13735580444336,2906.867790222168
+AMANDES GRILEES SALEES 70GR,36.0,75.639496,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.639495849609375,107.13377256651182
+AMSTEL BEER BLLE 33CL,90.0,147.81894,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,57.818939208984375,63.53729583404877
+ANANAS GRAND,27.0,26.289883,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-0.7101173400878906,-2.536133357456752
+ANANAS PCES,9.0,99.02939,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,90.02938842773438,900.2938842773438
+ASEPCLOR,10.0,102.984955,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,92.98495483398438,845.3177712180399
+AUBERGINE,6.25,71.165436,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.91543579101562,895.3853212553879
+AUBERGINE LEGUME,3.0,59.94656,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,56.94655990600586,1423.6639976501465
+AVOCAT FRUIT PIECE,43.0,56.296078,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,13.296077728271484,30.21835847334428
+BACON BOEUF FUME TRANCHES ( 300GR),0.6,96.61182,Viandes Fraiches,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,96.01181640625,6000.738525390625
+BACON DE DINDE TRANCHES (1 - 1.5 KG),20.0,75.60339,Charcuterie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,55.6033935546875,264.7780645461309
+BACTYGEL 703 CF,1.0,80.61728,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,79.61727905273438,3980.8639526367188
+BAGUETTE,1120.0,1499.1848,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,379.184814453125,33.8255855890388
+BAGUETTE CONG.,490.0,168.13205,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-321.8679504394531,-65.55355406098842
+BALAIS SANS MANCHE,9.0,12.563138,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,3.563138008117676,35.63138008117676
+BANANE,123.0,100.06787,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-22.93212890625,-18.49365234375
+BARQUETTE 5L,15.0,36.11572,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,21.115718841552734,131.9732427597046
+BARQUETTE CARTON CIG,1000.0,1183.8923,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,183.892333984375,18.3708625359016
+BARQUETTE CARTON DB,1800.0,1222.9835,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-577.0164794921875,-32.038671820776656
+BASILIC BARQUETTE,2.9,86.89462,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,83.99462280273437,2153.708276993189
+BASILIC LA BOTTE,1.0,16.543362,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,15.54336166381836,777.168083190918
+BECK'S JET 24CL,63.0,111.5278,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.527801513671875,75.8246898651123
+BEURRE MARGARINE  KG,4.5,21.852444,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,17.35244369506836,315.4989762739702
+BIOSPOT,1800.0,1100.6366,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-699.3634033203125,-38.831949101627565
+BISCUIT TUC,24.0,41.996853,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,17.99685287475586,71.98741149902344
+BLOUSE NON TISSEE,17.0,41.39105,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,24.391048431396484,135.50582461886935
+BOGA CIDRE BOITE,90.0,74.38571,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-15.614288330078125,-17.158558604481456
+BOGA CIDRE PET 30 CL,24.0,42.48666,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,18.48666000366211,73.94664001464844
+BOGA LIME BOITE 24CL,476.0,512.07074,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.07073974609375,7.561999946770179
+BOGA LIME PET 30 CL,48.0,61.61575,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,13.61574935913086,27.787243590062978
+BOGA PET 30CL,96.0,122.28201,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,26.282012939453125,27.09485870046714
+BOITE A CREPE,500.0,1346.6052,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,846.605224609375,168.98307876434632
+BOITE D'ARCHIVE,35.0,36.08688,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1.0868797302246094,3.0191103617350263
+BOITE FRAPPE CAFE 1.36KG MONIN,1.0,89.470825,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,88.4708251953125,4423.541259765625
+BOITE FRAPPE VANILLE 1.36KG MONIN,2.0,39.176327,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,37.176326751708984,1239.2108917236328
+BOITE PIZZA 32 cm,100.0,87.80371,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-12.1962890625,-12.075533725247526
+BOITE PIZZA ONDULEE 31/31,100.0,60.03094,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-39.969058990478516,-39.573325733147044
+BOITE PIZZA PM CIG,100.0,80.85788,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-19.142120361328125,-18.95259441715656
+BON DE TRANSFERT 50*3,13.0,32.035366,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,19.03536605834961,135.96690041678292
+BORGHELL,5.0,44.60748,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.607479095458984,660.1246515909831
+BOUTEILLE DE VINAIGRETTE 250ML,3.0,96.46661,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,93.46661376953125,2336.6653442382812
+BRIOCHE TORSADEE PUR BEURRE PEPITE CHOCO GF,200.0,245.92783,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,45.927825927734375,22.849664640663867
+BROCHETTE BAMBOO 20,6.0,25.850399,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,19.850399017333984,283.5771288190569
+Beurre 200Gr,83.0,59.31341,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-23.686588287353516,-28.198319389706565
+CACAHUETES GRILLEES SALEES 70GR,36.0,20.978909,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-15.02109146118164,-40.59754448968011
+CAKE CHOCOLAT PBC,32.0,67.836334,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,35.836334228515625,108.5949522076231
+CAKE CITRON PBC,36.0,69.78656,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,33.78656005859375,91.31502718538852
+CAKE MARBRE MARGARINE,220.0,157.5694,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-62.43060302734375,-28.249141641332017
+CAKE MARBRE PBC,220.0,104.782776,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-115.21722412109375,-52.13449055253111
+CAKE NATURE MARGARINE,110.0,89.32941,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-20.67059326171875,-18.622156091638516
+CAKE ORANGE PBC,36.0,50.62402,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,14.624019622802734,39.52437735892631
+CAPRE VRAC,2.0,7.212064,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,5.212063789367676,173.73545964558917
+CAPSULE CAFEITALY COLOMBIA,300.0,62.225918,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-237.7740821838379,-78.99471168898269
+CAPSULE CAFFITALY INTENSO,192.0,104.128174,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-87.871826171875,-45.52944361237047
+CAPSULE CAFFITALY VIGOROSO,390.0,63.14889,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-326.8511085510254,-83.593633900518
+CAROTTE,22.05,87.29721,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.24721069335938,283.0681591902793
+CAROTTE CAKE PBC,220.0,84.2099,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-135.79010009765625,-61.443484207084275
+CELTIA FUT DE 50L,1.0,66.377106,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.37710571289062,3268.8552856445312
+CELTIA JET 25CL,83.0,134.53543,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,51.535430908203125,61.35170346214658
+CHAMPIGNON FRAIS,10.0,69.81192,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,59.811920166015625,543.7447287819602
+CHAMPIGNON FRAIS BARQUETTE,17.0,77.00769,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,60.0076904296875,333.37605794270837
+CHAPLUR,5.0,44.750423,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.750423431396484,662.5070571899414
+CHEMISE CRAFT,40.0,16.512905,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-23.48709487915039,-57.28559726622046
+CHEWING GUM FLORIDENT  EXTRA WHITE 60G,24.0,55.981228,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,31.98122787475586,127.92491149902344
+CHOCOLAT CHAUD EN POUDRE,1.0,66.957245,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.95724487304688,3297.8622436523438
+CHOUX ROUGE,2.15,89.21753,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,87.067529296875,2764.0485491071427
+CHOUX VERT,4.65,57.857693,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,53.20769271850586,941.7290746638205
+CITRON,1.1,48.1943,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,47.09430160522461,2242.5857907249815
+CITRON FRAIS,17.7,68.33783,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,50.63782958984375,270.79053256600935
+CITRON SALLE,1.0,36.384975,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,35.38497543334961,1769.2487716674805
+COCA BOITE ZERO,150.0,317.67236,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,167.67236328125,111.04130018625828
+COCA COLA BOITE 24CL,1623.0,1417.822,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-205.177978515625,-12.634111977563114
+COCA COLA BOITE ZERO 24CL,505.0,509.08554,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,4.085540771484375,0.8074191247992836
+COCA COLA PET 0.5,244.0,428.52597,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,184.52597045898438,75.31672263632015
+COCA COLA PET 30CL,144.0,129.82977,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-14.17022705078125,-9.772570379849139
+COCA COLA PET 30CL.,24.0,98.317535,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,74.31753540039062,297.2701416015625
+COCA COLA ZERO 30 CL,120.0,78.489716,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-41.510284423828125,-34.306020184981925
+COCA ZERO PET 30 CL,6.0,54.279476,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.279476165771484,689.7068023681641
+COFFRET CHECHIA AV SEP 16/16,50.0,54.05734,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,4.057338714599609,7.9555661070580586
+COFFRET PORTRAIT AV SEP 11.5/11.5,100.0,62.79922,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-37.20077896118164,-36.832454417011526
+COFFRET PORTRAIT AV SEP 19.5/19.5,50.0,80.704254,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,30.704254150390625,60.20441990272671
+COFFRET PORTRAIT AV SEP24.5/14.5,50.0,67.605194,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,17.605194091796875,34.51998841528799
+COIFFE EN PAPIER,5.0,31.456875,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,26.45687484741211,440.94791412353516
+CONCOMBRE,70.6,78.71054,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,8.11054077148438,11.327570909894387
+COOKIES,80.0,81.87451,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1.87451171875,2.3142119984567904
+CORNICHON FRAIS,2.0,6.191312,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,4.191311836242676,139.71039454142254
+COURGE,14.25,76.69,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,62.44000244140625,409.442638960041
+COURGETTE,4.0,92.03912,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,88.03912353515625,1760.7824707031248
+COUSCOUS,14.0,38.204617,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,24.20461654663086,161.36411031087238
+COUSCOUS EN PAQUET,18.0,30.314419,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,12.31441879272461,64.81273048802426
+COUTEAU A PAIN 20CM,5.0,65.88144,Accessoire & couvert,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,60.881439208984375,1014.6906534830729
+COUTEAU A PAIN 21 CM,3.0,70.50345,Accessoire & couvert,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,67.50344848632812,1687.5862121582031
+COUTEAU NOIRE EMBALLE EJEM,1002.0,351.48462,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-650.515380859375,-64.85696718438435
+COUVERCLE AVEC TROU BOMBE 95KY,100.0,964.894,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,864.8939819335938,856.3306751817759
+COUVERCLE DOM PET 450ML AVEC TROU,1000.0,1187.8601,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,187.860107421875,18.76724349868881
+COUVERCLE GOBLET 9 OU 12 PLAN B,500.0,308.5225,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-191.47750854492188,-38.219063581820734
+COUVERCLE GOBLET TRSP 35 CL EJEM,1000.0,1305.1958,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,305.19580078125,30.489090987137864
+CREME A FOUETTER,6.0,50.341763,GLACES,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,44.34176254272461,633.4537506103516
+CREME A FOUETTER 1LT HOLE,8.0,35.791775,GLACES,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,27.79177474975586,308.7974972195096
+CREME CHANTILLY,10.0,73.65796,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,63.657958984375,578.7087180397727
+CREME DE BALSAMIQUE,3.0,28.13467,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,25.13467025756836,628.366756439209
+CREME SUPERIEUR,16.0,18.94949,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,2.9494895935058594,17.349938785328582
+CREVETTE 26/30 AVEC QUEUE  SURG.,3.0,62.93118,Poisson Surgelé_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,59.93117904663086,1498.2794761657715
+CROISSANT AU CHOCOLAT MARGARINE,150.0,148.6944,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-1.30560302734375,-0.8646377664528146
+CROISSANT AUX AMANDES  PUR BEURRE GF,200.0,199.229,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-0.77099609375,-0.3835801461442786
+CROISSANT NATURE  PUR BEURRE GF,1000.0,1299.5676,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,299.567626953125,29.92683585945305
+CROISSANT NATURE MARGARINE,100.0,140.36417,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,40.364166259765625,39.964521049272896
+CUILLERE A CAFE PLASTIQUE,84.0,115.97113,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,31.97113037109375,37.61309455422794
+CUILLIERE NOIRE EJEM,13.0,64.599884,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,51.599884033203125,368.5706002371652
+CUISSE DE POULET FRAIS,22.83,22.583462,Volaille Fraiche,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-0.24653823852538892,-1.034570870857696
+CURCUMIN MOULU,1.0,80.273285,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,79.27328491210938,3963.6642456054688
+Cookies  individual Margarine,5.0,75.35385,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,70.35385131835938,1172.5641886393228
+DADDY'S CHIPS CLASSIC SEL DE MER 70G,45.0,127.96176,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,82.96176147460938,180.3516553795856
+DADDY'S CHIPS SAVORY TRUFFE PARMESAN 70G,45.0,56.699398,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,11.699398040771484,25.43347400167714
+DADDY'S CHIPS SPICY PAPRIKA 70G,15.0,107.18582,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,92.18582153320312,576.1613845825195
+DATTE EN VRAC,4.0,86.957,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,82.95700073242188,1659.1400146484375
+DINOL,52.0,52.483486,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,0.4834861755371094,0.9122380670511498
+DOSETTE KETCHUP PB,1000.0,1633.7168,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,633.716796875,63.30837131618382
+DOSETTE MAYO PB,1000.0,1617.7441,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,617.744140625,61.71270136113887
+EAU MINERALE 1.5L,1308.0,1380.8054,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,72.805419921875,5.5619113767666155
+EAU MINÉRALE 6L,51.0,98.399506,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,47.399505615234375,91.15289541391226
+EMBALLAGE CREPE CIG,2000.0,854.5461,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-1145.4539184570312,-57.244073885908605
+EMBALLAGE EN CARTON 30*12*6,300.0,41.711056,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-258.28894424438477,-85.81028047986204
+EMINCE DE BOEUF PORT. SURGELE,11.585,100.908875,Viandes Surgelées,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,89.32387451171874,709.76459683527
+EPINARD,6.0,49.694332,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,43.694332122802734,624.2047446114676
+ESCALOPE DE DINDE FUME EN TRANCHE,20.0,99.806854,Charcuterie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,79.80685424804688,380.0326392764137
+ESCALOPE POULET CONGELÉ,252.0,83.72635,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-168.27365112304688,-66.51132455456398
+ESCALOPE POULET FRAIS,64.9,145.40195,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,80.50194702148437,122.15773447873197
+ESCALOPE POULET PANE CONGELE,17.45,128.12415,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,110.6741455078125,599.8598672510162
+ESSUIES VERRES,4.0,50.8688,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,46.86880111694336,937.3760223388672
+ESSUIT TOUT JUMBO,79.0,116.943085,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,37.943084716796875,47.428855895996094
+ETUI SANDWICH,500.0,1411.0778,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,911.0777587890625,181.8518480616891
+FANTA BOITE 24CL,441.0,686.3275,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,245.3275146484375,55.503962590144226
+FANTA PET 0.5 L,1.0,187.67538,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,186.67538452148438,9333.769226074219
+FANTA PET 30,24.0,62.41769,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.41769027709961,153.67076110839844
+FANTA PET 30CL,12.0,106.377716,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,94.37771606445312,725.982431265024
+FARINE EN PAQUET,124.0,135.59271,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,11.59271240234375,9.274169921875
+FESTIFE MIX 100 GR,32.0,48.811184,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,16.81118392944336,50.94298160437381
+FEUILLE DE BRIK,94.0,16.67593,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-77.32406997680664,-81.39375787032279
+FILM ETIRABLE,9.0,108.44058,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,99.44058227539062,994.4058227539064
+FILM ETIRABLE 725GR,10.0,92.972595,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,82.97259521484375,754.2963201349431
+FOND DE PLATEAU CIG,1000.0,889.36017,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-110.63983154296875,-11.052930224072801
+FOND PLATEAU GOURM,2000.0,1717.2177,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-282.7823486328125,-14.132051405937657
+FORNOX,6.0,53.08218,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,47.08218002319336,672.6025717599051
+FORTE NSPRS,900.0,1246.5067,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,346.5067138671875,38.458014857623475
+FOURCHETTE NOIRE EMBALEE EJEM,1.0,64.32309,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,63.323089599609375,3166.1544799804688
+FRAISE FRAIS,19.1,86.82446,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,67.724462890625,336.9376263215174
+FRITE SURGELE 9/9 CLASSIC 2.5 KG,80.0,118.32785,Legumes Surgelés,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.327850341796875,47.318333755304785
+FRITE SURGELE WEDGES 2.5 KG,40.0,65.76712,Legumes Surgelés,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,25.767120361328125,62.846635027629574
+FROMAGE BLANC FONDU KG,2.2,95.348114,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,93.14811401367187,2910.8785629272456
+FROMAGE BUCHE BLANCHE CHEVRE KG,1.0,94.63382,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,93.63381958007812,4681.690979003906
+FROMAGE CHEDDAR EN BLOC,16.73,97.75867,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,81.0286669921875,457.0144782413283
+FROMAGE EDAM MEULE,8.905999999999999,103.98627,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,95.08026708984374,959.825026144193
+FROMAGE GORGONZELA,2.0,88.963745,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,86.9637451171875,2898.79150390625
+FROMAGE GOUTA,4.0,75.01456,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,71.01455688476562,1420.2911376953125
+FROMAGE LAND OR,24.6,112.35065,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,87.75064697265626,342.7759647369385
+FROMAGE MAASDAM EN BLOC,19.0,106.11008,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,87.11007690429688,435.5503845214844
+FROMAGE MAASDAM EN BLOC PB,6.0,85.51184,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,79.5118408203125,1135.8834402901787
+FROMAGE MEULE GOUDA,9.936,103.58545,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,93.64944921875,856.3409767625274
+FROMAGE MEULE GOUDA KG,7.516,84.72342,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,77.20741918945312,906.6160073914176
+FROMAGE MOZARELLA CARRE KG,7.0,104.55893,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,97.55892944335938,1219.4866180419922
+FROMAGE MOZZARELLA  KG,40.0,112.58197,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,72.58197021484375,177.02919564596036
+FROMAGE PARMESAN PB,1.0,101.04147,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,100.04147338867188,5002.073669433594
+FROMAGE SICILIEN,2.938,110.649445,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,107.71144458007812,2735.1814266144775
+FROMAGE TRIANGLE FONDU STREET &CO,13.0,88.2655,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,75.2655029296875,537.6107352120536
+FUT HEINEKEIN,6.0,96.16046,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,90.16046142578125,1288.006591796875
+GANT EN PLASTIQUE,24.0,57.886806,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,33.88680648803711,135.54722595214844
+GANT EN VINYL  XL,42.0,97.15384,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,55.153839111328125,128.26474211936772
+GANT EN VINYL MEDUIM,47.0,97.818634,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,50.818634033203125,105.87215423583984
+GARCI GAZ 1L,231.0,151.65384,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-79.34616088867188,-34.20093141753098
+GARCI GAZ P.E.T 1 L,92.0,89.45294,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-2.54705810546875,-2.738772156418011
+GATEAU CHOCOLAT PBC,40.0,77.75122,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,37.751220703125,92.07614805640245
+GEL ANTIBAC 500,6.0,69.84366,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,63.843658447265625,912.0522635323662
+GOBLET 6.5 0Z MF,500.0,843.3075,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,343.3074951171875,68.52445012319112
+GOBLET 6.5 PLAN B,1000.0,1580.9452,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,580.9451904296875,58.036482560408345
+GOBLET 9 0Z MF,50.0,713.79254,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,663.7925415039062,1301.554002948836
+GOBLET 9 PLAN B,1000.0,1192.662,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,192.6619873046875,19.24695177869006
+GOBLET CAFE 192 ML CIG,1000.0,1673.2421,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,673.2420654296875,67.25694959337537
+GOBLET CARTON 17 CL CIGUSTA,500.0,527.7893,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,27.789306640625,5.54676779253992
+GOBLET CARTON GOURM 19 CL,1000.0,1493.2885,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,493.2884521484375,49.27956564919456
+GOBLET CARTON GOURM 25CL,1000.0,1621.651,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,621.6510009765625,62.10299710055569
+GOBLET CI CAFE CIGUSTA,300.0,208.72919,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-91.27081298828125,-30.322529231987126
+GOBLET DB 19 CC,3000.0,7921.934,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,4921.93408203125,164.0097994678857
+GOBLET DB 25 CC,4000.0,7928.2173,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,3928.21728515625,98.18088690717946
+GOBLET JUS TRANSPARENT CI GUSTA,400.0,158.91885,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-241.08114624023438,-60.11998659357466
+GOBLET PET 16OZ/450 ML TRANSPARENT,1200.0,1507.1649,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,307.1649169921875,25.575763279948998
+GOBLET PET 350 CC,1000.0,1790.1483,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,790.1483154296875,78.93589564732143
+GOBLET PET 400CC,600.0,576.2902,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-23.70977783203125,-3.945054547758944
+GOBLET PP TRANSPARENT 200CC/80MM YOZEL,400.0,171.85132,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-228.148681640625,-56.894933077462596
+GOBLET TRA 270ML + COUVERCLE,500.0,216.37967,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-283.6203308105469,-56.61084447316305
+GRENAD,13.95,17.213955,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,3.26395492553711,21.83247441830843
+HARISSA 450G,4.0,59.926723,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,55.92672348022461,1118.5344696044922
+HARISSA 5/2,21.0,83.23172,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,62.231719970703125,282.87145441228694
+HARISSA CONCENTRE EN BOITE,16.0,80.940735,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.94073486328125,382.00432272518384
+HEINEKEN BLLE 30CL,398.0,434.4919,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.491912841796875,9.145842817492952
+HUILE D'OLIVE POMACE,19.0,80.41385,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,61.413848876953125,307.0692443847656
+HUILE VEGETALE,27.0,84.39249,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,57.392486572265625,204.9731663295201
+HUILE VEGETALE 5L,13.0,96.15863,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,83.15863037109375,593.990216936384
+INTENSO NSPRS,1050.0,1213.5989,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,163.598876953125,15.566020642542815
+JAMBON DE BOEUF FUME,4.6,90.57419,Charcuterie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,85.97418823242188,1535.253361293248
+JAMBON DE DINDE,3.55,86.295715,Charcuterie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,82.74571533203125,1818.5871501545332
+JEX CARRE,65.0,116.613556,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,51.613555908203125,78.2023574366714
+JOUR ET NUIT BLANC 1/2,5.0,43.485653,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.485652923583984,641.4275487263997
+JOUR ET NUIT ROSE 1/2,12.0,85.773346,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,73.77334594726562,567.487276517428
+JOUR ET NUIT ROSE 3/4,12.0,37.122402,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,25.12240219116211,193.2492476243239
+JOUR ET NUIT ROUGE 1/2,5.0,69.757935,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.7579345703125,1079.2989095052085
+JOUR ET NUIT3/4 BLANC,6.0,31.928432,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,25.92843246459961,370.40617806570873
+JOUR ET NUIT3/4 ROUGE,12.0,60.010647,Alcools,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.01064682006836,369.3126678466797
+JUS CITRONADE  CLASSIQUE 250 ml,390.0,855.1964,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,465.1964111328125,118.97606422834079
+JUS FRAISE  MINI CAMAROSA 250 ml,175.0,427.58688,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,252.58688354492188,143.51527474143288
+JUS STILL 20 CL,153.0,199.21506,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,46.215057373046875,30.009777514965503
+KETCHUP,5.0,56.198727,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,51.198726654052734,853.3121109008789
+KETCHUP BIDON 5L,10.0,74.99158,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.9915771484375,590.83251953125
+KETCHUP EN DOSETTE,1000.0,1829.0623,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,829.062255859375,82.82340218375374
+KINDER BUENO,60.0,125.926056,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.92605590820312,108.07550148885758
+KINDER T4,20.0,77.91458,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,57.914581298828125,275.78372047061015
+KIWI,173.0,244.46051,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,71.46051025390625,41.06925876661279
+LAIT UHT DEMI ECREME,608.0,764.63306,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,156.633056640625,25.719713734092775
+LAVETTE COTON,84.0,119.573456,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,35.573455810546875,41.85112448299632
+LENTILLE VRAC,2.0,53.871,Legumes Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,51.87099838256836,1729.0332794189453
+LEVURE BOULANGERE NORMALE,16.0,60.14178,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,44.141780853271484,259.65753443100874
+LEVURE CHIMIQUE,2.0,46.351986,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,44.351985931396484,1478.3995310465493
+LIPTON ICE TEA FRAMBOISE 33 CL,1.0,142.42422,THE,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,141.42422485351562,7071.211242675781
+LIPTON ICE TEA PASTEQUE 33CL,14.0,152.93597,THE,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,138.93597412109375,926.2398274739584
+LIPTON ICE TEA PECHE 33 CL,135.0,131.67758,THE,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-3.322418212890625,-2.4429545683019303
+LOT CAFE GRAIN BARISTA,1.0,72.404236,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,71.40423583984375,3570.2117919921875
+LOT CAFE GRAIN ESPRESSO ELITE 3,59.0,115.864105,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,56.864105224609375,94.7735087076823
+LOT CAFE GRAINS  PUR EXPRESS,19.0,85.879486,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,66.87948608398438,334.3974304199219
+LOT DE CAFE TURC,0.375,47.042385,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,46.66738510131836,3393.9916437322445
+MAIS EN BOITE,51.0,90.83731,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.837310791015625,76.61021305964543
+MAIS EN VRAC,2.0,41.71606,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.716060638427734,1323.8686879475913
+MANCHE A BALAIS,4.0,51.404324,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,47.40432357788086,948.0864715576171
+MANGUE,9.0,90.26611,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,81.26611328125,812.6611328125
+MARINADE EMINCE DE BOEUF 2KG,4.0,68.36188,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.36187744140625,1287.237548828125
+MARINADE POULET GRILLE 2KG PB,16.0,88.9588,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,72.95880126953125,429.16941923253677
+MARS CHOCOLAT,40.0,68.69818,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,28.69818115234375,69.99556378620427
+MAY 0.5L,6534.0,12588.198,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,6054.1982421875,92.6426662920811
+MAYO 5L DEJ,23.0,96.31818,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,73.31817626953125,305.4924011230469
+MAYONAISE,17.0,129.6358,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,112.63580322265625,625.7544623480902
+MAYONAISE EN DOSETTE,1000.0,1831.9974,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,831.9974365234375,83.11662702531844
+MELANGE EPICES VIANDE 500GR PB,1.0,53.04336,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,52.04336166381836,2602.168083190918
+MELANGE TENDER  PB,5.0,69.97464,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.97463989257812,1082.9106648763022
+MELANGE TENDER 2KG PB,6.0,62.92718,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,56.927181243896484,813.2454463413783
+MELON,10.3,88.67386,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,78.37385864257813,693.573970288302
+MENTHE FRAICHE,6.0,43.85937,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,37.859371185302734,540.8481597900391
+MENTHE SECHE,1.0,87.46091,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,86.46090698242188,4323.045349121094
+MENTOS ROLLS FRUIT FLAVOUR,40.0,66.15704,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,26.15704345703125,63.7976669683689
+MENTOS ROLLS MENTHE,80.0,89.34589,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,9.34588623046875,11.538131148726851
+MENTOS ROLLS RAINBOW,40.0,50.75207,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,10.752071380615234,26.224564342963987
+MENTOS ROLLS STRAWBERRY,80.0,58.406796,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-21.593204498291016,-26.65827715838397
+MENTOS ROLLS TUTTI FRUTTI,40.0,76.642914,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.642913818359375,89.37296053258385
+MIEL DOUX & FRAIS,5.0,46.36648,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,41.36648178100586,689.4413630167644
+MIEL MILLE FLEURS,5.0,45.420773,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,40.420772552490234,673.6795425415039
+MIRA 0.6L,16.0,3005.9954,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,2989.995361328125,17588.2080078125
+MIRA 1L,732.0,1091.1636,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,359.16357421875,48.99912335862892
+MIX A CREPE FRAN,20.0,88.1449,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,68.1448974609375,324.49951171875
+MIX A CREPE FRANCAISE,15.0,91.023895,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,76.02389526367188,475.1493453979492
+MOELLEUX CHOCOLAT,72.0,52.699886,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-19.300113677978516,-26.438511887641802
+MOUSSE CHOCOLAT,2.0,76.74176,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,74.74176025390625,2491.392008463542
+MOUTARDE DIJON,6.0,96.82968,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,90.82968139648438,1297.5668770926338
+MOUTARDE DIJON 840 GR,10.0,43.19772,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,33.19771957397461,301.79745067249644
+MOZARELLA BOCCONCINI,3.0,42.564083,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.564083099365234,989.1020774841309
+MOZARELLA CERISE,20.0,73.76349,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,53.76348876953125,256.0166131882441
+MUFFINS VANILLE,48.0,72.53592,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,24.535919189453125,50.07330446827169
+Muffin daily'n,119.0,281.6078,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,162.6077880859375,135.5064900716146
+NAPPAGE,1.0,61.161983,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,60.161983489990234,3008.0991744995117
+NOISETTE GRILLEE CONCASSEE,1.0,62.60467,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,61.604671478271484,3080.233573913574
+NOIX DE CAJOU GRILLES SALEES 65GR,36.0,60.604336,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,24.60433578491211,66.49820482408678
+NUGGETS PANE PB,50.0,132.18936,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,82.18936157226562,161.15561092601104
+NUTELLA & GO 52 GR,48.0,43.30096,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-4.699039459228516,-9.589876447405134
+NUTELLA 600GR,2.0,104.46878,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,102.46878051757812,3415.626017252604
+NUTELLA GO 52 GR,48.0,77.35596,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,29.35595703125,59.91011639030612
+OEUFS,50.0,138.37885,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,88.37884521484375,173.29185336243873
+OIGNION VERT,2.5,69.00391,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,66.50390625,1900.1116071428573
+OIGNONS BLANC,32.2,84.33261,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,52.13261108398437,157.0259369999529
+OIGNONS ROUGE,30.05,65.03772,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,34.9877197265625,112.68186707427536
+OLIVE DENOYETE,7.0,83.36731,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,76.3673095703125,954.5913696289062
+OLIVE NOIRE SLICE,14.0,78.26004,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.26004028320312,428.40026855468756
+OLIVE VIOLETTE,10.0,66.41571,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,56.41571044921875,512.8700949928977
+ORANGE A JUS,817.0,1298.5486,Jus Fruit Lait,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,481.548583984375,58.869020046989604
+ORANGINA BOITE 24 CL,288.0,103.85382,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-184.14617919921875,-63.718401106996104
+PACK FOOD BOWL + COUVERCLE 1.2 L,50.0,76.178955,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,26.178955078125,51.33128446691176
+PAILLE BUBBLE TEA 12MM COLORE,1.0,147.41354,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,146.41354370117188,7320.677185058594
+PAILLE ENVELOPPE 7.5MM COLORE,4.0,78.96646,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,74.96646118164062,1499.3292236328125
+PAILLE ENVELOPPE 7.5MM NOIR,8.0,57.227505,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,49.22750473022461,546.9722747802734
+PAILLE NOIR,9.0,95.52789,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,86.52789306640625,865.2789306640624
+PAIN AU CHOCOLAT PUR BERRE GF SURG.,1000.0,1418.966,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,418.9659423828125,41.854739498782465
+PAIN CHAWARMA *10,43.0,140.00739,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,97.00738525390625,220.47133012251422
+PAIN CIABATTA NATURE,1120.0,1683.6123,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,563.6123046875,50.27763645740411
+PAIN DE MIE CEREALE,26.0,93.99304,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,67.9930419921875,251.82608145254628
+PAIN DE MIE NATURE,52.0,91.946625,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.946624755859375,75.37099010539505
+PAIN HAMBURGER AC,248.0,251.25684,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,3.2568359375,1.3079662399598393
+PAIN MACDO  GRAINS SESAME,530.0,1304.6683,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,774.6683349609375,145.88857532221044
+PAIN ROND FARINE,330.0,830.0783,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,500.07830810546875,151.08105985059478
+PAIN SANDWICH CI GUSTA,245.0,171.29828,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-73.70172119140625,-29.960049264799288
+PAIN SCHNECK AUX RAISINS SURG PUR BEURRE GF,200.0,174.78473,Viennoiserie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-25.21527099609375,-12.544910943330223
+PAIN SHNEK AU RAISIN MARGARINE,100.0,133.75589,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,33.755889892578125,33.42167316096844
+PALETTE A GLACE,1000.0,793.2996,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-206.70037841796875,-20.64938845334353
+PAPIER ALUM DE 100,2.0,62.321194,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,60.32119369506836,2010.7064565022786
+PAPIER CUISSON 40*60,1.0,12.877835,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,11.877835273742676,593.8917636871338
+PAPIER SERVIETTE GOURMANDISE,120.0,96.1073,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-23.8927001953125,-19.74603321926653
+PAPRIKA DOUX,1.0,47.40286,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,46.40285873413086,2320.142936706543
+PAPRIKA FORT,1.0,69.3295,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,68.32949829101562,3416.4749145507812
+PAQUET 17/4,100.0,73.19891,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-26.80108642578125,-26.53572913443688
+PASTEQUE,23.0,90.1127,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,67.11270141601562,279.63625590006507
+PATE PIZZA FOCACCIA 12/40,72.0,130.11935,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,58.119354248046875,79.61555376444778
+PATE PIZZA FOCACCIA D32 CM,50.0,46.942135,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-3.0578651428222656,-5.995814005533854
+PATE PIZZA FOCCACIA 30/40,80.0,110.74689,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,30.74688720703125,37.95912000868056
+PATE PIZZA PANCROCCHINO 12/40,110.0,100.97009,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-9.0299072265625,-8.135051555461711
+PATE PIZZA PANCROCCHINO 32cm,19.0,52.654842,Boulangerie_R,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,33.654842376708984,168.27421188354492
+PATE PLUME COURTE,12.0,35.024258,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,23.02425765991211,177.10967430701623
+PATE SPAGHETTI,18.0,39.507595,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,21.50759506225586,113.19786874871505
+PECHES,12.15,78.02695,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.87694702148437,500.9653765892347
+PEPITTE DE DECORATION NOIRE KG,5.0,41.952602,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.95260238647461,615.8767064412434
+PEPPERONI,2.1,97.447174,Charcuterie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,95.34717407226563,3075.7152926537296
+PERSIL,0.8,85.869415,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,85.06941528320313,4726.078626844618
+PIECE RONDE BOEUF,10.9,96.88211,Viandes Surgelées,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,85.98211059570312,722.5387445017069
+PILLE AA,6.0,18.5574,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,12.55739974975586,179.39142499651228
+PIMENT DOUX,31.2,75.11322,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,43.91322021484375,136.37646029454578
+PIMENT FORT,15.0,88.91788,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,73.91787719726562,461.98673248291016
+PIMENT ROUGE SALLE,5.0,90.719055,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,85.71905517578125,1428.650919596354
+PISTACHE CONCASSEE,1.0,32.34274,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,31.34273910522461,1567.1369552612305
+POCHETTE CROISSANT 15*7*29,1.0,51.327084,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,50.327083587646484,2516.354179382324
+POCHETTE CROISSANT CRAFT 11*5*28,1000.0,1418.3055,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,418.3055419921875,41.78876543378497
+POIS CHICHE KG,3.0,39.981625,Legumes Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.981624603271484,924.5406150817871
+POIVRE NOIR MOULU,2.0,38.39166,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.391658782958984,1213.0552927652993
+POMME (FRUIT),13.0,79.46921,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,66.46920776367188,474.78005545479914
+POMME DE TERRE,77.2,104.6384,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,27.438397216796872,35.087464471607255
+POT NUTELLA,33.0,76.01166,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,43.01165771484375,126.50487563189338
+POUDRE TENDERS PB,6.0,78.1427,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,72.1427001953125,1030.6100027901787
+POULET PAC FRAIS,41.97,70.58838,Volaille Fraiche,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,28.61837890625,66.60083524842914
+POULET PANE AMANDE PB,70.0,156.29166,Volaille Surgelée,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,86.29165649414062,121.53754435794455
+PUNCH CIDRE 30CL,147.0,50.498104,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-96.50189590454102,-65.20398371928448
+PUNCH CIDRE 50CL,24.0,86.48663,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,62.48663330078125,249.946533203125
+PUNCH ORANGE 30CL,17.0,65.14923,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.14923095703125,267.4957275390625
+PUNCH ORANGE 50CL,53.0,71.15204,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,18.15203857421875,33.61488624855324
+PUREE ANANAS 1 L,1.0,67.55661,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,66.55661010742188,3327.8305053710938
+PUREE DE BANANE 1L,1.0,63.394894,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,62.394893646240234,3119.7446823120117
+PUREE DE KIWI 1.32KG MONIN,1.0,61.639156,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,60.639156341552734,3031.9578170776367
+PUREE FRAISE 1.32KG MONIN,1.0,63.282284,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,62.282283782958984,3114.114189147949
+PUREE MANGUE 1L,1.0,76.66528,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,75.665283203125,3783.26416015625
+QUATRE EPICES MOULU,1.0,51.84863,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,50.848628997802734,2542.4314498901367
+RACLETTE,2.0,23.647854,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,21.64785385131836,721.5951283772786
+RAISIN NOIR,4.2,67.55783,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,63.35783081054687,1218.4198232797476
+RAISINS JAUNE,7.05,65.31738,Fruits & Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,58.2673828125,723.8184200310559
+RAME PAPIER A4,19.0,57.026516,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.02651596069336,190.1325798034668
+RED BULL,191.0,204.02881,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,13.02880859375,6.785837809244792
+REMANENT HERBE CF,10.0,36.20239,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,26.202388763427734,238.2035342129794
+RIST INTENSO NSPRS,400.0,2045.0995,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1645.0994873046875,410.2492487044109
+RISTRETTO NSPRS,150.0,1653.1237,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1503.1236572265625,995.4461306136176
+RISTRETTO NSPRS_x0009_,50.0,1601.7522,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1551.752197265625,3042.6513671875
+RIZ EN PAQUET,7.0,26.416164,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,19.41616439819336,242.702054977417
+RIZ EN PQT,10.0,48.40524,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.40523910522461,349.13853732022375
+ROQUETTE FRAIS EN KG,1.9,67.286316,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.38631591796874,2254.7005488954737
+ROQUETTE SALADE BARQUETTE,3.3,90.568695,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,87.26869506835938,2029.504536473474
+ROULEAU CAISSE 80*80,90.0,130.29504,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,40.2950439453125,44.28026807177198
+ROULEAU DE 750 ETIQUETTE BLANC,5.0,26.566647,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,21.566646575927734,359.44410959879554
+ROULEAU THERMIQUE BALANCE,4.0,18.939114,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,14.93911361694336,298.7822723388672
+ROULEAU TPE,150.0,140.05731,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-9.94268798828125,-6.584561581643211
+SAC A POUBELLE GEANT BLANC,825.0,1321.7466,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,496.74658203125,60.13881138392857
+SAC BOUTIQUE GDISE HD 40/35 BLANC,100.0,164.61264,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,64.61264038085938,63.972911268177604
+SAC BOUTIQUE GDISE HD 50/45 BLANC,50.0,180.2009,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,130.20089721679688,255.29587689568015
+SAC EN PAPIER KRAFT 30/30/26,150.0,104.576904,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-45.423095703125,-30.081520333195368
+SAC GROUPAGE DB,1500.0,2567.191,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1067.19091796875,71.09866208985676
+SAC PAPIER PLANB COFFEE,2500.0,1829.8519,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-670.1480712890625,-26.79520476965464
+SAC SANDWICH,2000.0,1758.9398,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-241.0601806640625,-12.046985540432908
+SAC SANDWICH DAILY BREAK,3000.0,4228.8574,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,1228.857421875,40.94826464095301
+SAC SOUS VIDE LISSE 15*20,100.0,148.14441,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.1444091796875,47.66773186107673
+SAC SOUS VIDE LISSE 20*30,7.0,166.4422,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,159.44219970703125,1993.0274963378906
+SAC SOUS VIDE LISSE 30*30,2.0,65.01843,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,63.0184326171875,2100.614420572917
+SAC SOUS VIDE LISSE 40*40,5.0,154.46884,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,149.46884155273438,2491.1473592122393
+SACHET BRETELLE GM,200.0,211.07275,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,11.07275390625,5.508832789179104
+SACHET BRETELLES 38X60 MF,200.0,93.9964,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-106.00360107421875,-52.73810998717351
+SACHET CONGELATION,10.0,49.298855,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,39.29885482788086,357.26231661709875
+SALADE LAITUE TUN,125.15,112.74631,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-12.40369262695313,-9.832495146217305
+SANEX,3.0,120.44275,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,117.4427490234375,2936.0687255859375
+SANIT SURF,17.0,106.98413,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,89.984130859375,499.9118381076389
+SAUCE A L'AIL,6.0,65.36688,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,59.36688232421875,848.0983189174108
+SAUCE A L'AIL PB,4.0,84.27777,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,80.27777099609375,1605.555419921875
+SAUCE AU POIVRE SAC 500GR PB,0.5,44.907803,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,44.40780258178711,2960.5201721191406
+SAUCE BARBECUE,5.0,28.275478,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,23.27547836303711,387.9246393839518
+SAUCE BARBECUE PB,10.0,68.966064,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,58.966064453125,536.0551313920454
+SAUCE MAYONNAISE PESTO,4.0,66.20538,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,62.20538330078125,1244.107666015625
+SAUCE MAYONNAISE PESTO PB,6.0,107.31912,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,101.31912231445312,1447.4160330636162
+SAUCE PESTO PB,2.0,85.45053,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,83.45053100585938,2781.6843668619795
+SAUCE PLAN B,5.0,55.53326,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,50.533260345458984,842.2210057576498
+SAUCE PLAN B 5KG,10.0,103.128204,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,93.12820434570312,846.620039506392
+SAVON LIQ OXY'SOAP 1L,10.0,105.61337,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,95.61337280273438,869.212480024858
+SCHWEPPES TONIC 24 CL,17.0,27.111263,Eaux et Sodas,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,10.111263275146484,56.17368486192491
+SEL,12.0,68.68445,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,56.6844482421875,436.0342172475962
+SEL FIN DE TABLE,6.0,65.525696,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,59.52569580078125,850.3670828683037
+SEMOULE FINE,75.0,92.72247,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,17.72247314453125,23.31904361122533
+SERPILLERE,58.0,121.07901,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,63.079010009765625,106.91357628773834
+SERVIETTE 30*30 CIGUSTA,48.0,89.74869,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,41.748687744140625,85.20140355947066
+SERVIETTE 30*30 MF,36.0,55.482327,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,19.48232650756836,52.65493650694151
+SERVIETTE EN PAPIER 30*30,263.0,230.36191,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-32.638092041015625,-12.362913651899857
+SET DE PLATEAU DB,4000.0,1864.3094,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-2135.6905517578125,-53.378919064179264
+SIROP DE CARAMEL 1L MONIN,1.0,85.76117,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,84.76116943359375,4238.0584716796875
+SIROP DE NOISETTES GRILLEES 70CL MONIN,1.0,89.89368,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,88.8936767578125,4444.683837890625
+SIROP DE VANILLE 1L MONIN,1.0,70.84006,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,69.84005737304688,3492.0028686523438
+SOUS FONDANT PERSONNALISE,400.0,322.30212,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-77.6978759765625,-19.376028921836035
+SOUS TARTE BLANCHE 12*12*2,800.0,808.797,Consommable,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,8.7969970703125,1.0982518190152935
+SQUEEZE CREME  CHEDDAR 450GR,9.0,63.37356,Beurre Oeuf Fromage,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,54.37356185913086,543.7356185913086
+STEACK HACHE (PORTION 115GR),9.0,57.48727,Viandes Surgelées,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.48727035522461,484.8727035522461
+STYLO BIC,38.0,57.288265,Fournitures de Bureau,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,19.288265228271484,49.457090328901245
+SUCRE BLANC EN SACHET GOURM,2000.0,1442.1172,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-557.8828125,-27.88020052473763
+SUCRE EN SACHET CI-GUSTA,20.0,71.580444,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,51.5804443359375,245.62116350446428
+SUCRE EN SACHET DAILY BREAK,50.0,134.1861,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,84.18609619140625,165.0707768458946
+SUCRE GLACE,5.0,50.162746,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,45.16274642944336,752.7124404907227
+SUCRE ROUX EN SACHET GOURM,2000.0,1486.9698,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-513.0301513671875,-25.638688224247254
+SUCRE VRAC KG,10.0,46.905697,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,36.905696868896484,335.50633517178625
+THE NOIR MENTHE S SUCRE,720.0,160.77298,THE,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-559.2270202636719,-77.5626935178463
+THE SANS SUCRE 0.9g,20.0,305.87564,THE,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,285.8756408691406,1361.3125755673361
+THE VERT MENTHE SANS SUCRE,540.0,478.5168,THE,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-61.483184814453125,-11.364729170878581
+THYM MOULU,1.0,47.672268,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,46.67226791381836,2333.613395690918
+TIC TAC MENTHE,12.0,60.443752,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,48.44375228881836,372.6442483755259
+TIC TAC ORANGE,12.0,57.114223,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,45.11422348022461,347.03248830942005
+TIC TAC SPEARMINT,12.0,34.924038,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,22.92403793334961,176.33875333345856
+TIC TAC STRAWBERRY MIX,12.0,50.77551,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.775508880615234,298.27314523550183
+TOMATE CERISES,10.8,72.29706,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,61.49705810546875,521.1615093683793
+TOMATE CONCENTRE 4/4,12.0,64.0802,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,52.0802001953125,400.6169245793269
+TOMATE FRAICHE,239.45,156.7821,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-82.66789550781249,-34.38049303714389
+TOMATES SECHEES,0.5,33.587368,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,33.08736801147461,2205.8245340983076
+TOQUE CHEF,1.0,35.25787,Hygiène,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,34.257869720458984,1712.8934860229492
+TWIX,125.0,21.711697,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-103.28830337524414,-81.97484394860646
+VARIANTES,1.0,0.0,Legumes Frais,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,-1.0,-50.0
+VIANDE HACHEE SPECIAL MAIGRE CONGELE KG,39.94,70.51874,Viandes Surgelées,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,30.578737792968752,74.69159206880497
+VIANDE HACHEE SPECIAL RESTO,64.875,88.687805,Viandes Fraiches,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,23.81280517578125,36.14847085507591
+VIANDE SECHE FUME (BRESAOLA) TRANCHES 300GR,3.3,78.70206,Viandes Fraiches,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,75.40205688476563,1753.5362066224566
+VINAIGRE 1L,2.0,9.210416,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,7.210415840148926,240.34719467163086
+VINAIGRE CREME DE BALSAMIQUE,2.0,67.89212,Epicerie,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,65.89212036132812,2196.4040120442705
+VIPA ORIENTAL MIX 100 GR,8.0,46.19302,Fruits Secs,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,38.19301986694336,424.36688741048175
+fondant chocolat individual Margarine,54.0,56.775265,Pâtisseries,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,2.7752647399902344,5.045935890891335
+sucre en buchette MF 10kg,1.0,55.52911,Cafe,Enhanced (Cycle-Level),bidirectional_lstm,26,Predict total inventory for next 10-day cycle,54.529109954833984,2726.455497741699

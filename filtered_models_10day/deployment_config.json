@@ -1,0 +1,75 @@
+{
+  "model_files": {
+    "gru": "filtered_models_10day\\gru_model.h5",
+    "bidirectional_lstm": "filtered_models_10day\\bidirectional_lstm_model.h5"
+  },
+  "scaler_path": "filtered_models_10day\\scalers.pkl",
+  "encoder_path": "filtered_models_10day\\encoders.pkl",
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Best Overall R\u00b2 (10-day cycles)",
+      "train_metrics": {
+        "r2": 0.7465645023607921,
+        "mae": 36.53064584823614,
+        "rmse": 135.27442504327425,
+        "mape": 301.4635067395164
+      },
+      "test_metrics": {
+        "r2": 0.7505236521778521,
+        "mae": 29.849421553869007,
+        "rmse": 114.69101800881006,
+        "mape": 313.2991404400697
+      },
+      "epochs_trained": 45,
+      "features_used": 22,
+      "cycle_type": "10_day_cycles"
+    },
+    "bidirectional_lstm": {
+      "description": "Bidirectional LSTM - Best MAE (10-day cycles)",
+      "train_metrics": {
+        "r2": 0.7446886485539206,
+        "mae": 37.79946720819054,
+        "rmse": 135.77413250839464,
+        "mape": 301.32162034179873
+      },
+      "test_metrics": {
+        "r2": 0.712837224470063,
+        "mae": 32.12866594845038,
+        "rmse": 123.04919870558938,
+        "mape": 334.63762134202113
+      },
+      "epochs_trained": 40,
+      "features_used": 22,
+      "cycle_type": "10_day_cycles"
+    }
+  },
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "ma_3",
+    "ma_7",
+    "std_3",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "near_capacity",
+    "low_stock",
+    "group_encoded",
+    "stock_class_encoded",
+    "trend_1_3",
+    "volatility",
+    "volatility_normalized",
+    "ma_ratio_3_14",
+    "is_weekend",
+    "is_friday"
+  ],
+  "sequence_length": 10,
+  "cycles_per_year": 36.5,
+  "cycle_type": "10_day_cycles",
+  "saved_date": "2025-09-20T20:11:01.596615",
+  "system_version": "filtered_10day_v1"
+}

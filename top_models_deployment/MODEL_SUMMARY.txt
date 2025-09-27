@@ -1,0 +1,22 @@
+TOP 2 INVENTORY FORECASTING MODELS
+==================================================
+
+Created: 2025-09-18 13:20:27
+Models: 2 trained
+
+GRU - GRU - Best Overall R²
+----------------------------------------
+Test R²: 0.762
+Test MAE: 29.17
+Test MAPE: 235.81%
+
+BIDIRECTIONAL_LSTM - Bidirectional LSTM - Best MAE
+----------------------------------------
+Test R²: 0.708
+Test MAE: 32.22
+Test MAPE: 304.64%
+
+USAGE:
+from deployment_system import load_production_system
+system = load_production_system('top_models_deployment')
+predictions = system.predict(data, model='gru')

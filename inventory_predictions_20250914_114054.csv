@@ -1,0 +1,497 @@
+Product_Name,Product_Family,Current_Inventory,Predicted_Inventory,Change_Units,Change_Percentage,Change_Type,Confidence_Score,Recommended_Action,Target_Period
+AC-SMOOTHIE DETOX,LIQUIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AC-SMOOTHIE EXOTIC,LIQUIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AC-SMOOTHIE LE CLASSIQUE,LIQUIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AC-SMOOTHIE PEACH'TINI,LIQUIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AC-SMOOTHIE TROPIC TRIP,LIQUIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AGITATEUR EN BOIS 11CM,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,7
+AGRAFFE,FOURNITURE DE BUREAU,8.0,4.0,-4.0,-39.5,Major Decrease,0.8,Reduce stock - Low demand expected,53
+AIL,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+AIL EN POUDRE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AJAX VITRE,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+ALKASURF DDA 5KG,CONSO/HYG,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+AMANDE EFFILEE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+AMANDES GRILEES SALEES 70GR,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+AMSTEL BEER BLLE 33CL,LIQUIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+ANANAS GRAND,SOLIDES,8.0,6.0,-2.0,-20.4,Major Decrease,0.95,Reduce stock - Low demand expected,53
+ANANAS PCES,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+ASEPCLOR,CONSO/HYG,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+AUBERGINE,SOLIDES,4.0,3.0,-1.0,-17.7,Moderate Decrease,0.95,Slight decrease recommended,53
+AUBERGINE LEGUME,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,36
+AVOCAT FRUIT PIECE,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BACON BOEUF FUME TRANCHES ( 300GR),SOLIDES,0.0,0.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BACON DE DINDE TRANCHES (1 - 1.5 KG),SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,38
+BACTYGEL 703 CF,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BAGUETTE,SOLIDES,1120.0,1120.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BAGUETTE CONG.,SOLIDES,160.0,160.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BALAIS SANS MANCHE,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+BANANE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BARQUETTE 5L,CONSO/HYG,15.0,9.0,-6.0,-35.1,Major Decrease,0.8,Reduce stock - Low demand expected,51
+BARQUETTE CARTON CIG,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+BARQUETTE CARTON DB,CONSO/HYG,600.0,600.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BASILIC BARQUETTE,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BASILIC LA BOTTE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,35
+BECK'S JET 24CL,LIQUIDES,18.0,18.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BEURRE MARGARINE  KG,SOLIDES,4.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,35
+BIOSPOT,CONSO/HYG,1800.0,919.0,-881.0,-48.9,Major Decrease,0.8,Reduce stock - Low demand expected,52
+BISCUIT TUC,SOLIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+BLOUSE NON TISSEE,CONSO/HYG,17.0,11.0,-6.0,-35.1,Major Decrease,0.8,Reduce stock - Low demand expected,53
+BOGA CIDRE BOITE,LIQUIDES,63.0,63.0,-0.0,-0.0,Stable,0.95,Maintain current levels,19
+BOGA CIDRE PET 30 CL,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+BOGA LIM PET 0.5,LIQUIDES,1.0,2.0,1.0,46.1,Major Increase,0.8,Increase stock - High demand expected,17
+BOGA LIME BOITE 24CL,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BOGA LIME PET 30 CL,LIQUIDES,48.0,48.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+BOGA PET 30CL,LIQUIDES,36.0,36.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+BOITE A CREPE,CONSO/HYG,500.0,500.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BOITE D'ARCHIVE,FOURNITURE DE BUREAU,35.0,14.0,-21.0,-59.1,Major Decrease,0.8,Reduce stock - Low demand expected,50
+"BOITE FRAPPE CAFE 1,36KG MONIN",SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+"BOITE FRAPPE VANILLE 1,36KG MONIN",SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BOITE PIZZA 32 cm,CONSO/HYG,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,48
+BOITE PIZZA ONDULEE 31/31,CONSO/HYG,50.0,50.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BOITE PIZZA PM CIG,CONSO/HYG,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+BON DE TRANSFERT 50*3,FOURNITURE DE BUREAU,9.0,4.0,-5.0,-54.5,Major Decrease,0.8,Reduce stock - Low demand expected,53
+BORGHELL,SOLIDES,5.0,4.0,-1.0,-10.0,Moderate Decrease,0.95,Slight decrease recommended,53
+BOUTEILLE DE VINAIGRETTE 250ML,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BRIOCHE TORSADEE PUR BEURRE PEPITE CHOCO GF,SOLIDES,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+BROCHETTE BAMBOO 20,CONSO/HYG,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+Beurre 200Gr,SOLIDES,58.0,22.0,-36.0,-61.0,Major Decrease,0.8,Reduce stock - Low demand expected,20
+CACAHUETES GRILLEES SALEES 70GR,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+CACAO EN POUDRE,LIQUIDES,4.0,4.0,-0.0,-3.2,Stable,0.95,Maintain current levels,52
+CAKE CHOCOLAT PBC,SOLIDES,32.0,32.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CAKE CITRON PBC,SOLIDES,36.0,36.0,0.0,0.0,Stable,0.95,Maintain current levels,43
+CAKE MARBRE MARGARINE,SOLIDES,220.0,165.0,-55.0,-25.0,Major Decrease,0.95,Reduce stock - Low demand expected,53
+CAKE MARBRE PBC,SOLIDES,220.0,98.0,-122.0,-55.1,Major Decrease,0.8,Reduce stock - Low demand expected,53
+CAKE NATURE MARGARINE,SOLIDES,110.0,92.0,-18.0,-16.6,Moderate Decrease,0.95,Slight decrease recommended,53
+CAKE ORANGE PBC,SOLIDES,36.0,36.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CAPRE VRAC,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CAPSULE CAFEITALY COLOMBIA,LIQUIDES,190.0,90.0,-100.0,-52.6,Major Decrease,0.8,Reduce stock - Low demand expected,53
+CAPSULE CAFFITALY INTENSO,LIQUIDES,96.0,96.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CAPSULE CAFFITALY VIGOROSO,LIQUIDES,190.0,121.0,-69.0,-36.2,Major Decrease,0.8,Reduce stock - Low demand expected,53
+CAROTTE,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CAROTTE CAKE PBC,SOLIDES,220.0,92.0,-128.0,-57.9,Major Decrease,0.8,Reduce stock - Low demand expected,53
+CELTIA FUT DE 50L,LIQUIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CELTIA JET 25CL,LIQUIDES,36.0,36.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CHAMPIGNON FRAIS,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CHAMPIGNON FRAIS BARQUETTE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+CHAPLUR,SOLIDES,5.0,5.0,-0.0,-6.3,Moderate Decrease,0.95,Slight decrease recommended,52
+CHEMISE CRAFT,FOURNITURE DE BUREAU,40.0,20.0,-20.0,-49.7,Major Decrease,0.8,Reduce stock - Low demand expected,53
+CHEWING GUM FLORIDENT  EXTRA WHITE 60G,SOLIDES,24.0,15.0,-9.0,-37.8,Major Decrease,0.8,Reduce stock - Low demand expected,49
+CHOCOLAT CHAUD EN POUDRE,LIQUIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,48
+CHOCOLAT EN POUDRE,LIQUIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CHORBA FRIK,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,47
+CHOUX ROUGE,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CHOUX VERT,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CITRON,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,36
+CITRON FRAIS,SOLIDES,4.0,3.0,-0.0,-5.5,Moderate Decrease,0.95,Slight decrease recommended,53
+CITRON SALLE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+COCA BOITE ZERO,LIQUIDES,27.0,27.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+COCA COLA BOITE 24CL,LIQUIDES,48.0,48.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+COCA COLA BOITE ZERO 24CL,LIQUIDES,11.0,18.0,7.0,59.6,Major Increase,0.8,Increase stock - High demand expected,53
+COCA COLA PET 0.5,LIQUIDES,48.0,48.0,0.0,0.0,Stable,0.95,Maintain current levels,23
+COCA COLA PET 30CL,LIQUIDES,24.0,36.0,12.0,48.3,Major Increase,0.8,Increase stock - High demand expected,33
+COCA COLA PET 30CL.,LIQUIDES,24.0,38.0,14.0,56.2,Major Increase,0.8,Increase stock - High demand expected,51
+COCA COLA ZERO 30 CL,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+COCA COLA ZERO PET 0.5L,LIQUIDES,2.0,4.0,2.0,64.2,Major Increase,0.8,Increase stock - High demand expected,17
+COCA ZERO PET 30 CL,LIQUIDES,6.0,11.0,5.0,68.9,Major Increase,0.8,Increase stock - High demand expected,50
+COFFRET CHECHIA AV SEP 16/16,CONSO/HYG,50.0,50.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+COFFRET PORTRAIT AV SEP 11.5/11.5,CONSO/HYG,100.0,47.0,-53.0,-52.6,Major Decrease,0.8,Reduce stock - Low demand expected,53
+COFFRET PORTRAIT AV SEP 19.5/19.5,CONSO/HYG,50.0,50.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+COFFRET PORTRAIT AV SEP24.5/14.5,CONSO/HYG,50.0,50.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+COIFFE EN PAPIER,CONSO/HYG,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CONCOMBRE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CONFITURE DE FRAISES 380G,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+COOKIES,SOLIDES,80.0,62.0,-18.0,-22.7,Major Decrease,0.95,Reduce stock - Low demand expected,53
+CORNICHON FRAIS,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+COURGE,SOLIDES,8.0,8.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+COURGETTE,SOLIDES,4.0,4.0,-0.0,-0.2,Stable,0.95,Maintain current levels,53
+COUSCOUS,SOLIDES,14.0,14.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+COUSCOUS EN PAQUET,SOLIDES,3.0,5.0,2.0,50.5,Major Increase,0.8,Increase stock - High demand expected,31
+COUTEAU A PAIN 20CM,SMALL EQUIPEMENTS,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,26
+COUTEAU A PAIN 21 CM,SMALL EQUIPEMENTS,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+COUTEAU NOIRE EMBALLE EJEM,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+COUVERCLE AVEC TROU BOMBE 95KY,CONSO/HYG,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+COUVERCLE DOM PET 450ML AVEC TROU,CONSO/HYG,500.0,500.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+COUVERCLE GOBLET 9 OU 12 PLAN B,CONSO/HYG,500.0,500.0,0.0,0.0,Stable,0.95,Maintain current levels,35
+COUVERCLE GOBLET TRSP 35 CL EJEM,CONSO/HYG,1000.0,558.0,-442.0,-44.2,Major Decrease,0.8,Reduce stock - Low demand expected,53
+COUVERCLE POUR GOB 16 OZ ET 14 OZ,CONSO/HYG,100.0,190.0,90.0,89.4,Major Increase,0.8,Increase stock - High demand expected,13
+COUVERCLE SANS TROU PET BOMBE 80MM,CONSO/HYG,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,17
+CREME A FOUETTER,SOLIDES,6.0,5.0,-1.0,-21.4,Major Decrease,0.95,Reduce stock - Low demand expected,53
+CREME A FOUETTER 1LT HOLE,SOLIDES,2.0,2.0,0.0,11.6,Moderate Increase,0.95,Slight increase recommended,36
+CREME CHANTILLY,SOLIDES,5.0,4.0,-1.0,-22.4,Major Decrease,0.95,Reduce stock - Low demand expected,52
+CREME DE BALSAMIQUE,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+CREME DE CUISSON,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CREME SUPERIEUR,SOLIDES,3.0,5.0,2.0,40.2,Major Increase,0.8,Increase stock - High demand expected,46
+CREME SUPERIEUR DELICE 1L,SOLIDES,1.0,2.0,1.0,47.7,Major Increase,0.8,Increase stock - High demand expected,29
+CREVETTE 26/30 AVEC QUEUE  SURG.,SOLIDES,3.0,2.0,-1.0,-18.5,Moderate Decrease,0.95,Slight decrease recommended,53
+CROISSANT AU CHOCOLAT MARGARINE,SOLIDES,150.0,150.0,0.0,0.0,Stable,0.95,Maintain current levels,39
+CROISSANT AUX AMANDES  PUR BEURRE GF,SOLIDES,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CROISSANT NATURE  PUR BEURRE GF,SOLIDES,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CROISSANT NATURE MARGARINE,SOLIDES,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CUILLERE A CAFE PLASTIQUE,CONSO/HYG,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+CUILLIERE NOIRE EJEM,CONSO/HYG,2.0,2.0,0.0,3.6,Stable,0.95,Maintain current levels,53
+CUISSE DE POULET FRAIS,SOLIDES,23.0,22.0,-1.0,-2.3,Stable,0.95,Maintain current levels,45
+CURCUMIN MOULU,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+Cake chocolat family Margarine,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,44
+Cake citron family Margarine,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,45
+Cake marbré family Margarine,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,45
+Carotte cake family Margarine,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,45
+Citronnade La Classique 1LITRE,LIQUIDES,7.0,7.0,-0.0,-3.9,Stable,0.95,Maintain current levels,17
+Cookies  individual Margarine,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+DADDY'S CHIPS CLASSIC SEL DE MER 70G,SOLIDES,45.0,28.0,-17.0,-36.4,Major Decrease,0.8,Reduce stock - Low demand expected,53
+DADDY'S CHIPS SAVORY TRUFFE PARMESAN 70G,SOLIDES,30.0,23.0,-7.0,-23.9,Major Decrease,0.95,Reduce stock - Low demand expected,52
+DADDY'S CHIPS SPICY PAPRIKA 70G,SOLIDES,15.0,15.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+DATTE EN VRAC,SOLIDES,4.0,3.0,-1.0,-29.3,Major Decrease,0.95,Reduce stock - Low demand expected,53
+DINOL,CONSO/HYG,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+DOSETTE KETCHUP PB,SOLIDES,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+DOSETTE MAYO PB,SOLIDES,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+"EAU MELLITI PET 0,5 L",LIQUIDES,240.0,201.0,-39.0,-16.4,Moderate Decrease,0.95,Slight decrease recommended,28
+"EAU MINERALE 0,5L",LIQUIDES,1.0,2.0,1.0,25.9,Major Increase,0.95,Increase stock - High demand expected,44
+"EAU MINERALE 1,5L",LIQUIDES,1308.0,591.0,-717.0,-54.8,Major Decrease,0.8,Reduce stock - Low demand expected,53
+EAU MINÉRALE 6L,LIQUIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+EMBALLAGE CREPE CIG,CONSO/HYG,2000.0,881.0,-1119.0,-55.9,Major Decrease,0.8,Reduce stock - Low demand expected,52
+EMBALLAGE EN CARTON 30*12*6,CONSO/HYG,300.0,142.0,-158.0,-52.5,Major Decrease,0.8,Reduce stock - Low demand expected,27
+EMINCE DE BOEUF PORT. SURGELE,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+EPINARD,SOLIDES,3.0,3.0,-0.0,-8.2,Moderate Decrease,0.95,Slight decrease recommended,53
+ESCALOPE DE DINDE FRAIS,SOLIDES,81.0,77.0,-4.0,-5.0,Moderate Decrease,0.95,Slight decrease recommended,32
+ESCALOPE DE DINDE FUME EN TRANCHE,SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+ESCALOPE POULET CONGELÉ,SOLIDES,18.0,18.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+ESCALOPE POULET FRAIS,SOLIDES,65.0,65.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+ESCALOPE POULET PANE CONGELE,SOLIDES,5.0,5.0,1.0,15.3,Moderate Increase,0.95,Slight increase recommended,52
+ESSUIES VERRES,CONSO/HYG,4.0,3.0,-1.0,-29.0,Major Decrease,0.95,Reduce stock - Low demand expected,53
+ESSUIT TOUT JUMBO,CONSO/HYG,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+ETUI SANDWICH,CONSO/HYG,500.0,500.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FANTA BOITE 24CL,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FANTA PET 0.5 L,LIQUIDES,1.0,2.0,1.0,46.2,Major Increase,0.8,Increase stock - High demand expected,17
+FANTA PET 30,LIQUIDES,24.0,27.0,3.0,10.9,Moderate Increase,0.95,Slight increase recommended,53
+FANTA PET 30CL,LIQUIDES,12.0,23.0,11.0,86.6,Major Increase,0.8,Increase stock - High demand expected,33
+FARINE EN PAQUET,SOLIDES,30.0,30.0,-0.0,-1.4,Stable,0.95,Maintain current levels,53
+FESTIFE MIX 100 GR,SOLIDES,24.0,12.0,-12.0,-49.3,Major Decrease,0.8,Reduce stock - Low demand expected,52
+FEUILLE DE BRIK,SOLIDES,94.0,35.0,-59.0,-62.6,Major Decrease,0.8,Reduce stock - Low demand expected,47
+FILET DE POULET PANE,SOLIDES,39.0,39.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+FILM ETIRABLE,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FILM ETIRABLE 725GR,CONSO/HYG,3.0,2.0,-1.0,-13.7,Moderate Decrease,0.95,Slight decrease recommended,34
+FOND DE PLATEAU CIG,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FOND PLATEAU GOURM,CONSO/HYG,2000.0,2000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FORNOX,CONSO/HYG,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FORTE NSPRS,LIQUIDES,300.0,300.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FOURCHETTE NOIRE EMBALEE EJEM,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FRAISE FRAIS,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FRITE SURGELE 9/9 CLASSIC 2.5 KG,SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FRITE SURGELE WEDGES 2.5 KG,SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE BLANC FONDU KG,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE BLUE CHEESE GR,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,13
+FROMAGE BUCHE BLANCHE CHEVRE KG,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE CAMEMBERT 240g,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,15
+FROMAGE CHEDDAR EN BLOC,SOLIDES,7.0,7.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE CHEDDAR PORTION KG,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,8
+FROMAGE EDAM MEULE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE FETA (Nature),SOLIDES,0.0,0.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+FROMAGE GORGONZELA,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+FROMAGE GOUTA,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,31
+FROMAGE LAND OR,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE MAASDAM EN BLOC,SOLIDES,7.0,7.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE MAASDAM EN BLOC PB,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,36
+FROMAGE MEULE GOUDA,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE MEULE GOUDA KG,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,36
+FROMAGE MOZARELLA CARRE KG,SOLIDES,2.0,4.0,2.0,62.2,Major Increase,0.8,Increase stock - High demand expected,17
+FROMAGE MOZZARELLA  KG,SOLIDES,20.0,17.0,-3.0,-12.5,Moderate Decrease,0.95,Slight decrease recommended,53
+FROMAGE MOZZARELLA CARRE KG,SOLIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,23
+FROMAGE MOZZARELLA MINI,SOLIDES,5.0,5.0,-0.0,-0.8,Stable,0.95,Maintain current levels,34
+FROMAGE PARMESAN PB,SOLIDES,0.0,0.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+FROMAGE PARMIGIANO REGIANO,SOLIDES,0.0,0.0,0.0,0.0,Stable,0.95,Maintain current levels,8
+FROMAGE SICILIEN,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,17
+FROMAGE TRIANGLE FONDU STREET &CO,SOLIDES,6.0,4.0,-2.0,-25.5,Major Decrease,0.95,Reduce stock - Low demand expected,53
+FUT HEINEKEIN,LIQUIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GANT EN PLASTIQUE,CONSO/HYG,24.0,10.0,-14.0,-57.0,Major Decrease,0.8,Reduce stock - Low demand expected,45
+GANT EN VINYL  XL,CONSO/HYG,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GANT EN VINYL MEDUIM,CONSO/HYG,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GANTS LATEX,CONSO/HYG,300.0,300.0,0.0,0.0,Stable,0.95,Maintain current levels,6
+GARCI GAZ 1L,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GARCI GAZ P.E.T 1 L,LIQUIDES,8.0,8.0,0.0,0.0,Stable,0.95,Maintain current levels,39
+GATEAU CHOCOLAT PBC,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GEL ANTIBAC 500,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,41
+GOBLET 6.5 0Z MF,CONSO/HYG,500.0,500.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET 6.5 PLAN B,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET 9 0Z MF,CONSO/HYG,50.0,98.0,48.0,93.2,Major Increase,0.8,Increase stock - High demand expected,53
+GOBLET 9 PLAN B,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,47
+GOBLET CAFE 192 ML CIG,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET CARTON 17 CL CIGUSTA,CONSO/HYG,500.0,500.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+GOBLET CARTON GOURM 19 CL,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET CARTON GOURM 25CL,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET CI CAFE CIGUSTA,CONSO/HYG,300.0,300.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET DB 19 CC,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET DB 25 CC,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+GOBLET JUS TRANSPARENT CI GUSTA,CONSO/HYG,400.0,400.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+GOBLET PET 16OZ/450 ML TRANSPARENT,CONSO/HYG,700.0,367.0,-333.0,-47.5,Major Decrease,0.8,Reduce stock - Low demand expected,53
+GOBLET PET 350 CC,CONSO/HYG,1000.0,468.0,-532.0,-53.1,Major Decrease,0.8,Reduce stock - Low demand expected,53
+GOBLET PET 400CC,CONSO/HYG,500.0,496.0,-4.0,-0.8,Stable,0.95,Maintain current levels,52
+GOBLET PP TRANSPARENT 200CC/80MM YOZEL,CONSO/HYG,400.0,350.0,-50.0,-12.5,Moderate Decrease,0.95,Slight decrease recommended,26
+GOBLET TRA 270ML + COUVERCLE,CONSO/HYG,500.0,368.0,-132.0,-26.3,Major Decrease,0.95,Reduce stock - Low demand expected,52
+GOBLET TRANS 0.5L,CONSO/HYG,200.0,354.0,154.0,76.6,Major Increase,0.8,Increase stock - High demand expected,16
+GRENAD,LIQUIDES,0.0,1.0,0.0,24.3,Major Increase,0.95,Increase stock - High demand expected,36
+HARISSA 450G,SOLIDES,1.0,2.0,1.0,43.1,Major Increase,0.8,Increase stock - High demand expected,30
+HARISSA 5/2,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,31
+HARISSA ARBI,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+HARISSA CONCENTRE EN BOITE,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+HEINEKEN BLLE 30CL,LIQUIDES,126.0,126.0,0.0,0.3,Stable,0.95,Maintain current levels,53
+HUILE D'OLIVE POMACE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+HUILE VEGETALE,SOLIDES,1.0,2.0,1.0,33.1,Major Increase,0.8,Increase stock - High demand expected,53
+HUILE VEGETALE 5L,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,20
+INTENSO NSPRS,LIQUIDES,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+JAMBON DE BOEUF FUME,SOLIDES,5.0,4.0,-1.0,-12.2,Moderate Decrease,0.95,Slight decrease recommended,53
+JAMBON DE DINDE,SOLIDES,1.0,2.0,1.0,28.7,Major Increase,0.95,Increase stock - High demand expected,52
+JEX CARRE,CONSO/HYG,35.0,29.0,-6.0,-16.0,Moderate Decrease,0.95,Slight decrease recommended,53
+JOUR ET NUIT BLANC 1/2,LIQUIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+JOUR ET NUIT ROSE 1/2,LIQUIDES,12.0,12.0,-0.0,-1.4,Stable,0.95,Maintain current levels,52
+JOUR ET NUIT ROSE 3/4,LIQUIDES,12.0,8.0,-4.0,-29.8,Major Decrease,0.95,Reduce stock - Low demand expected,52
+JOUR ET NUIT ROUGE 1/2,LIQUIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+JOUR ET NUIT3/4 BLANC,LIQUIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+JOUR ET NUIT3/4 ROUGE,LIQUIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+JUS CITRONADE  CLASSIQUE 250 ml,LIQUIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,21
+JUS FRAISE  MINI CAMAROSA 250 ml,LIQUIDES,30.0,30.0,0.0,0.0,Stable,0.95,Maintain current levels,21
+JUS STILL 20 CL,LIQUIDES,2.0,3.0,1.0,43.0,Major Increase,0.8,Increase stock - High demand expected,53
+KETCHUP,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+KETCHUP BIDON 5L,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,31
+KETCHUP EN DOSETTE,SOLIDES,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+KINDER BUENO,SOLIDES,30.0,30.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+KINDER T4,SOLIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+KIWI,SOLIDES,6.0,12.0,6.0,83.2,Major Increase,0.8,Increase stock - High demand expected,53
+LAIT ENTIER 1L,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,26
+LAIT UHT DEMI ECREME,LIQUIDES,18.0,18.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+LAVETTE COTON,CONSO/HYG,50.0,20.0,-30.0,-59.2,Major Decrease,0.8,Reduce stock - Low demand expected,53
+LENTILLE VRAC,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+LEVURE BOULANGERE NORMALE,SOLIDES,10.0,8.0,-2.0,-18.4,Moderate Decrease,0.95,Slight decrease recommended,53
+LEVURE CHIMIQUE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+LIPTON ICE TEA FRAMBOISE 33 CL,LIQUIDES,1.0,2.0,1.0,48.5,Major Increase,0.8,Increase stock - High demand expected,52
+LIPTON ICE TEA PASTEQUE 33CL,LIQUIDES,14.0,14.0,0.0,0.0,Stable,0.95,Maintain current levels,48
+LIPTON ICE TEA PECHE 33 CL,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,43
+LOT CAFE EN GRAINS ( BARISTA N°3 ),LIQUIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,9
+LOT CAFE GRAIN BARISTA,LIQUIDES,1.0,2.0,1.0,42.7,Major Increase,0.8,Increase stock - High demand expected,48
+LOT CAFE GRAIN CLASSICO CLASSIC ROAST,LIQUIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+LOT CAFE GRAIN ESPERTO MOYEN GRAIN,LIQUIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+LOT CAFE GRAIN ESPRESSO ELITE 3,LIQUIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+LOT CAFE GRAIN GOURMANDISE,LIQUIDES,2.0,3.0,1.0,31.2,Major Increase,0.8,Increase stock - High demand expected,51
+LOT CAFE GRAINS  PUR EXPRESS,LIQUIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+LOT DE CAFE TURC,LIQUIDES,0.0,0.0,0.0,5.6,Moderate Increase,0.95,Slight increase recommended,44
+MAIS EN BOITE,SOLIDES,10.0,9.0,-1.0,-8.0,Moderate Decrease,0.95,Slight decrease recommended,53
+MAIS EN VRAC,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+MANCHE A BALAIS,CONSO/HYG,4.0,3.0,-1.0,-29.0,Major Decrease,0.95,Reduce stock - Low demand expected,52
+MANGUE,SOLIDES,5.0,4.0,-1.0,-12.3,Moderate Decrease,0.95,Slight decrease recommended,53
+MARGARINE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MARINADE EMINCE DE BOEUF,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MARINADE EMINCE DE BOEUF 2KG,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+MARINADE POULET GRILLE,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MARINADE POULET GRILLE 2KG PB,SOLIDES,8.0,8.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+MARS CHOCOLAT,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+MAY 0.5L,LIQUIDES,89.0,89.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MAYO 5L DEJ,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+MAYONAISE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MAYONAISE DEJ,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,35
+MAYONAISE EN DOSETTE,SOLIDES,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+MELANGE EPICES VIANDE 500GR PB,SOLIDES,2.0,2.0,-0.0,-8.0,Moderate Decrease,0.95,Slight decrease recommended,52
+MELANGE TENDER  PB,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MELANGE TENDER 2KG PB,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,34
+MELON,SOLIDES,5.0,4.0,-0.0,-3.2,Stable,0.95,Maintain current levels,53
+MENTHE FRAICHE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MENTHE SECHE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+MENTOS ROLLS FRUIT FLAVOUR,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+MENTOS ROLLS MENTHE,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+MENTOS ROLLS RAINBOW,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+MENTOS ROLLS STRAWBERRY,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+MENTOS ROLLS TUTTI FRUTTI,SOLIDES,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+MIEL DOUX & FRAIS,SOLIDES,1.0,2.0,1.0,28.0,Major Increase,0.95,Increase stock - High demand expected,31
+MIEL MILLE FLEURS,SOLIDES,5.0,3.0,-2.0,-40.9,Major Decrease,0.8,Reduce stock - Low demand expected,52
+"MIRA 0,6L",LIQUIDES,16.0,32.0,16.0,91.7,Major Increase,0.8,Increase stock - High demand expected,25
+MIRA 1L,LIQUIDES,402.0,353.0,-49.0,-12.2,Moderate Decrease,0.95,Slight decrease recommended,53
+MIX A CREPE FRAN,SOLIDES,20.0,18.0,-2.0,-8.8,Moderate Decrease,0.95,Slight decrease recommended,53
+MIX A CREPE FRANCAISE,SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,39
+MOELLEUX CHOCOLAT,SOLIDES,72.0,66.0,-6.0,-7.9,Moderate Decrease,0.95,Slight decrease recommended,51
+MOUSSE CHOCOLAT,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+MOUTARDE DIJON,SOLIDES,6.0,5.0,-1.0,-15.0,Moderate Decrease,0.95,Slight decrease recommended,53
+MOUTARDE DIJON 840 GR,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,34
+MOZARELLA BOCCONCINI,SOLIDES,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,42
+MOZARELLA CERISE,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+MUFFINS VANILLE,SOLIDES,48.0,48.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+Moelleux  individual  Margarine,SOLIDES,2.0,3.0,1.0,41.8,Major Increase,0.8,Increase stock - High demand expected,42
+Muffin daily'n,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+NAPPAGE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,46
+NOISETTE GRILLEE CONCASSEE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+NOIX DE CAJOU GRILLES SALEES 65GR,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+NUGGETS PANE PB,SOLIDES,25.0,25.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+NUTELLA & GO 52 GR,SOLIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,34
+NUTELLA 600GR,SOLIDES,2.0,4.0,2.0,61.9,Major Increase,0.8,Increase stock - High demand expected,48
+NUTELLA GO 52 GR,SOLIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+OEUFS,SOLIDES,7.0,6.0,-1.0,-15.9,Moderate Decrease,0.95,Slight decrease recommended,53
+OIGNION VERT,SOLIDES,2.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+OIGNONS BLANC,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+OIGNONS ROUGE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+OLIVE DENOYETE,SOLIDES,7.0,7.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+OLIVE NOIRE SLICE,SOLIDES,7.0,7.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+OLIVE VIOLETTE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+ORANGE A JUS,LIQUIDES,20.0,25.0,5.0,26.1,Major Increase,0.95,Increase stock - High demand expected,53
+ORANGINA BOITE 24 CL,LIQUIDES,24.0,24.0,0.0,0.0,Stable,0.95,Maintain current levels,24
+PACK FOOD BOWL + COUVERCLE 1.2 L,CONSO/HYG,50.0,48.0,-2.0,-3.3,Stable,0.95,Maintain current levels,53
+PAILLE BUBBLE TEA 12MM COLORE,CONSO/HYG,1.0,2.0,1.0,28.3,Major Increase,0.95,Increase stock - High demand expected,53
+PAILLE ENVELOPPE 7.5MM COLORE,CONSO/HYG,3.0,3.0,0.0,0.0,Stable,0.95,Maintain current levels,17
+PAILLE ENVELOPPE 7.5MM NOIR,CONSO/HYG,8.0,5.0,-3.0,-30.3,Major Decrease,0.8,Reduce stock - Low demand expected,15
+PAILLE NOIR,CONSO/HYG,4.0,4.0,-0.0,-9.0,Moderate Decrease,0.95,Slight decrease recommended,53
+PAIN AU CHOCOLAT PUR BERRE GF SURG.,SOLIDES,1000.0,611.0,-389.0,-38.9,Major Decrease,0.8,Reduce stock - Low demand expected,53
+PAIN CHAWARMA *10,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN CIABATTA NATURE,SOLIDES,50.0,50.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN DE MIE CEREALE,SOLIDES,26.0,26.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN DE MIE NATURE,SOLIDES,26.0,26.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN HAMBURGER AC,SOLIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN MACDO  GRAINS SESAME,SOLIDES,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN ROND FARINE,SOLIDES,50.0,50.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN SANDWICH CI GUSTA,SOLIDES,64.0,64.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN SCHNECK AUX RAISINS SURG PUR BEURRE GF,SOLIDES,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAIN SHNEK AU RAISIN MARGARINE,SOLIDES,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PALETTE A GLACE,CONSO/HYG,900.0,734.0,-166.0,-18.4,Moderate Decrease,0.95,Slight decrease recommended,53
+PAPIER ALUM DE 100,CONSO/HYG,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+PAPIER CUISSON 40*60,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PAPIER SERVIETTE GOURMANDISE,CONSO/HYG,40.0,40.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+PAPRIKA DOUX,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,46
+PAPRIKA FORT,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,48
+PAQUET 17/4,CONSO/HYG,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PASTEQUE,SOLIDES,8.0,8.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PATE PAPILLON,SOLIDES,12.0,9.0,-3.0,-22.3,Major Decrease,0.95,Reduce stock - Low demand expected,53
+PATE PIZZA FOCACCIA 12/40,SOLIDES,49.0,48.0,-1.0,-1.6,Stable,0.95,Maintain current levels,53
+PATE PIZZA FOCACCIA D32 CM,SOLIDES,50.0,23.0,-27.0,-53.2,Major Decrease,0.8,Reduce stock - Low demand expected,42
+PATE PIZZA FOCCACIA 30/40,SOLIDES,80.0,52.0,-28.0,-34.8,Major Decrease,0.8,Reduce stock - Low demand expected,53
+PATE PIZZA PANCROCCHINO 12/40,SOLIDES,30.0,30.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+PATE PIZZA PANCROCCHINO 32cm,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PATE PLUME COURTE,SOLIDES,22.0,11.0,-11.0,-45.9,Major Decrease,0.8,Reduce stock - Low demand expected,53
+PATE SPAGHETTI,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+PECHES,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+PEPITTE DE DECORATION NOIRE KG,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,45
+PEPPERONI,SOLIDES,0.0,0.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+PERSIL,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PIECE RONDE BOEUF,SOLIDES,11.0,11.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PILLE AA,FOURNITURE DE BUREAU,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+PIMENT DOUX,SOLIDES,3.0,4.0,1.0,20.0,Major Increase,0.95,Increase stock - High demand expected,53
+PIMENT FORT,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PIMENT ROUGE SALLE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PISTACHE CONCASSEE,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+POCHETTE CROISSANT 15*7*29,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+POCHETTE CROISSANT CRAFT 11*5*28,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+POIS CHICHE KG,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+POIVRE NOIR MOULU,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+POMME (FRUIT),SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+POMME DE TERRE,SOLIDES,15.0,15.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+POT NUTELLA,SOLIDES,2.0,2.0,0.0,6.4,Moderate Increase,0.95,Slight increase recommended,51
+POT NUTELLA 3 KG,SOLIDES,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,26
+POUDRE TENDERS PB,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+POULET PAC FRAIS,SOLIDES,42.0,33.0,-9.0,-20.5,Major Decrease,0.95,Reduce stock - Low demand expected,51
+POULET PANE AMANDE PB,SOLIDES,35.0,35.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PRUNES,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,26
+PUNCH CIDRE 30CL,LIQUIDES,56.0,56.0,0.0,0.0,Stable,0.95,Maintain current levels,47
+PUNCH CIDRE 50CL,LIQUIDES,24.0,13.0,-11.0,-42.1,Major Decrease,0.8,Reduce stock - Low demand expected,53
+PUNCH ORANGE 30CL,LIQUIDES,17.0,21.0,4.0,24.6,Major Increase,0.95,Increase stock - High demand expected,47
+PUNCH ORANGE 50CL,LIQUIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PUREE ANANAS 1 L,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+PUREE DE BANANE 1L,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+"PUREE DE KIWI 1,32KG MONIN",SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+PUREE FRAISE 1.32KG MONIN,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+PUREE MANGUE 1L,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+QUATRE EPICES MOULU,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+RACLETTE,CONSO/HYG,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+RAISIN NOIR,SOLIDES,4.0,4.0,-0.0,-3.1,Stable,0.95,Maintain current levels,36
+RAISINS JAUNE,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,33
+RAME PAPIER A4,FOURNITURE DE BUREAU,17.0,6.0,-11.0,-59.2,Major Decrease,0.8,Reduce stock - Low demand expected,53
+RED BULL,LIQUIDES,9.0,9.0,0.0,0.5,Stable,0.95,Maintain current levels,53
+REMANENT HERBE CF,CONSO/HYG,5.0,3.0,-2.0,-35.3,Major Decrease,0.8,Reduce stock - Low demand expected,53
+RIST INTENSO NSPRS,LIQUIDES,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+RISTRETTO NSPRS,LIQUIDES,150.0,276.0,126.0,83.2,Major Increase,0.8,Increase stock - High demand expected,29
+RISTRETTO NSPRS_x0009_,LIQUIDES,50.0,93.0,43.0,83.7,Major Increase,0.8,Increase stock - High demand expected,50
+RIZ EN PAQUET,SOLIDES,7.0,7.0,-0.0,-0.1,Stable,0.95,Maintain current levels,48
+RIZ EN PQT,SOLIDES,10.0,8.0,-2.0,-14.6,Moderate Decrease,0.95,Slight decrease recommended,52
+ROQUETTE FRAIS EN KG,SOLIDES,2.0,2.0,-0.0,-0.4,Stable,0.95,Maintain current levels,49
+ROQUETTE SALADE BARQUETTE,SOLIDES,2.0,2.0,-0.0,-4.2,Stable,0.95,Maintain current levels,53
+ROQUETTE SALADE KG,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,8
+ROULEAU CAISSE 80*80,FOURNITURE DE BUREAU,5.0,8.0,3.0,49.2,Major Increase,0.8,Increase stock - High demand expected,53
+ROULEAU DE 750 ETIQUETTE BLANC,CONSO/HYG,5.0,5.0,-0.0,-5.1,Moderate Decrease,0.95,Slight decrease recommended,51
+ROULEAU THERMIQUE BALANCE,FOURNITURE DE BUREAU,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,48
+ROULEAU TPE,FOURNITURE DE BUREAU,40.0,39.0,-1.0,-1.4,Stable,0.95,Maintain current levels,53
+SAC A POUBELLE GEANT BLANC,CONSO/HYG,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAC BOUTIQUE GDISE HD 40/35 BLANC,CONSO/HYG,100.0,110.0,10.0,9.4,Moderate Increase,0.95,Slight increase recommended,53
+SAC BOUTIQUE GDISE HD 50/45 BLANC,CONSO/HYG,50.0,94.0,44.0,86.2,Major Increase,0.8,Increase stock - High demand expected,53
+SAC EN PAPIER KRAFT 30/30/26,CONSO/HYG,150.0,150.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+SAC GROUPAGE DB,CONSO/HYG,1500.0,1500.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAC PAPIER PLANB COFFEE,CONSO/HYG,2500.0,2500.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SAC SANDWICH,CONSO/HYG,2000.0,2000.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+SAC SANDWICH DAILY BREAK,CONSO/HYG,1000.0,1000.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAC SOUS VIDE LISSE 15*20,CONSO/HYG,100.0,100.0,0.0,0.0,Stable,0.95,Maintain current levels,42
+SAC SOUS VIDE LISSE 20*30,CONSO/HYG,4.0,4.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SAC SOUS VIDE LISSE 30*30,CONSO/HYG,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAC SOUS VIDE LISSE 40*40,CONSO/HYG,3.0,3.0,0.0,7.0,Moderate Increase,0.95,Slight increase recommended,52
+SACHET BRETELLE GM,CONSO/HYG,150.0,150.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SACHET BRETELLES 38X60 MF,CONSO/HYG,10.0,20.0,10.0,88.0,Major Increase,0.8,Increase stock - High demand expected,51
+SACHET CONGELATION,CONSO/HYG,7.0,4.0,-3.0,-37.1,Major Decrease,0.8,Reduce stock - Low demand expected,41
+SALADE LAITUE TUN,SOLIDES,26.0,26.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SANEX,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SANIT SURF,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAUCE A L'AIL,SOLIDES,6.0,5.0,-1.0,-16.1,Moderate Decrease,0.95,Slight decrease recommended,52
+SAUCE A L'AIL PB,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAUCE AU POIVRE PB,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAUCE AU POIVRE SAC 500GR PB,SOLIDES,0.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,35
+SAUCE BARBECUE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SAUCE BARBECUE PB,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+SAUCE MAYONNAISE PESTO,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAUCE MAYONNAISE PESTO PB,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,30
+SAUCE PESTO PB,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SAUCE PLAN B,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SAUCE PLAN B 5KG,SOLIDES,10.0,8.0,-2.0,-20.3,Major Decrease,0.95,Reduce stock - Low demand expected,30
+SAVON LIQ OXY'SOAP 1L,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SCHWEPPES TONIC 24 CL,LIQUIDES,17.0,9.0,-8.0,-45.4,Major Decrease,0.8,Reduce stock - Low demand expected,50
+SEL,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SEL FIN DE TABLE,SOLIDES,5.0,4.0,-1.0,-22.6,Major Decrease,0.95,Reduce stock - Low demand expected,34
+SEMOULE FINE,SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SERPILLERE,CONSO/HYG,24.0,13.0,-11.0,-42.3,Major Decrease,0.8,Reduce stock - Low demand expected,53
+SERVIETTE 30*30 CIGUSTA,CONSO/HYG,48.0,48.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SERVIETTE 30*30 MF,CONSO/HYG,16.0,16.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SERVIETTE EN PAPIER 30*30,CONSO/HYG,36.0,36.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SET DE PLATEAU DB,CONSO/HYG,2000.0,2000.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SIROP DE CARAMEL 1L MONIN,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SIROP DE NOISETTES GRILLEES 70CL MONIN,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+SIROP DE VANILLE 1L MONIN,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SNICKERS,SOLIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,44
+SOUS FONDANT PERSONNALISE,CONSO/HYG,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SOUS TARTE BLANCHE 12*12*2,CONSO/HYG,200.0,200.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SQUEEZE CREME  CHEDDAR 450GR,SOLIDES,9.0,9.0,0.0,0.0,Stable,0.95,Maintain current levels,36
+STEACK HACHE (PORTION 115GR),SOLIDES,9.0,9.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+STYLO BIC,FOURNITURE DE BUREAU,5.0,9.0,4.0,62.3,Major Increase,0.8,Increase stock - High demand expected,53
+SUCRE BLANC EN SACHET GOURM,LIQUIDES,2000.0,2000.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SUCRE EN SACHET CI-GUSTA,LIQUIDES,20.0,19.0,-1.0,-5.0,Stable,0.95,Maintain current levels,52
+SUCRE EN SACHET DAILY BREAK,LIQUIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SUCRE GLACE,SOLIDES,5.0,5.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+SUCRE ROUX EN SACHET GOURM,LIQUIDES,2000.0,2000.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+SUCRE VRAC KG,SOLIDES,10.0,8.0,-2.0,-20.9,Major Decrease,0.95,Reduce stock - Low demand expected,53
+TENDER DE POULET 1KG,SOLIDES,30.0,30.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+THE NOIR MENTHE S SUCRE,LIQUIDES,180.0,180.0,0.0,0.0,Stable,0.95,Maintain current levels,34
+THE NOIR MENTHE SANS SUCRE,LIQUIDES,180.0,180.0,0.0,0.0,Stable,0.95,Maintain current levels,49
+THE SANS SUCRE 0.9g,LIQUIDES,20.0,40.0,20.0,94.1,Major Increase,0.8,Increase stock - High demand expected,34
+THE VERT MENTHE SANS SUCRE,LIQUIDES,180.0,180.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+THON EN BOITES,SOLIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,29
+THON HV EN BOITE,SOLIDES,20.0,11.0,-9.0,-41.6,Major Decrease,0.8,Reduce stock - Low demand expected,53
+THON HV EN BOITES,SOLIDES,20.0,20.0,0.0,0.0,Stable,0.95,Maintain current levels,35
+THYM MOULU,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+TIC TAC MENTHE,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,32
+TIC TAC ORANGE,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,42
+TIC TAC SPEARMINT,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,38
+TIC TAC STRAWBERRY MIX,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,50
+TOMATE CERISES,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+TOMATE CONCENTRE 4/4,SOLIDES,12.0,11.0,-1.0,-10.8,Moderate Decrease,0.95,Slight decrease recommended,29
+TOMATE CONCENTREE EN BOITE,SOLIDES,6.0,6.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+TOMATE FRAICHE,SOLIDES,30.0,30.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+TOMATES SECHEES,SOLIDES,0.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52
+TOQUE CHEF,CONSO/HYG,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+TWIX,SOLIDES,25.0,25.0,0.0,0.0,Stable,0.95,Maintain current levels,44
+VARIANTES,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,51
+VIANDE HACHEE SPECIAL MAIGRE CONGELE KG,SOLIDES,10.0,10.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+VIANDE HACHEE SPECIAL RESTO,SOLIDES,12.0,12.0,0.0,0.0,Stable,0.95,Maintain current levels,38
+VIANDE SECHE FUME (BRESAOLA) TRANCHES 300GR,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+VINAIGRE 1L,SOLIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,37
+VINAIGRE CREME DE BALSAMIQUE,SOLIDES,2.0,2.0,0.0,0.0,Stable,0.95,Maintain current levels,53
+VIPA ORIENTAL MIX 100 GR,SOLIDES,8.0,8.0,0.0,0.0,Stable,0.95,Maintain current levels,44
+fondant chocolat individual Margarine,SOLIDES,54.0,36.0,-18.0,-31.9,Major Decrease,0.8,Reduce stock - Low demand expected,53
+sucre en buchette MF 10kg,LIQUIDES,1.0,1.0,0.0,0.0,Stable,0.95,Maintain current levels,52

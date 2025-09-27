@@ -1,0 +1,27 @@
+# Python 
+__pycache__/ 
+*.py[cod] 
+*.pyc 
+# Virtual Environment 
+venv/ 
+env/ 
+# Large model files 
+*.h5 
+*.pkl 
+*.joblib 
+# Large data files - optional 
+*.xlsx 
+# IDE 
+.vscode/ 
+.idea/ 
+# OS 
+.DS_Store 
+Thumbs.db 
+# Logs 
+*.log 
+logs/ 
+# Jupyter 
+.ipynb_checkpoints/ 
+# Temp files 
+*.rar 
+*.zip 

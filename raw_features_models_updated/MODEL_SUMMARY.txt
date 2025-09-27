@@ -1,0 +1,39 @@
+RAW FEATURES INVENTORY FORECASTING - SAME DATASET
+=======================================================
+
+Created: 2025-09-23 13:25:31
+Dataset: products_filtered_final.csv (14,473 rows)
+Approach: Raw CSV features only (no engineering)
+Models: 2 trained
+Features: 8
+
+RAW FEATURES USED:
+1. current_stock
+2. cycle
+3. month
+4. max_stock
+5. product_encoded
+6. category_encoded
+7. storage_unit_encoded
+8. stock_class_encoded
+
+COMPARISON READY:
+- Same dataset as enhanced model (products_filtered_final.csv)
+- Same target: Physical Storage Quantity
+- Same temporal split (80/20)
+- Direct comparison now valid
+
+GRU - GRU - Raw Features Only (Same Dataset)
+---------------------------------------------
+Test R²: 0.717
+Test MAE: 213.76
+Test MAPE: 1079.26%
+Features: 8
+
+BIDIRECTIONAL_LSTM - Bidirectional LSTM - Raw Features Only (Same Dataset)
+---------------------------------------------
+Test R²: 0.739
+Test MAE: 195.37
+Test MAPE: 797.56%
+Features: 8
+

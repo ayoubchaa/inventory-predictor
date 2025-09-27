@@ -1,0 +1,75 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "ma_3",
+    "ma_5",
+    "std_3",
+    "std_5",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "near_capacity",
+    "low_stock",
+    "group_encoded",
+    "stock_class_encoded",
+    "storage_unit_encoded",
+    "trend_1_3",
+    "volatility",
+    "volatility_normalized",
+    "ma_ratio_3_7",
+    "stock_class_util_interaction",
+    "is_weekend",
+    "is_friday",
+    "stability_indicator"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "Conservative GRU - No MIRA 0.6L",
+      "train_metrics": {
+        "r2": 0.7979384116458128,
+        "mae": 229.44206233806287,
+        "rmse": 762.2282232448688,
+        "mape": 123.37111187234954
+      },
+      "test_metrics": {
+        "r2": 0.0028921355035491647,
+        "mae": 324.8789121343773,
+        "rmse": 1130.6893990478507,
+        "mape": 146.69259230559575
+      },
+      "epochs_trained": 40,
+      "features_used": 27,
+      "data_version": "conservative_no_mira_0.6L"
+    },
+    "bidirectional_lstm": {
+      "description": "Conservative LSTM - No MIRA 0.6L",
+      "train_metrics": {
+        "r2": 0.7547956238307599,
+        "mae": 234.91233744280945,
+        "rmse": 839.667323678994,
+        "mape": 116.98443477366726
+      },
+      "test_metrics": {
+        "r2": 0.00952751243899852,
+        "mae": 332.3726005204813,
+        "rmse": 1126.9209633589162,
+        "mape": 178.32495168112746
+      },
+      "epochs_trained": 35,
+      "features_used": 27,
+      "data_version": "conservative_no_mira_0.6L"
+    }
+  },
+  "sequence_length": 10,
+  "cycles_per_year": 36.5,
+  "data_version": "conservative_no_mira_0.6L",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T20:29:58.815579",
+  "system_version": "conservative_v1"
+}

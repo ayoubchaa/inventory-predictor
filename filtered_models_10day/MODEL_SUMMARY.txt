@@ -1,0 +1,38 @@
+AIRPORT INVENTORY FORECASTING - 10-DAY CYCLES
+============================================================
+
+Created: 2025-09-20 20:11:01
+Cycle Type: 10-day periods
+Cycles per year: 36.5
+Models: 2 trained
+Features: 22
+
+BUSINESS CONTEXT:
+- Each cycle = 10 days
+- Restocking frequency = every 10 days
+- Monthly planning = ~3 cycles
+- Quarterly planning = ~9 cycles
+- Annual planning = ~36 cycles
+
+GRU - GRU - Best Overall R² (10-day cycles)
+--------------------------------------------------
+Test R²: 0.751
+Test MAE: 29.85
+Test MAPE: 313.30%
+Features used: 22
+
+BIDIRECTIONAL_LSTM - Bidirectional LSTM - Best MAE (10-day cycles)
+--------------------------------------------------
+Test R²: 0.713
+Test MAE: 32.13
+Test MAPE: 334.64%
+Features used: 22
+
+FILTERED DATASET FEATURES:
+✓ Name, Physical Storage Quantity, Storage Unit
+✓ GroupName, Date_week, Month, Stock_Class
+✓ Inventory_Cycle, Max_Stock
+
+USAGE:
+system = load_production_system('filtered_models_10day')
+predictions = system.predict(data, model='gru')

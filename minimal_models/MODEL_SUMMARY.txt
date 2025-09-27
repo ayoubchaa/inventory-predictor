@@ -1,0 +1,29 @@
+MINIMAL INVENTORY FORECASTING - RAW COLUMNS ONLY
+==================================================
+
+Created: 2025-09-21 10:26:13
+Approach: Raw columns only (no feature engineering)
+Models: 2 trained
+Raw features: 7
+
+RAW FEATURES USED:
+- Physical Storage Quantity
+- Inventory_Cycle
+- Month
+- Max_Stock
+- GroupName_encoded
+- Storage_Unit_encoded
+- Stock_Class_encoded
+
+MINIMAL_GRU
+------------------------------
+Test R²: 0.750
+Test MAE: 36.82
+Test MAPE: 594.14%
+
+MINIMAL_LSTM
+------------------------------
+Test R²: 0.741
+Test MAE: 38.21
+Test MAPE: 679.10%
+

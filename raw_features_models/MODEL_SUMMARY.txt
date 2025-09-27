@@ -1,0 +1,32 @@
+RAW FEATURES INVENTORY FORECASTING
+==================================================
+
+Created: 2025-09-23 13:10:50
+Approach: Raw CSV features only (no engineering)
+Models: 2 trained
+Features: 8
+
+RAW FEATURES USED:
+1. current_stock
+2. cycle
+3. month
+4. max_stock
+5. product_encoded
+6. category_encoded
+7. storage_unit_encoded
+8. stock_class_encoded
+
+GRU - GRU - Raw Features Only
+----------------------------------------
+Test R²: 0.755
+Test MAE: 37.53
+Test MAPE: 592.23%
+Features: 8
+
+BIDIRECTIONAL_LSTM - Bidirectional LSTM - Raw Features Only
+----------------------------------------
+Test R²: 0.754
+Test MAE: 37.34
+Test MAPE: 604.68%
+Features: 8
+

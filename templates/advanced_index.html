@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Inventory Predictor - AI Transformer Models</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --transformer-gradient: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            --neural-gradient: linear-gradient(135deg, #a8edea, #fed6e3);
+            --success-gradient: linear-gradient(135deg, #11998e, #38ef7d);
+            --card-shadow: 0 25px 50px rgba(0,0,0,0.15);
+            --glow-effect: 0 0 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        body {
+            background: var(--primary-gradient);
+            min-height: 100vh;
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 25px;
+            box-shadow: var(--card-shadow);
+            backdrop-filter: blur(20px);
+            margin: 2rem auto;
+            max-width: 1600px;
+            position: relative;
+        }
+        
+        .header {
+            background: var(--transformer-gradient);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 25px 25px 0 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 15px,
+                rgba(255,255,255,0.1) 15px,
+                rgba(255,255,255,0.1) 30px
+            );
+            animation: neural-flow 25s linear infinite;
+        }
+        
+        @keyframes neural-flow {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        .header h1, .header p {
+            position: relative;
+            z-index: 3;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header .subtitle {
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        
+        .step-card {
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            margin-bottom: 2.5rem;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .step-card:hover::before {
+            left: 100%;
+        }
+        
+        .step-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: var(--glow-effect), 0 25px 50px rgba(0,0,0,0.2);
+        }
+        
+        .step-header {
+            background: var(--neural-gradient);
+            padding: 2.5rem;
+            border-bottom: 3px solid rgba(167, 243, 208, 0.3);
+            position: relative;
+        }
+        
+        .step-number {
+            background: var(--transformer-gradient);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.4rem;
+            margin-right: 1.5rem;
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+            animation: pulse-glow 3s infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4); }
+            50% { box-shadow: 0 12px 30px rgba(255, 107, 107, 0.7); }
+        }
+        
+        .model-type-selector {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            border: 3px solid #e5e7eb;
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .model-card {
+            background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .model-card:hover {
+            border-color: #4f46e5;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(79, 70, 229, 0.2);
+        }
+        
+        .model-card.selected {
+            border-color: #10b981;
+            background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+        }
+        
+        .advanced-progress {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-radius: 20px;
+            padding: 2rem;
+            color: white;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .progress-neural {
+            height: 20px;
+            border-radius: 15px;
+            background: rgba(255,255,255,0.1);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-bar-neural {
+            background: var(--transformer-gradient);
+            border-radius: 15px;
+            height: 100%;
+            transition: width 1s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .progress-bar-neural::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            animation: progress-shine 2s infinite;
+        }
+        
+        @keyframes progress-shine {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+        
+        .training-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .metric-card {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #4ecdc4;
+            margin-bottom: 0.5rem;
+        }
+        
+        .log-container-advanced {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #e2e8f0;
+            border-radius: 20px;
+            padding: 2rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 2px solid #334155;
+            position: relative;
+        }
+        
+        .log-container-advanced::before {
+            content: 'AI Training Console';
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: var(--transformer-gradient);
+            padding: 0.3rem 1rem;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .prediction-result-advanced {
+            background: var(--neural-gradient);
+            border: 3px solid rgba(78, 205, 196, 0.5);
+            border-radius: 25px;
+            padding: 3rem;
+            margin-top: 2rem;
+            animation: result-appear 0.8s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        @keyframes result-appear {
+            from {
+                opacity: 0;
+                transform: translateY(50px) scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        
+        .prediction-chart-advanced {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border: 2px solid rgba(78, 205, 196, 0.3);
+            position: relative;
+        }
+        
+        .confidence-indicator {
+            display: flex;
+            align-items: center;
+            margin: 0.5rem 0;
+        }
+        
+        .confidence-bar {
+            width: 100px;
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            margin-left: 1rem;
+            overflow: hidden;
+        }
+        
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ef4444, #f59e0b, #10b981);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        
+        .model-architecture {
+            background: linear-gradient(135deg, #fefce8, #fef3c7);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 2px solid #f59e0b;
+        }
+        
+        .architecture-diagram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .layer-node {
+            background: white;
+            padding: 1rem;
+            border-radius: 15px;
+            border: 2px solid #f59e0b;
+            text-align: center;
+            min-width: 120px;
+            box-shadow: 0 5px 15px rgba(245, 158, 11, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .layer-node:hover {
+            transform: scale(1.05);
+        }
+        
+        .layer-arrow {
+            font-size: 2rem;
+            color: #f59e0b;
+        }
+        
+        .btn-advanced {
+            background: var(--transformer-gradient);
+            border: none;
+            border-radius: 15px;
+            padding: 15px 30px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: white;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-advanced:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(255, 107, 107, 0.4);
+            color: white;
+        }
+        
+        .btn-advanced::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+        
+        .btn-advanced:hover::before {
+            left: 100%;
+        }
+        
+        .feature-importance-viz {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .importance-bar {
+            background: #f3f4f6;
+            height: 25px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 0.5rem 0;
+            position: relative;
+        }
+        
+        .importance-fill {
+            height: 100%;
+            background: var(--transformer-gradient);
+            border-radius: 12px;
+            transition: width 1s ease;
+            position: relative;
+        }
+        
+        .stats-grid-advanced {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card-advanced {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border: 2px solid rgba(78, 205, 196, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .stat-card-advanced:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        .stat-value-advanced {
+            font-size: 3rem;
+            font-weight: 900;
+            background: var(--transformer-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+        
+        .training-history-chart {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border: 2px solid rgba(78, 205, 196, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .main-container {
+                margin: 1rem;
+                border-radius: 20px;
+            }
+            
+            .header {
+                padding: 2rem 1rem;
+            }
+            
+            .stats-grid-advanced {
+                grid-template-columns: 1fr;
+            }
+            
+            .architecture-diagram {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid py-4">
+        <div class="main-container">
+            <!-- Advanced Header -->
+            <div class="header">
+                <h1><i class="fas fa-brain me-3"></i>Advanced AI Inventory Predictor</h1>
+                <p class="mb-0 fs-4">Transformer & Neural Network Architecture</p>
+                <div class="subtitle">
+                    <i class="fas fa-robot me-2"></i>Featuring: Multi-Head Attention • LSTM • Fine-Tuning • Advanced Analytics
+                </div>
+            </div>
+            
+            <div class="p-4">
+                <!-- Step 1: Enhanced Data Upload -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <h4><span class="step-number">1</span>Upload & Analyze Dataset</h4>
+                        <p class="mb-0">Upload your inventory data for advanced AI processing with feature engineering</p>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="mb-4">
+                                    <label for="csvFile" class="form-label fw-bold">
+                                        <i class="fas fa-database me-2 text-primary"></i>Select Inventory Dataset
+                                    </label>
+                                    <input type="file" class="form-control form-control-lg" id="csvFile" accept=".csv">
+                                    <div class="form-text mt-2">
+                                        <strong>Enhanced Processing:</strong> Automatic feature engineering including moving averages, 
+                                        volatility measures, seasonality detection, and advanced statistical features.
+                                    </div>
+                                </div>
+                                <button id="uploadBtn" class="btn btn-advanced btn-lg">
+                                    <i class="fas fa-rocket me-2"></i>Upload & Process Data
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <div id="uploadStatus"></div>
+                                <div id="dataStatsAdvanced" style="display: none;">
+                                    <h6 class="fw-bold mb-3"><i class="fas fa-chart-line me-2"></i>Dataset Analytics</h6>
+                                    <div id="statsContainerAdvanced"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2: Advanced Model Configuration -->
+                <div class="step-card" id="trainStep" style="display: none;">
+                    <div class="step-header">
+                        <h4><span class="step-number">2</span>Configure Advanced AI Models</h4>
+                        <p class="mb-0">Select and configure state-of-the-art neural architectures</p>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="model-type-selector">
+                            <h5 class="fw-bold mb-4"><i class="fas fa-cogs me-2"></i>Neural Architecture Selection</h5>
+                            
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="model-card" data-model="transformer">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="fas fa-network-wired fa-2x text-primary me-3"></i>
+                                            <div>
+                                                <h6 class="fw-bold mb-0">Transformer</h6>
+                                                <small class="text-muted">Multi-Head Attention</small>
+                                            </div>
+                                        </div>
+                                        <p class="small mb-0">State-of-the-art attention mechanism for complex patterns</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="model-card" data-model="lstm_attention">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="fas fa-brain fa-2x text-success me-3"></i>
+                                            <div>
+                                                <h6 class="fw-bold mb-0">LSTM + Attention</h6>
+                                                <small class="text-muted">Bidirectional Memory</small>
+                                            </div>
+                                        </div>
+                                        <p class="small mb-0">Bidirectional LSTM with attention for sequential data</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="model-card" data-model="cnn_lstm">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="fas fa-wave-square fa-2x text-warning me-3"></i>
+                                            <div>
+                                                <h6 class="fw-bold mb-0">CNN-LSTM Hybrid</h6>
+                                                <small class="text-muted">Feature Extraction</small>
+                                            </div>
+                                        </div>
+                                        <p class="small mb-0">Convolutional features with LSTM temporal modeling</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <label for="epochs" class="form-label fw-bold">
+                                        <i class="fas fa-clock me-2"></i>Training Epochs
+                                    </label>
+                                    <input type="number" class="form-control form-control-lg" id="epochs" value="100" min="50" max="500">
+                                    <div class="form-text">Recommended: 100-200 epochs for optimal convergence with fine-tuning</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">
+                                        <i class="fas fa-magic me-2"></i>Training Features
+                                    </label>
+                                    <div class="form-text mb-3">
+                                        ✓ Automatic Fine-tuning • ✓ Early Stopping • ✓ Learning Rate Scheduling
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button id="trainBtn" class="btn btn-advanced btn-lg mt-3">
+                                <i class="fas fa-rocket me-2"></i>Start Advanced Training
+                            </button>
+                        </div>
+                        
+                        <!-- Advanced Training Progress -->
+                        <div id="trainingProgressAdvanced" style="display: none;">
+                            <div class="advanced-progress">
+                                <h6 class="fw-bold mb-3"><i class="fas fa-robot me-2"></i>AI Model Training in Progress</h6>
+                                
+                                <div class="training-metrics">
+                                    <div class="metric-card">
+                                        <div class="metric-value" id="currentEpoch">0</div>
+                                        <div>Current Epoch</div>
+                                    </div>
+                                    <div class="metric-card">
+                                        <div class="metric-value" id="totalEpochs">100</div>
+                                        <div>Total Epochs</div>
+                                    </div>
+                                    <div class="metric-card">
+                                        <div class="metric-value" id="currentLoss">-</div>
+                                        <div>Current Loss</div>
+                                    </div>
+                                    <div class="metric-card">
+                                        <div class="metric-value" id="bestLoss">-</div>
+                                        <div>Best Loss</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex justify-content-between mb-3">
+                                    <span id="currentStepAdvanced" class="fw-bold">Initializing neural networks...</span>
+                                    <span id="progressPercentAdvanced" class="fw-bold">0%</span>
+                                </div>
+                                
+                                <div class="progress-neural">
+                                    <div class="progress-bar-neural" id="progressBarAdvanced" style="width: 0%"></div>
+                                </div>
+                                
+                                <div class="d-flex gap-3 mt-4">
+                                    <button class="btn btn-outline-light btn-sm" onclick="toggleAdvancedLogs()">
+                                        <i class="fas fa-terminal me-1"></i>Neural Network Console
+                                    </button>
+                                    <button class="btn btn-outline-light btn-sm" onclick="toggleTrainingHistory()">
+                                        <i class="fas fa-chart-line me-1"></i>Training History
+                                    </button>
+                                    <button class="btn btn-outline-light btn-sm" onclick="refreshAdvancedStatus()">
+                                        <i class="fas fa-sync me-1"></i>Refresh Status
+                                    </button>
+                                </div>
+                                
+                                <div id="trainingLogsAdvanced" class="log-container-advanced mt-3" style="display: none;"></div>
+                                
+                                <div id="trainingHistoryChart" class="training-history-chart mt-3" style="display: none;">
+                                    <canvas id="historyChart" width="400" height="200"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Advanced Training Results -->
+                        <div id="trainingResultsAdvanced" style="display: none;">
+                            <hr class="my-4">
+                            <h5 class="fw-bold"><i class="fas fa-trophy me-2 text-warning"></i>Advanced Model Results</h5>
+                            <div class="stats-grid-advanced" id="resultsGridAdvanced"></div>
+                            
+                            <div class="model-architecture" id="modelArchitecture" style="display: none;">
+                                <h6 class="fw-bold"><i class="fas fa-sitemap me-2"></i>Model Architecture</h6>
+                                <div class="architecture-diagram" id="architectureDiagram"></div>
+                                <div id="modelDetails"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3: Advanced Predictions -->
+                <div class="step-card" id="predictStepAdvanced" style="display: none;">
+                    <div class="step-header">
+                        <h4><span class="step-number">3</span>Generate AI Predictions</h4>
+                        <p class="mb-0">Advanced forecasting with confidence intervals and model insights</p>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row mb-4">
+                            <div class="col-md-3">
+                                <label for="predictionLevel" class="form-label fw-bold">
+                                    <i class="fas fa-layer-group me-2"></i>Prediction Level
+                                </label>
+                                <select class="form-select form-select-lg" id="predictionLevel">
+                                    <option value="">Select level...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="itemName" class="form-label fw-bold">
+                                    <i class="fas fa-box me-2"></i>Item Selection
+                                </label>
+                                <select class="form-select form-select-lg" id="itemName">
+                                    <option value="">Select item...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="cyclesAhead" class="form-label fw-bold">
+                                    <i class="fas fa-forward me-2"></i>Forecast Horizon
+                                </label>
+                                <input type="number" class="form-control form-control-lg" id="cyclesAhead" value="5" min="1" max="20">
+                            </div>
+                            <div class="col-md-2">
+                                <label class="form-label">&nbsp;</label>
+                                <button id="predictBtn" class="btn btn-advanced btn-lg w-100">
+                                    <i class="fas fa-crystal-ball me-2"></i>Predict
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <button id="loadItemsBtn" class="btn btn-outline-primary btn-lg me-3">
+                                    <i class="fas fa-sync me-2"></i>Refresh Items
+                                </button>
+                                <button id="modelAnalysisBtn" class="btn btn-outline-info btn-lg me-3" style="display: none;">
+                                    <i class="fas fa-microscope me-2"></i>Model Analysis
+                                </button>
+                                <button id="exportModelBtn" class="btn btn-outline-success btn-lg" style="display: none;">
+                                    <i class="fas fa-download me-2"></i>Export Model
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Advanced Prediction Results -->
+                        <div id="predictionResultsAdvanced" style="display: none;">
+                            <div class="prediction-result-advanced">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div id="predictionInfoAdvanced">
+                                            <h5 class="fw-bold"><i class="fas fa-info-circle me-2"></i>Prediction Analysis</h5>
+                                            <div id="predictionInfoContentAdvanced"></div>
+                                            
+                                            <div class="mt-4">
+                                                <h6 class="fw-bold"><i class="fas fa-chart-bar me-2"></i>Model Performance</h6>
+                                                <div id="modelPerformanceInfo"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="prediction-chart-advanced">
+                                            <canvas id="predictionChartAdvanced" width="400" height="250"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h6 class="fw-bold"><i class="fas fa-table me-2"></i>Advanced Forecast Details</h6>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover" id="predictionTableAdvanced">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th><i class="fas fa-calendar me-1"></i>Cycle</th>
+                                                    <th><i class="fas fa-boxes me-1"></i>Predicted Storage</th>
+                                                    <th><i class="fas fa-chart-line me-1"></i>Change</th>
+                                                    <th><i class="fas fa-percentage me-1"></i>Change %</th>
+                                                    <th><i class="fas fa-shield-alt me-1"></i>Confidence</th>
+                                                    <th><i class="fas fa-trend-up me-1"></i>Trend</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                
+                                <div class="feature-importance-viz mt-4" id="featureImportanceViz" style="display: none;">
+                                    <h6 class="fw-bold"><i class="fas fa-star me-2"></i>Feature Importance Analysis</h6>
+                                    <div id="importanceContent"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Model Analysis Modal -->
+                <div class="modal fade" id="modelAnalysisModal" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header bg-primary text-white">
+                                <h5 class="modal-title"><i class="fas fa-microscope me-2"></i>Advanced Model Analysis</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="detailedModelAnalysis"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Status Messages -->
+                <div id="statusMessagesAdvanced"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script>
+        let trainingInterval = null;
+        let predictionChart = null;
+        let historyChart = null;
+        let selectedModel = 'transformer';
+
+        // Model selection
+        document.querySelectorAll('.model-card').forEach(card => {
+            card.addEventListener('click', function() {
+                document.querySelectorAll('.model-card').forEach(c => c.classList.remove('selected'));
+                this.classList.add('selected');
+                selectedModel = this.dataset.model;
+            });
+        });
+
+        // Set default selection
+        document.querySelector('.model-card[data-model="transformer"]').classList.add('selected');
+
+        // Enhanced upload functionality
+        document.getElementById('uploadBtn').addEventListener('click', function() {
+            const fileInput = document.getElementById('csvFile');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                showAdvancedAlert('Please select a CSV file for advanced processing', 'danger');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            setButtonLoading('uploadBtn', true, 'Processing Dataset...');
+            showAdvancedAlert('Uploading and performing advanced data analysis...', 'info');
+            
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                setButtonLoading('uploadBtn', false);
+                
+                if (data.success) {
+                    showAdvancedAlert(data.message, 'success');
+                    
+                    // Show enhanced stats
+                    if (data.stats) {
+                        const statsHtml = `
+                            <div class="stat-card-advanced">
+                                <div class="stat-value-advanced">${data.stats.total_records.toLocaleString()}</div>
+                                <div class="fw-bold">Total Records</div>
+                                <small class="text-muted">${data.stats.unique_products} Products</small>
+                            </div>
+                            <div class="stat-card-advanced mt-3">
+                                <div class="stat-value-advanced">${data.stats.avg_storage.toFixed(1)}</div>
+                                <div class="fw-bold">Avg Storage</div>
+                                <small class="text-muted">Demand: ${data.stats.avg_demand.toFixed(1)}</small>
+                            </div>
+                            <div class="stat-card-advanced mt-3">
+                                <div class="stat-value-advanced">${data.stats.avg_satisfaction.toFixed(1)}%</div>
+                                <div class="fw-bold">Satisfaction</div>
+                                <small class="text-muted">${data.stats.date_range}</small>
+                            </div>
+                        `;
+                        document.getElementById('statsContainerAdvanced').innerHTML = statsHtml;
+                        document.getElementById('dataStatsAdvanced').style.display = 'block';
+                    }
+                    
+                    document.getElementById('trainStep').style.display = 'block';
+                    document.getElementById('trainStep').scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    showAdvancedAlert(data.error, 'danger');
+                }
+            })
+            .catch(error => {
+                setButtonLoading('uploadBtn', false);
+                showAdvancedAlert('Upload failed: ' + error.message, 'danger');
+            });
+        });
+
+        // Advanced training functionality
+        document.getElementById('trainBtn').addEventListener('click', function() {
+            const epochs = parseInt(document.getElementById('epochs').value);
+            
+            if (!selectedModel) {
+                showAdvancedAlert('Please select a model architecture', 'warning');
+                return;
+            }
+            
+            setButtonLoading('trainBtn', true, 'Initializing Neural Networks...');
+            
+            fetch('/train', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ 
+                    epochs: epochs,
+                    model_type: selectedModel
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('trainingProgressAdvanced').style.display = 'block';
+                    document.getElementById('totalEpochs').textContent = epochs;
+                    startAdvancedTrainingMonitor();
+                    showAdvancedAlert('Advanced neural network training initiated!', 'success');
+                } else {
+                    setButtonLoading('trainBtn', false);
+                    showAdvancedAlert(data.error, 'danger');
+                }
+            })
+            .catch(error => {
+                setButtonLoading('trainBtn', false);
+                showAdvancedAlert('Training failed to start: ' + error.message, 'danger');
+            });
+        });
+
+        function startAdvancedTrainingMonitor() {
+            trainingInterval = setInterval(checkAdvancedTrainingStatus, 2000);
+        }
+
+        function checkAdvancedTrainingStatus() {
+            fetch('/training_status')
+            .then(response => response.json())
+            .then(status => {
+                updateAdvancedTrainingProgress(status);
+                
+                if (!status.is_training) {
+                    clearInterval(trainingInterval);
+                    setButtonLoading('trainBtn', false);
+                    
+                    if (Object.keys(status.results).length > 0) {
+                        showAdvancedTrainingResults(status.results);
+                        document.getElementById('predictStepAdvanced').style.display = 'block';
+                        document.getElementById('predictStepAdvanced').scrollIntoView({ behavior: 'smooth' });
+                        loadAvailableItems();
+                        showAdvancedAlert('Advanced neural network training completed successfully!', 'success');
+                    } else {
+                        showAdvancedAlert('Training completed but no models converged', 'warning');
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Error checking training status:', error);
+            });
+        }
+
+        function updateAdvancedTrainingProgress(status) {
+            document.getElementById('currentStepAdvanced').textContent = status.current_step;
+            document.getElementById('progressPercentAdvanced').textContent = Math.round(status.progress) + '%';
+            document.getElementById('progressBarAdvanced').style.width = status.progress + '%';
+            
+            // Update metrics
+            if (status.current_epoch) {
+                document.getElementById('currentEpoch').textContent = status.current_epoch;
+            }
+            
+            // Update logs with syntax highlighting
+            const logsContainer = document.getElementById('trainingLogsAdvanced');
+            logsContainer.innerHTML = status.logs.map((log, index) => {
+                let logClass = '';
+                if (log.includes('Loss=')) logClass = 'text-warning';
+                if (log.includes('COMPLETED')) logClass = 'text-success';
+                if (log.includes('failed') || log.includes('Error')) logClass = 'text-danger';
+                
+                return `<div class="${logClass}" style="margin-bottom: 4px; opacity: ${Math.max(0.4, 1 - index * 0.05)}">${log}</div>`;
+            }).join('');
+            logsContainer.scrollTop = logsContainer.scrollHeight;
+            
+            // Update training history chart
+            updateTrainingHistoryChart(status.training_history);
+        }
+
+        function updateTrainingHistoryChart(history) {
+            if (!history || Object.keys(history).length === 0) return;
+            
+            const ctx = document.getElementById('historyChart');
+            if (!ctx) return;
+            
+            const firstLevel = Object.keys(history)[0];
+            const levelHistory = history[firstLevel];
+            
+            if (!levelHistory || !levelHistory.loss) return;
+            
+            if (historyChart) {
+                historyChart.destroy();
+            }
+            
+            const epochs = Array.from({length: levelHistory.loss.length}, (_, i) => i + 1);
+            
+            historyChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: epochs,
+                    datasets: [
+                        {
+                            label: 'Training Loss',
+                            data: levelHistory.loss,
+                            borderColor: '#ff6b6b',
+                            backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                            borderWidth: 2,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Validation Loss',
+                            data: levelHistory.val_loss,
+                            borderColor: '#4ecdc4',
+                            backgroundColor: 'rgba(78, 205, 196, 0.1)',
+                            borderWidth: 2,
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Training Progress - Loss Curves'
+                        },
+                        legend: {
+                            position: 'top'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Loss'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Epoch'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function showAdvancedTrainingResults(results) {
+            const resultsGrid = document.getElementById('resultsGridAdvanced');
+            const resultsHtml = Object.entries(results).map(([level, metrics]) => `
+                <div class="stat-card-advanced">
+                    <h5 class="fw-bold text-uppercase mb-3">${level}</h5>
+                    <div class="stat-value-advanced">${(metrics.r2 * 100).toFixed(1)}%</div>
+                    <div class="fw-bold mb-3">R² Score</div>
+                    <hr>
+                    <div class="row text-start">
+                        <div class="col-6">
+                            <strong>MAE:</strong> ${metrics.mae.toFixed(3)}<br>
+                            <strong>RMSE:</strong> ${metrics.rmse.toFixed(3)}<br>
+                            <strong>MAPE:</strong> ${metrics.mape?.toFixed(2)}%
+                        </div>
+                        <div class="col-6">
+                            <strong>Model:</strong> ${metrics.model_type || 'Neural'}<br>
+                            <strong>Params:</strong> ${(metrics.parameters || 0).toLocaleString()}<br>
+                            <strong>Epochs:</strong> ${metrics.epochs_trained || 0}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+            
+            resultsGrid.innerHTML = resultsHtml;
+            document.getElementById('trainingResultsAdvanced').style.display = 'block';
+            
+            // Show architecture diagram
+            showModelArchitecture(results);
+        }
+
+        function showModelArchitecture(results) {
+            const firstResult = Object.values(results)[0];
+            if (!firstResult) return;
+            
+            const architectureDiagram = document.getElementById('architectureDiagram');
+            const modelType = firstResult.model_type || 'transformer';
+            
+            let diagramHtml = '';
+            if (modelType === 'transformer') {
+                diagramHtml = `
+                    <div class="layer-node">Input<br><small>Sequences</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Positional<br><small>Encoding</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Multi-Head<br><small>Attention</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Feed Forward<br><small>Network</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Output<br><small>Prediction</small></div>
+                `;
+            } else if (modelType === 'lstm_attention') {
+                diagramHtml = `
+                    <div class="layer-node">Input<br><small>Sequences</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Bi-LSTM<br><small>Layer 1</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Bi-LSTM<br><small>Layer 2</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Attention<br><small>Mechanism</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Output<br><small>Prediction</small></div>
+                `;
+            } else {
+                diagramHtml = `
+                    <div class="layer-node">Input<br><small>Sequences</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Conv1D<br><small>Feature Extraction</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">LSTM<br><small>Temporal</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Dense<br><small>Layers</small></div>
+                    <div class="layer-arrow">→</div>
+                    <div class="layer-node">Output<br><small>Prediction</small></div>
+                `;
+            }
+            
+            architectureDiagram.innerHTML = diagramHtml;
+            
+            const modelDetails = document.getElementById('modelDetails');
+            modelDetails.innerHTML = `
+                <div class="mt-4">
+                    <h6 class="fw-bold">Model Specifications:</h6>
+                    <ul class="list-unstyled">
+                        <li><strong>Architecture:</strong> ${modelType.toUpperCase()}</li>
+                        <li><strong>Parameters:</strong> ${(firstResult.parameters || 0).toLocaleString()}</li>
+                        <li><strong>Sequence Length:</strong> ${firstResult.sequence_length || 10}</li>
+                        <li><strong>Training Samples:</strong> ${(firstResult.n_sequences || 0).toLocaleString()}</li>
+                    </ul>
+                </div>
+            `;
+            
+            document.getElementById('modelArchitecture').style.display = 'block';
+        }
+
+        // Prediction and other functions
+        document.getElementById('loadItemsBtn').addEventListener('click', loadAvailableItems);
+        document.getElementById('predictionLevel').addEventListener('change', updateItemsList);
+        document.getElementById('predictBtn').addEventListener('click', makeAdvancedPrediction);
+
+        function loadAvailableItems() {
+            setButtonLoading('loadItemsBtn', true, 'Loading...');
+            
+            fetch('/available_items')
+            .then(response => response.json())
+            .then(data => {
+                setButtonLoading('loadItemsBtn', false);
+                
+                if (data.success) {
+                    const levelSelect = document.getElementById('predictionLevel');
+                    levelSelect.innerHTML = '<option value="">Select level...</option>';
+                    
+                    data.trained_levels.forEach(level => {
+                        const option = document.createElement('option');
+                        option.value = level;
+                        option.textContent = level.charAt(0).toUpperCase() + level.slice(1);
+                        levelSelect.appendChild(option);
+                    });
+                    
+                    window.availableItems = data.items;
+                    window.modelInfo = data.model_info;
+                    
+                    // Show model analysis buttons
+                    if (data.trained_levels.length > 0) {
+                        document.getElementById('modelAnalysisBtn').style.display = 'inline-block';
+                        document.getElementById('exportModelBtn').style.display = 'inline-block';
+                    }
+                    
+                    showAdvancedAlert('Items and models loaded successfully!', 'success');
+                } else {
+                    showAdvancedAlert(data.error, 'danger');
+                }
+            })
+            .catch(error => {
+                setButtonLoading('loadItemsBtn', false);
+                showAdvancedAlert('Failed to load items: ' + error.message, 'danger');
+            });
+        }
+
+        function updateItemsList() {
+            const level = document.getElementById('predictionLevel').value;
+            const itemSelect = document.getElementById('itemName');
+            
+            itemSelect.innerHTML = '<option value="">Select item...</option>';
+            
+            if (level && window.availableItems) {
+                let items = [];
+                if (level === 'product') items = window.availableItems.products;
+                else if (level === 'group') items = window.availableItems.groups;
+                else if (level === 'family') items = window.availableItems.families;
+                
+                items.forEach(item => {
+                    const option = document.createElement('option');
+                    option.value = item;
+                    option.textContent = item;
+                    itemSelect.appendChild(option);
+                });
+            }
+        }
+
+        function makeAdvancedPrediction() {
+            const level = document.getElementById('predictionLevel').value;
+            const itemName = document.getElementById('itemName').value;
+            const cyclesAhead = document.getElementById('cyclesAhead').value;
+            
+            if (!level || !itemName) {
+                showAdvancedAlert('Please select both level and item name', 'warning');
+                return;
+            }
+            
+            setButtonLoading('predictBtn', true, 'Generating AI Prediction...');
+            showAdvancedAlert('Advanced neural network is processing your request...', 'info');
+            
+            const data = {
+                level: level,
+                item_name: itemName,
+                cycles_ahead: parseInt(cyclesAhead)
+            };
+            
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                setButtonLoading('predictBtn', false);
+                
+                if (result.success) {
+                    showAdvancedPredictionResults(result.prediction);
+                    showAdvancedAlert('Advanced prediction generated successfully!', 'success');
+                } else {
+                    showAdvancedAlert(result.error, 'danger');
+                }
+            })
+            .catch(error => {
+                setButtonLoading('predictBtn', false);
+                showAdvancedAlert('Advanced prediction failed: ' + error.message, 'danger');
+            });
+        }
+
+        function showAdvancedPredictionResults(prediction) {
+            // Update advanced info
+            const infoHtml = `
+                <div class="bg-light p-4 rounded-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="mb-2"><strong>Item:</strong> <span class="text-primary fs-6">${prediction.item}</span></p>
+                            <p class="mb-2"><strong>Level:</strong> <span class="text-info">${prediction.level.charAt(0).toUpperCase() + prediction.level.slice(1)}</span></p>
+                            <p class="mb-2"><strong>Model:</strong> <span class="text-success">${prediction.model_type || 'Advanced AI'}</span></p>
+                        </div>
+                        <div class="col-6">
+                            <p class="mb-2"><strong>Current Cycle:</strong> <span class="text-warning">${prediction.current_cycle}</span></p>
+                            <p class="mb-2"><strong>Current Storage:</strong> <span class="text-danger">${prediction.current_storage?.toFixed(2) || 'N/A'}</span></p>
+                            <p class="mb-2"><strong>Forecasts:</strong> <span class="text-secondary">${prediction.predictions.length} cycles</span></p>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('predictionInfoContentAdvanced').innerHTML = infoHtml;
+            
+            // Show model performance info
+            if (prediction.model_summary) {
+                const perfHtml = `
+                    <div class="bg-success bg-opacity-10 p-3 rounded">
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="fw-bold text-success">${(prediction.model_summary.parameters || 0).toLocaleString()}</div>
+                                <small>Parameters</small>
+                            </div>
+                            <div class="col-4">
+                                <div class="fw-bold text-info">${prediction.model_summary.layers || 0}</div>
+                                <small>Layers</small>
+                            </div>
+                            <div class="col-4">
+                                <div class="fw-bold text-warning">${prediction.model_summary.architecture || 'Neural'}</div>
+                                <small>Architecture</small>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById('modelPerformanceInfo').innerHTML = perfHtml;
+            }
+            
+            // Update advanced table with confidence and trends
+            const tbody = document.querySelector('#predictionTableAdvanced tbody');
+            tbody.innerHTML = '';
+            
+            let previousValue = prediction.current_storage || prediction.predictions[0]?.predicted_storage || 0;
+            
+            prediction.predictions.forEach((pred, index) => {
+                const row = tbody.insertRow();
+                const change = index === 0 ? pred.predicted_storage - previousValue : 
+                              pred.predicted_storage - prediction.predictions[index-1].predicted_storage;
+                const changePercent = previousValue > 0 ? (change / previousValue) * 100 : 0;
+                const confidence = pred.confidence || (1.0 - (index * 0.1));
+                
+                // Determine trend
+                let trendIcon = '→';
+                let trendClass = 'text-secondary';
+                if (Math.abs(changePercent) > 5) {
+                    if (changePercent > 0) {
+                        trendIcon = '↗️';
+                        trendClass = 'text-success';
+                    } else {
+                        trendIcon = '↘️';
+                        trendClass = 'text-danger';
+                    }
+                }
+                
+                row.insertCell(0).innerHTML = `<strong class="text-primary">${pred.cycle}</strong>`;
+                row.insertCell(1).innerHTML = `<span class="fw-bold text-dark">${pred.predicted_storage.toFixed(2)}</span>`;
+                
+                const changeCell = row.insertCell(2);
+                const changePercentCell = row.insertCell(3);
+                
+                if (change > 0) {
+                    changeCell.innerHTML = `<span class="text-success fw-bold">+${change.toFixed(2)}</span>`;
+                    changePercentCell.innerHTML = `<span class="text-success fw-bold">+${changePercent.toFixed(1)}%</span>`;
+                } else {
+                    changeCell.innerHTML = `<span class="text-danger fw-bold">${change.toFixed(2)}</span>`;
+                    changePercentCell.innerHTML = `<span class="text-danger fw-bold">${changePercent.toFixed(1)}%</span>`;
+                }
+                
+                // Confidence indicator
+                const confidenceCell = row.insertCell(4);
+                confidenceCell.innerHTML = `
+                    <div class="confidence-indicator">
+                        <span class="fw-bold">${(confidence * 100).toFixed(0)}%</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${confidence * 100}%"></div>
+                        </div>
+                    </div>
+                `;
+                
+                // Trend indicator
+                row.insertCell(5).innerHTML = `<span class="${trendClass} fs-4">${trendIcon}</span>`;
+                
+                previousValue = pred.predicted_storage;
+            });
+            
+            // Update advanced chart
+            updateAdvancedPredictionChart(prediction);
+            
+            document.getElementById('predictionResultsAdvanced').style.display = 'block';
+            document.getElementById('predictionResultsAdvanced').scrollIntoView({ behavior: 'smooth' });
+            
+            // Save prediction data
+            localStorage.setItem('lastAdvancedPrediction', JSON.stringify(prediction));
+        }
+
+        function updateAdvancedPredictionChart(prediction) {
+            const ctx = document.getElementById('predictionChartAdvanced').getContext('2d');
+            
+            if (predictionChart) {
+                predictionChart.destroy();
+            }
+            
+            // Enhanced chart with confidence bands
+            const allCycles = [prediction.current_cycle, ...prediction.predictions.map(p => p.cycle)];
+            const allValues = [prediction.current_storage || prediction.predictions[0]?.predicted_storage || 0, 
+                              ...prediction.predictions.map(p => p.predicted_storage)];
+            
+            // Calculate confidence intervals (simplified)
+            const upperBound = prediction.predictions.map((p, i) => p.predicted_storage * (1 + (0.1 * (i + 1))));
+            const lowerBound = prediction.predictions.map((p, i) => Math.max(0, p.predicted_storage * (1 - (0.1 * (i + 1)))));
+            
+            predictionChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: allCycles.map(cycle => `Cycle ${cycle}`),
+                    datasets: [
+                        {
+                            label: 'Predicted Storage',
+                            data: allValues,
+                            borderColor: '#ff6b6b',
+                            backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                            borderWidth: 4,
+                            fill: false,
+                            tension: 0.4,
+                            pointBackgroundColor: allCycles.map((_, i) => i === 0 ? '#ef4444' : '#ff6b6b'),
+                            pointBorderColor: '#fff',
+                            pointBorderWidth: 3,
+                            pointRadius: 10,
+                            pointHoverRadius: 15
+                        },
+                        {
+                            label: 'Upper Confidence',
+                            data: [allValues[0], ...upperBound],
+                            borderColor: 'rgba(255, 107, 107, 0.3)',
+                            backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                            borderWidth: 2,
+                            fill: '+1',
+                            tension: 0.4,
+                            pointRadius: 0
+                        },
+                        {
+                            label: 'Lower Confidence',
+                            data: [allValues[0], ...lowerBound],
+                            borderColor: 'rgba(255, 107, 107, 0.3)',
+                            backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                            borderWidth: 2,
+                            fill: false,
+                            tension: 0.4,
+                            pointRadius: 0
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: `AI Prediction: ${prediction.item} (${prediction.model_type?.toUpperCase() || 'Neural Network'})`,
+                            font: { size: 18, weight: 'bold' }
+                        },
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                filter: function(legendItem, data) {
+                                    return legendItem.text !== 'Lower Confidence';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Storage Quantity',
+                                font: { weight: 'bold' }
+                            },
+                            grid: {
+                                color: 'rgba(0,0,0,0.1)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Inventory Cycle',
+                                font: { weight: 'bold' }
+                            },
+                            grid: {
+                                color: 'rgba(0,0,0,0.1)'
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
+                }
+            });
+        }
+
+        // Advanced utility functions
+        function toggleAdvancedLogs() {
+            const logs = document.getElementById('trainingLogsAdvanced');
+            logs.style.display = logs.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function toggleTrainingHistory() {
+            const chart = document.getElementById('trainingHistoryChart');
+            chart.style.display = chart.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function refreshAdvancedStatus() {
+            checkAdvancedTrainingStatus();
+        }
+
+        function showAdvancedAlert(message, type) {
+            const icons = {
+                'success': 'check-circle',
+                'danger': 'exclamation-triangle', 
+                'warning': 'exclamation-circle',
+                'info': 'info-circle'
+            };
+            
+            const alertHtml = `
+                <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    <i class="fas fa-${icons[type]} me-2"></i>
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            `;
+            document.getElementById('statusMessagesAdvanced').innerHTML = alertHtml;
+            
+            if (type === 'success' || type === 'info') {
+                setTimeout(() => {
+                    const alert = document.querySelector('.alert');
+                    if (alert) alert.remove();
+                }, 6000);
+            }
+        }
+
+        function setButtonLoading(buttonId, isLoading, loadingText = 'Loading...') {
+            const button = document.getElementById(buttonId);
+            if (!button) return;
+            
+            if (isLoading) {
+                button.dataset.originalText = button.innerHTML;
+                button.innerHTML = `<div class="spinner-border spinner-border-sm me-2" role="status"></div>${loadingText}`;
+                button.disabled = true;
+            } else {
+                button.innerHTML = button.dataset.originalText || button.innerHTML;
+                button.disabled = false;
+            }
+        }
+
+        // Model analysis functionality
+        document.getElementById('modelAnalysisBtn').addEventListener('click', function() {
+            const level = document.getElementById('predictionLevel').value;
+            if (!level) {
+                showAdvancedAlert('Please select a prediction level first', 'warning');
+                return;
+            }
+            
+            fetch(`/model_analysis/${level}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showDetailedModelAnalysis(data.analysis);
+                    new bootstrap.Modal(document.getElementById('modelAnalysisModal')).show();
+                } else {
+                    showAdvancedAlert(data.error, 'danger');
+                }
+            })
+            .catch(error => {
+                showAdvancedAlert('Failed to load model analysis: ' + error.message, 'danger');
+            });
+        });
+
+        function showDetailedModelAnalysis(analysis) {
+            const container = document.getElementById('detailedModelAnalysis');
+            
+            const html = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="fw-bold"><i class="fas fa-cogs me-2"></i>Model Configuration</h6>
+                        <table class="table table-sm">
+                            <tr><td><strong>Architecture:</strong></td><td>${analysis.model_summary?.architecture || 'N/A'}</td></tr>
+                            <tr><td><strong>Parameters:</strong></td><td>${(analysis.model_summary?.parameters || 0).toLocaleString()}</td></tr>
+                            <tr><td><strong>Layers:</strong></td><td>${analysis.model_summary?.layers || 'N/A'}</td></tr>
+                            <tr><td><strong>Input Shape:</strong></td><td>${JSON.stringify(analysis.model_summary?.input_shape || 'N/A')}</td></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="fw-bold"><i class="fas fa-chart-bar me-2"></i>Training Metrics</h6>
+                        <table class="table table-sm">
+                            <tr><td><strong>Final Loss:</strong></td><td>${analysis.training_metrics?.final_loss?.toFixed(4) || 'N/A'}</td></tr>
+                            <tr><td><strong>Best Val Loss:</strong></td><td>${analysis.training_metrics?.best_val_loss?.toFixed(4) || 'N/A'}</td></tr>
+                            <tr><td><strong>Total Epochs:</strong></td><td>${analysis.training_metrics?.total_epochs || 'N/A'}</td></tr>
+                            <tr><td><strong>Convergence:</strong></td><td>Epoch ${analysis.training_metrics?.convergence_epoch || 'N/A'}</td></tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <h6 class="fw-bold"><i class="fas fa-chart-line me-2"></i>Training History</h6>
+                    <canvas id="detailedHistoryChart" width="400" height="200"></canvas>
+                </div>
+            `;
+            
+            container.innerHTML = html;
+            
+            // Draw detailed history chart
+            setTimeout(() => {
+                const ctx = document.getElementById('detailedHistoryChart');
+                if (ctx && analysis.training_history) {
+                    const history = analysis.training_history;
+                    const epochs = Array.from({length: history.loss?.length || 0}, (_, i) => i + 1);
+                    
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: epochs,
+                            datasets: [
+                                {
+                                    label: 'Training Loss',
+                                    data: history.loss || [],
+                                    borderColor: '#ff6b6b',
+                                    backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                                    borderWidth: 2
+                                },
+                                {
+                                    label: 'Validation Loss',
+                                    data: history.val_loss || [],
+                                    borderColor: '#4ecdc4',
+                                    backgroundColor: 'rgba(78, 205, 196, 0.1)',
+                                    borderWidth: 2
+                                },
+                                {
+                                    label: 'Training MAE',
+                                    data: history.mae || [],
+                                    borderColor: '#ffa726',
+                                    backgroundColor: 'rgba(255, 167, 38, 0.1)',
+                                    borderWidth: 2,
+                                    yAxisID: 'y1'
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                title: {
+                                    display: true,
+                                    text: 'Detailed Training Metrics'
+                                }
+                            },
+                            scales: {
+                                y: {
+                                    type: 'linear',
+                                    display: true,
+                                    position: 'left',
+                                    title: { display: true, text: 'Loss' }
+                                },
+                                y1: {
+                                    type: 'linear',
+                                    display: true,
+                                    position: 'right',
+                                    title: { display: true, text: 'MAE' },
+                                    grid: { drawOnChartArea: false }
+                                }
+                            }
+                        }
+                    });
+                }
+            }, 100);
+        }
+
+        // Export model functionality
+        document.getElementById('exportModelBtn').addEventListener('click', function() {
+            const level = document.getElementById('predictionLevel').value;
+            if (!level) {
+                showAdvancedAlert('Please select a prediction level first', 'warning');
+                return;
+            }
+            
+            setButtonLoading('exportModelBtn', true, 'Exporting...');
+            
+            fetch(`/export_model/${level}`)
+            .then(response => response.json())
+            .then(data => {
+                setButtonLoading('exportModelBtn', false);
+                if (data.success) {
+                    showAdvancedAlert('Model exported successfully! Check the exported_models folder.', 'success');
+                } else {
+                    showAdvancedAlert(data.error, 'danger');
+                }
+            })
+            .catch(error => {
+                setButtonLoading('exportModelBtn', false);
+                showAdvancedAlert('Export failed: ' + error.message, 'danger');
+            });
+        });
+
+        // Initialize on page load
+        window.addEventListener('load', function() {
+            // Check if training is in progress
+            fetch('/training_status')
+            .then(response => response.json())
+            .then(status => {
+                if (status.is_training) {
+                    document.getElementById('trainingProgressAdvanced').style.display = 'block';
+                    startAdvancedTrainingMonitor();
+                }
+            })
+            .catch(() => console.log('No active training session'));
+        });
+
+        // Keyboard shortcuts for advanced features
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.shiftKey && e.key === 'T') {
+                e.preventDefault();
+                document.getElementById('trainBtn').click();
+            }
+            
+            if (e.ctrlKey && e.shiftKey && e.key === 'P') {
+                e.preventDefault();
+                document.getElementById('predictBtn').click();
+            }
+            
+            if (e.ctrlKey && e.shiftKey && e.key === 'A') {
+                e.preventDefault();
+                document.getElementById('modelAnalysisBtn').click();
+            }
+        });
+    </script>
+</body>
+</html>

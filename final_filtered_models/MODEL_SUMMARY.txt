@@ -1,0 +1,29 @@
+FILTERED FINAL INVENTORY FORECASTING
+============================================================
+
+Created: 2025-09-23 12:29:46
+Dataset: products_filtered_final.csv
+Target: Physical Storage Quantity
+Cycle Type: 10-day periods
+Models: 2 trained
+Features: 26
+
+INPUT COLUMNS:
+- Name, Physical Storage Quantity, Storage Unit
+- GroupName, Date_week, Month, Stock_Class
+- Cycle, Max_Stock
+
+GRU - GRU - Optimized for 10-day cycles
+----------------------------------------
+Test R²: 0.823
+Test MAE: 162.39
+Test MAPE: 894.07%
+Features: 26
+
+BIDIRECTIONAL_LSTM - Bidirectional LSTM - Best for trend capture
+----------------------------------------
+Test R²: 0.739
+Test MAE: 183.79
+Test MAPE: 947.72%
+Features: 26
+

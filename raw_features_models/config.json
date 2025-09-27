@@ -1,0 +1,55 @@
+{
+  "feature_names": [
+    "current_stock",
+    "cycle",
+    "month",
+    "max_stock",
+    "product_encoded",
+    "category_encoded",
+    "storage_unit_encoded",
+    "stock_class_encoded"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Raw Features Only",
+      "train_metrics": {
+        "r2": 0.7060613453627516,
+        "mae": 45.7996154980212,
+        "rmse": 145.6716005029789,
+        "mape": 457.131895892872
+      },
+      "test_metrics": {
+        "r2": 0.7550131730633226,
+        "mae": 37.52702243282324,
+        "rmse": 113.59262057312529,
+        "mape": 592.2275706433061
+      },
+      "epochs_trained": 14,
+      "features_used": 8,
+      "approach": "raw_features_only"
+    },
+    "bidirectional_lstm": {
+      "description": "Bidirectional LSTM - Raw Features Only",
+      "train_metrics": {
+        "r2": 0.7123639115516518,
+        "mae": 45.90323231343208,
+        "rmse": 144.10140920784366,
+        "mape": 512.7215303831063
+      },
+      "test_metrics": {
+        "r2": 0.7538156808147496,
+        "mae": 37.338775026121624,
+        "rmse": 113.86990173491684,
+        "mape": 604.6767632131921
+      },
+      "epochs_trained": 12,
+      "features_used": 8,
+      "approach": "raw_features_only"
+    }
+  },
+  "sequence_length": 10,
+  "approach": "raw_features_only",
+  "num_features": 8,
+  "saved_date": "2025-09-23T13:10:50.168370",
+  "system_version": "raw_features_v1"
+}

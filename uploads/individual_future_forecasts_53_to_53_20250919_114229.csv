@@ -1,0 +1,497 @@
+product,predicted_inventory,target_cycle,prediction_method,forecast_horizon
+MAY 0.5L,228,53,individual_fallback,1
+CELTIA FUT DE 50L,1,53,individual_fallback,1
+COCA BOITE ZERO,19,53,individual_fallback,1
+FORTE NSPRS,173,53,individual_fallback,1
+CHOCOLAT EN POUDRE,6,53,individual_fallback,1
+BOGA LIME BOITE 24CL,21,53,individual_fallback,1
+FANTA BOITE 24CL,23,53,individual_fallback,1
+COCA COLA BOITE 24CL,46,53,individual_fallback,1
+LIPTON ICE TEA PECHE 33 CL,24,53,individual_fallback,1
+BECK'S JET 24CL,25,53,individual_fallback,1
+CELTIA JET 25CL,25,53,individual_fallback,1
+INTENSO NSPRS,164,53,individual_fallback,1
+RED BULL,13,53,individual_fallback,1
+ROULEAU CAISSE 80*80,13,53,individual_fallback,1
+ROULEAU TPE,20,53,individual_fallback,1
+PAIN CHAWARMA *10,5,53,individual_fallback,1
+LAIT UHT DEMI ECREME,27,53,individual_fallback,1
+BARQUETTE CARTON DB,648,53,individual_fallback,1
+JOUR ET NUIT ROSE 1/2,8,53,individual_fallback,1
+JUS CITRONADE  CLASSIQUE 250 ml,24,53,individual_fallback,1
+JUS FRAISE  MINI CAMAROSA 250 ml,23,53,individual_fallback,1
+AJAX VITRE,1,53,individual_fallback,1
+LOT CAFE EN GRAINS ( BARISTA N°3 ),2,53,individual_fallback,1
+PAILLE ENVELOPPE 7.5MM COLORE,4,53,individual_fallback,1
+SET DE PLATEAU DB,1430,53,individual_fallback,1
+BOITE A CREPE,620,53,individual_fallback,1
+POIVRE NOIR MOULU,1,53,individual_fallback,1
+SERVIETTE EN PAPIER 30*30,22,53,individual_fallback,1
+MAYO 5L DEJ,7,53,individual_fallback,1
+HUILE VEGETALE 5L,4,53,individual_fallback,1
+ORANGE A JUS,35,53,individual_fallback,1
+KETCHUP,5,53,individual_fallback,1
+SNICKERS,25,53,individual_fallback,1
+KINDER T4,25,53,individual_fallback,1
+AMANDES GRILEES SALEES 70GR,16,53,individual_fallback,1
+SAUCE BARBECUE,5,53,individual_fallback,1
+NUTELLA 600GR,14,53,individual_fallback,1
+EMBALLAGE EN CARTON 30*12*6,106,53,individual_fallback,1
+ORANGINA BOITE 24 CL,11,53,individual_fallback,1
+GARCI GAZ P.E.T 1 L,9,53,individual_fallback,1
+SAC A POUBELLE GEANT BLANC,95,53,individual_fallback,1
+BORGHELL,3,53,individual_fallback,1
+SUCRE BLANC EN SACHET GOURM,1192,53,individual_fallback,1
+GANTS LATEX,285,53,individual_fallback,1
+GANT EN VINYL MEDUIM,117,53,individual_fallback,1
+SERPILLERE,5,53,individual_fallback,1
+TOQUE CHEF,1,53,individual_fallback,1
+BISCUIT TUC,30,53,individual_fallback,1
+ANANAS PCES,8,53,individual_fallback,1
+NOIX DE CAJOU GRILLES SALEES 65GR,16,53,individual_fallback,1
+MENTOS ROLLS FRUIT FLAVOUR,38,53,individual_fallback,1
+MENTOS ROLLS MENTHE,38,53,individual_fallback,1
+MENTOS ROLLS RAINBOW,38,53,individual_fallback,1
+MENTOS ROLLS STRAWBERRY,38,53,individual_fallback,1
+HARISSA 5/2,4,53,individual_fallback,1
+KIWI,31,53,individual_fallback,1
+PAILLE ENVELOPPE 7.5MM NOIR,3,53,individual_fallback,1
+DADDY'S CHIPS SAVORY TRUFFE PARMESAN 70G,18,53,individual_fallback,1
+PAPIER ALUM DE 100,1,53,individual_fallback,1
+FOURCHETTE NOIRE EMBALEE EJEM,580,53,individual_fallback,1
+"MIRA 0,6L",240,53,individual_fallback,1
+VIPA ORIENTAL MIX 100 GR,12,53,individual_fallback,1
+PAIN DE MIE NATURE,26,53,individual_fallback,1
+FROMAGE BUCHE BLANCHE CHEVRE KG,1,53,individual_fallback,1
+LAVETTE COTON,6,53,individual_fallback,1
+PAPRIKA DOUX,1,53,individual_fallback,1
+SANIT SURF,1,53,individual_fallback,1
+PAIN HAMBURGER AC,23,53,individual_fallback,1
+ESSUIT TOUT JUMBO,3,53,individual_fallback,1
+BROCHETTE BAMBOO 20,2,53,individual_fallback,1
+FROMAGE PARMIGIANO REGIANO,0,53,individual_fallback,1
+SEL FIN DE TABLE,3,53,individual_fallback,1
+RISTRETTO NSPRS,172,53,individual_fallback,1
+COOKIES,43,53,individual_fallback,1
+VIANDE SECHE FUME (BRESAOLA) TRANCHES 300GR,1,53,individual_fallback,1
+CAROTTE CAKE PBC,47,53,individual_fallback,1
+CAKE MARBRE PBC,52,53,individual_fallback,1
+PAIN DE MIE CEREALE,26,53,individual_fallback,1
+MENTOS ROLLS TUTTI FRUTTI,38,53,individual_fallback,1
+THON EN BOITES,15,53,individual_fallback,1
+PATE SPAGHETTI,10,53,individual_fallback,1
+CHAMPIGNON FRAIS BARQUETTE,4,53,individual_fallback,1
+PAPRIKA FORT,1,53,individual_fallback,1
+AUBERGINE LEGUME,2,53,individual_fallback,1
+CAROTTE,4,53,individual_fallback,1
+CITRON SALLE,4,53,individual_fallback,1
+CONCOMBRE,10,53,individual_fallback,1
+BACON DE DINDE TRANCHES (1 - 1.5 KG),7,53,individual_fallback,1
+CORNICHON FRAIS,2,53,individual_fallback,1
+PIMENT ROUGE SALLE,5,53,individual_fallback,1
+ROQUETTE SALADE KG,1,53,individual_fallback,1
+SALADE LAITUE TUN,21,53,individual_fallback,1
+VIANDE HACHEE SPECIAL RESTO,7,53,individual_fallback,1
+EMINCE DE BOEUF PORT. SURGELE,5,53,individual_fallback,1
+ESCALOPE POULET PANE CONGELE,11,53,individual_fallback,1
+SUCRE EN SACHET DAILY BREAK,11,53,individual_fallback,1
+JAMBON DE BOEUF FUME,3,53,individual_fallback,1
+GOBLET DB 19 CC,892,53,individual_fallback,1
+PIMENT FORT,8,53,individual_fallback,1
+OEUFS,4,53,individual_fallback,1
+TOMATE CONCENTRE 4/4,8,53,individual_fallback,1
+COURGETTE,3,53,individual_fallback,1
+TOMATE FRAICHE,24,53,individual_fallback,1
+FROMAGE CHEDDAR PORTION KG,4,53,individual_fallback,1
+FROMAGE MEULE GOUDA KG,4,53,individual_fallback,1
+FROMAGE MOZARELLA CARRE KG,17,53,individual_fallback,1
+FROMAGE EDAM MEULE,5,53,individual_fallback,1
+JUS STILL 20 CL,43,53,individual_fallback,1
+PAPIER CUISSON 40*60,1,53,individual_fallback,1
+PAIN SANDWICH CI GUSTA,80,53,individual_fallback,1
+PATE PIZZA PANCROCCHINO 12/40,55,53,individual_fallback,1
+EPINARD,2,53,individual_fallback,1
+PERSIL,1,53,individual_fallback,1
+VARIANTES,3,53,individual_fallback,1
+GATEAU CHOCOLAT PBC,25,53,individual_fallback,1
+MARINADE POULET GRILLE 2KG PB,6,53,individual_fallback,1
+SAUCE MAYONNAISE PESTO PB,2,53,individual_fallback,1
+SAUCE PESTO PB,1,53,individual_fallback,1
+MENTHE SECHE,0,53,individual_fallback,1
+OIGNONS ROUGE,9,53,individual_fallback,1
+COURGE,6,53,individual_fallback,1
+PIECE RONDE BOEUF,8,53,individual_fallback,1
+AIL,1,53,individual_fallback,1
+GOBLET 9 PLAN B,939,53,individual_fallback,1
+GOBLET 6.5 PLAN B,982,53,individual_fallback,1
+MUFFINS VANILLE,29,53,individual_fallback,1
+FRITE SURGELE 9/9 CLASSIC 2.5 KG,19,53,individual_fallback,1
+SAUCE A L'AIL PB,2,53,individual_fallback,1
+GOBLET PET 350 CC,360,53,individual_fallback,1
+OIGNONS BLANC,9,53,individual_fallback,1
+CHAPLUR,3,53,individual_fallback,1
+FUT HEINEKEIN,28,53,individual_fallback,1
+HEINEKEN BLLE 30CL,162,53,individual_fallback,1
+PATE PLUME COURTE,10,53,individual_fallback,1
+JEX CARRE,7,53,individual_fallback,1
+AGITATEUR EN BOIS 11CM,1164,53,individual_fallback,1
+FILM ETIRABLE 725GR,2,53,individual_fallback,1
+GANT EN VINYL  XL,163,53,individual_fallback,1
+BON DE TRANSFERT 50*3,2,53,individual_fallback,1
+FARINE EN PAQUET,18,53,individual_fallback,1
+SACHET BRETELLES 38X60 MF,71,53,individual_fallback,1
+PIMENT DOUX,7,53,individual_fallback,1
+COUVERCLE AVEC TROU BOMBE 95KY,350,53,individual_fallback,1
+BASILIC BARQUETTE,1,53,individual_fallback,1
+PAQUET 17/4,112,53,individual_fallback,1
+FROMAGE MAASDAM EN BLOC PB,6,53,individual_fallback,1
+GOBLET 6.5 0Z MF,352,53,individual_fallback,1
+"EAU MINERALE 1,5L",87,53,individual_fallback,1
+GRENAD,6,53,individual_fallback,1
+LOT CAFE GRAIN BARISTA,3,53,individual_fallback,1
+SAVON LIQ OXY'SOAP 1L,1,53,individual_fallback,1
+BACTYGEL 703 CF,1,53,individual_fallback,1
+ETUI SANDWICH,942,53,individual_fallback,1
+MIX A CREPE FRANCAISE,15,53,individual_fallback,1
+PATE PIZZA FOCACCIA 12/40,27,53,individual_fallback,1
+GOBLET CAFE 192 ML CIG,1167,53,individual_fallback,1
+GOBLET CI CAFE CIGUSTA,328,53,individual_fallback,1
+FOND DE PLATEAU CIG,1135,53,individual_fallback,1
+BARQUETTE CARTON CIG,531,53,individual_fallback,1
+BLOUSE NON TISSEE,6,53,individual_fallback,1
+BIOSPOT,788,53,individual_fallback,1
+DADDY'S CHIPS SPICY PAPRIKA 70G,21,53,individual_fallback,1
+DADDY'S CHIPS CLASSIC SEL DE MER 70G,24,53,individual_fallback,1
+MAIS EN BOITE,6,53,individual_fallback,1
+SANEX,5,53,individual_fallback,1
+DINOL,5,53,individual_fallback,1
+FROMAGE GORGONZELA,1,53,individual_fallback,1
+MANCHE A BALAIS,2,53,individual_fallback,1
+CUILLERE A CAFE PLASTIQUE,578,53,individual_fallback,1
+GOBLET CARTON GOURM 19 CL,1015,53,individual_fallback,1
+GOBLET DB 25 CC,1018,53,individual_fallback,1
+CUILLIERE NOIRE EJEM,216,53,individual_fallback,1
+QUATRE EPICES MOULU,1,53,individual_fallback,1
+SAC SOUS VIDE LISSE 20*30,159,53,individual_fallback,1
+POIS CHICHE KG,2,53,individual_fallback,1
+TOMATE CERISES,2,53,individual_fallback,1
+AMANDE EFFILEE,1,53,individual_fallback,1
+COUSCOUS EN PAQUET,7,53,individual_fallback,1
+POMME DE TERRE,18,53,individual_fallback,1
+ESCALOPE POULET CONGELÉ,24,53,individual_fallback,1
+Muffin daily'n,40,53,individual_fallback,1
+CAKE CITRON PBC,34,53,individual_fallback,1
+THE SANS SUCRE 0.9g,167,53,individual_fallback,1
+POULET PAC FRAIS,25,53,individual_fallback,1
+SAC SANDWICH,2256,53,individual_fallback,1
+FROMAGE LAND OR,3,53,individual_fallback,1
+JAMBON DE DINDE,3,53,individual_fallback,1
+ESCALOPE POULET FRAIS,53,53,individual_fallback,1
+SOUS TARTE BLANCHE 12*12*2,449,53,individual_fallback,1
+RACLETTE,1,53,individual_fallback,1
+POUDRE TENDERS PB,10,53,individual_fallback,1
+CROISSANT NATURE  PUR BEURRE GF,653,53,individual_fallback,1
+CROISSANT AUX AMANDES  PUR BEURRE GF,161,53,individual_fallback,1
+PAIN SCHNECK AUX RAISINS SURG PUR BEURRE GF,145,53,individual_fallback,1
+BRIOCHE TORSADEE PUR BEURRE PEPITE CHOCO GF,156,53,individual_fallback,1
+JOUR ET NUIT ROUGE 1/2,8,53,individual_fallback,1
+PAIN AU CHOCOLAT PUR BERRE GF SURG.,602,53,individual_fallback,1
+OLIVE DENOYETE,6,53,individual_fallback,1
+CAKE CHOCOLAT PBC,22,53,individual_fallback,1
+PISTACHE CONCASSEE,1,53,individual_fallback,1
+SAC BOUTIQUE GDISE HD 40/35 BLANC,300,53,individual_fallback,1
+MOELLEUX CHOCOLAT,35,53,individual_fallback,1
+BACON BOEUF FUME TRANCHES ( 300GR),1,53,individual_fallback,1
+COUTEAU NOIRE EMBALLE EJEM,683,53,individual_fallback,1
+PATE PIZZA FOCACCIA D32 CM,15,53,individual_fallback,1
+BOITE PIZZA 32 cm,98,53,individual_fallback,1
+PATE PIZZA PANCROCCHINO 32cm,20,53,individual_fallback,1
+CAPRE VRAC,2,53,individual_fallback,1
+MOUTARDE DIJON 840 GR,4,53,individual_fallback,1
+BOITE PIZZA PM CIG,120,53,individual_fallback,1
+GOBLET JUS TRANSPARENT CI GUSTA,289,53,individual_fallback,1
+SAC EN PAPIER KRAFT 30/30/26,102,53,individual_fallback,1
+FOND PLATEAU GOURM,1370,53,individual_fallback,1
+SERVIETTE 30*30 CIGUSTA,46,53,individual_fallback,1
+POMME (FRUIT),2,53,individual_fallback,1
+DOSETTE KETCHUP PB,950,53,individual_fallback,1
+DOSETTE MAYO PB,950,53,individual_fallback,1
+MARS CHOCOLAT,40,53,individual_fallback,1
+FROMAGE FETA (Nature),1,53,individual_fallback,1
+FROMAGE MOZZARELLA MINI,3,53,individual_fallback,1
+RAME PAPIER A4,3,53,individual_fallback,1
+CACAHUETES GRILLEES SALEES 70GR,15,53,individual_fallback,1
+ASEPCLOR,7,53,individual_fallback,1
+COFFRET PORTRAIT AV SEP24.5/14.5,48,53,individual_fallback,1
+NUGGETS PANE PB,30,53,individual_fallback,1
+SACHET BRETELLE GM,205,53,individual_fallback,1
+FROMAGE CAMEMBERT 240g,2,53,individual_fallback,1
+MAIS EN VRAC,2,53,individual_fallback,1
+AMSTEL BEER BLLE 33CL,60,53,individual_fallback,1
+LEVURE BOULANGERE NORMALE,4,53,individual_fallback,1
+SAC SANDWICH DAILY BREAK,1601,53,individual_fallback,1
+BALAIS SANS MANCHE,1,53,individual_fallback,1
+KETCHUP BIDON 5L,5,53,individual_fallback,1
+SUCRE ROUX EN SACHET GOURM,1192,53,individual_fallback,1
+SAC SOUS VIDE LISSE 40*40,170,53,individual_fallback,1
+CHOUX ROUGE,2,53,individual_fallback,1
+THE NOIR MENTHE S SUCRE,165,53,individual_fallback,1
+MIEL DOUX & FRAIS,2,53,individual_fallback,1
+OLIVE NOIRE SLICE,6,53,individual_fallback,1
+TOMATES SECHEES,0,53,individual_fallback,1
+SUCRE EN SACHET CI-GUSTA,12,53,individual_fallback,1
+EMBALLAGE CREPE CIG,521,53,individual_fallback,1
+SAUCE A L'AIL,3,53,individual_fallback,1
+CREME DE BALSAMIQUE,3,53,individual_fallback,1
+FROMAGE SICILIEN,2,53,individual_fallback,1
+PAPIER SERVIETTE GOURMANDISE,41,53,individual_fallback,1
+STYLO BIC,19,53,individual_fallback,1
+HARISSA 450G,4,53,individual_fallback,1
+PAIN CIABATTA NATURE,114,53,individual_fallback,1
+PAIN MACDO  GRAINS SESAME,245,53,individual_fallback,1
+PAIN ROND FARINE,176,53,individual_fallback,1
+MANGUE,3,53,individual_fallback,1
+CITRON,2,53,individual_fallback,1
+REMANENT HERBE CF,1,53,individual_fallback,1
+SAC GROUPAGE DB,1491,53,individual_fallback,1
+FORNOX,6,53,individual_fallback,1
+SAUCE BARBECUE PB,5,53,individual_fallback,1
+VINAIGRE 1L,3,53,individual_fallback,1
+GOBLET CARTON GOURM 25CL,1051,53,individual_fallback,1
+BEURRE MARGARINE  KG,5,53,individual_fallback,1
+NAPPAGE,1,53,individual_fallback,1
+CONFITURE DE FRAISES 380G,2,53,individual_fallback,1
+PUREE FRAISE 1.32KG MONIN,1,53,individual_fallback,1
+MIRA 1L,123,53,individual_fallback,1
+TIC TAC STRAWBERRY MIX,13,53,individual_fallback,1
+TIC TAC ORANGE,12,53,individual_fallback,1
+TIC TAC MENTHE,12,53,individual_fallback,1
+"PUREE DE KIWI 1,32KG MONIN",1,53,individual_fallback,1
+SIROP DE CARAMEL 1L MONIN,1,53,individual_fallback,1
+JOUR ET NUIT ROSE 3/4,7,53,individual_fallback,1
+BOGA CIDRE BOITE,27,53,individual_fallback,1
+GOBLET 9 0Z MF,332,53,individual_fallback,1
+COIFFE EN PAPIER,123,53,individual_fallback,1
+FRITE SURGELE WEDGES 2.5 KG,8,53,individual_fallback,1
+BANANE,8,53,individual_fallback,1
+FRAISE FRAIS,4,53,individual_fallback,1
+PEPPERONI,0,53,individual_fallback,1
+MENTHE FRAICHE,2,53,individual_fallback,1
+COUVERCLE GOBLET 9 OU 12 PLAN B,323,53,individual_fallback,1
+NOISETTE GRILLEE CONCASSEE,1,53,individual_fallback,1
+COUVERCLE POUR GOB 16 OZ ET 14 OZ,289,53,individual_fallback,1
+SOUS FONDANT PERSONNALISE,313,53,individual_fallback,1
+COUTEAU A PAIN 20CM,1,53,individual_fallback,1
+TWIX,27,53,individual_fallback,1
+COFFRET CHECHIA AV SEP 16/16,49,53,individual_fallback,1
+AIL EN POUDRE,1,53,individual_fallback,1
+JOUR ET NUIT3/4 BLANC,6,53,individual_fallback,1
+ROULEAU DE 750 ETIQUETTE BLANC,3,53,individual_fallback,1
+BAGUETTE,1653,53,individual_fallback,1
+PATE PIZZA FOCCACIA 30/40,24,53,individual_fallback,1
+GOBLET PET 400CC,293,53,individual_fallback,1
+JOUR ET NUIT3/4 ROUGE,6,53,individual_fallback,1
+SAC PAPIER PLANB COFFEE,2375,53,individual_fallback,1
+PACK FOOD BOWL + COUVERCLE 1.2 L,45,53,individual_fallback,1
+PATE PAPILLON,8,53,individual_fallback,1
+SAC SOUS VIDE LISSE 15*20,255,53,individual_fallback,1
+FROMAGE BLUE CHEESE GR,2,53,individual_fallback,1
+SAC SOUS VIDE LISSE 30*30,142,53,individual_fallback,1
+BOUTEILLE DE VINAIGRETTE 250ML,2,53,individual_fallback,1
+COUVERCLE SANS TROU PET BOMBE 80MM,219,53,individual_fallback,1
+GOBLET PP TRANSPARENT 200CC/80MM YOZEL,194,53,individual_fallback,1
+PEPITTE DE DECORATION NOIRE KG,2,53,individual_fallback,1
+GANT EN PLASTIQUE,2,53,individual_fallback,1
+KINDER BUENO,32,53,individual_fallback,1
+BARQUETTE 5L,8,53,individual_fallback,1
+BAGUETTE CONG.,86,53,individual_fallback,1
+CHOUX VERT,2,53,individual_fallback,1
+AGRAFFE,4,53,individual_fallback,1
+SIROP DE NOISETTES GRILLEES 70CL MONIN,1,53,individual_fallback,1
+CREME A FOUETTER,3,53,individual_fallback,1
+ESSUIES VERRES,2,53,individual_fallback,1
+POULET PANE AMANDE PB,34,53,individual_fallback,1
+PILLE AA,7,53,individual_fallback,1
+CREME DE CUISSON,4,53,individual_fallback,1
+BOITE PIZZA ONDULEE 31/31,54,53,individual_fallback,1
+GOBLET TRA 270ML + COUVERCLE,231,53,individual_fallback,1
+CHOCOLAT CHAUD EN POUDRE,2,53,individual_fallback,1
+FESTIFE MIX 100 GR,11,53,individual_fallback,1
+ROULEAU THERMIQUE BALANCE,8,53,individual_fallback,1
+BOITE D'ARCHIVE,8,53,individual_fallback,1
+COFFRET PORTRAIT AV SEP 11.5/11.5,46,53,individual_fallback,1
+sucre en buchette MF 10kg,1,53,individual_fallback,1
+SERVIETTE 30*30 MF,16,53,individual_fallback,1
+NUTELLA & GO 52 GR,28,53,individual_fallback,1
+CAKE ORANGE PBC,34,53,individual_fallback,1
+Beurre 200Gr,8,53,individual_fallback,1
+PUREE DE BANANE 1L,1,53,individual_fallback,1
+"BOITE FRAPPE VANILLE 1,36KG MONIN",1,53,individual_fallback,1
+SAUCE PLAN B 5KG,5,53,individual_fallback,1
+SEMOULE FINE,12,53,individual_fallback,1
+SIROP DE VANILLE 1L MONIN,1,53,individual_fallback,1
+"BOITE FRAPPE CAFE 1,36KG MONIN",1,53,individual_fallback,1
+SAC BOUTIQUE GDISE HD 50/45 BLANC,311,53,individual_fallback,1
+GOBLET CARTON 17 CL CIGUSTA,446,53,individual_fallback,1
+SACHET CONGELATION,3,53,individual_fallback,1
+COFFRET PORTRAIT AV SEP 19.5/19.5,45,53,individual_fallback,1
+CACAO EN POUDRE,2,53,individual_fallback,1
+THYM MOULU,1,53,individual_fallback,1
+CHEMISE CRAFT,18,53,individual_fallback,1
+FANTA PET 0.5 L,17,53,individual_fallback,1
+COCA COLA PET 0.5,32,53,individual_fallback,1
+HUILE D'OLIVE POMACE,5,53,individual_fallback,1
+COCA COLA ZERO PET 0.5L,19,53,individual_fallback,1
+BOGA LIM PET 0.5,13,53,individual_fallback,1
+ROQUETTE FRAIS EN KG,1,53,individual_fallback,1
+CHORBA FRIK,4,53,individual_fallback,1
+FEUILLE DE BRIK,10,53,individual_fallback,1
+DATTE EN VRAC,2,53,individual_fallback,1
+BASILIC LA BOTTE,1,53,individual_fallback,1
+CUISSE DE POULET FRAIS,12,53,individual_fallback,1
+POCHETTE CROISSANT CRAFT 11*5*28,1511,53,individual_fallback,1
+POCHETTE CROISSANT 15*7*29,2,53,individual_fallback,1
+FROMAGE CHEDDAR EN BLOC,6,53,individual_fallback,1
+LOT CAFE GRAINS  PUR EXPRESS,4,53,individual_fallback,1
+MOUSSE CHOCOLAT,1,53,individual_fallback,1
+PAILLE BUBBLE TEA 12MM COLORE,286,53,individual_fallback,1
+BOGA PET 30CL,36,53,individual_fallback,1
+FANTA PET 30CL,40,53,individual_fallback,1
+COCA COLA PET 30CL,52,53,individual_fallback,1
+LOT CAFE GRAIN ESPRESSO ELITE 3,4,53,individual_fallback,1
+ROQUETTE SALADE BARQUETTE,1,53,individual_fallback,1
+LOT DE CAFE TURC,1,53,individual_fallback,1
+GOBLET TRANS 0.5L,356,53,individual_fallback,1
+JOUR ET NUIT BLANC 1/2,8,53,individual_fallback,1
+PAIN SHNEK AU RAISIN MARGARINE,128,53,individual_fallback,1
+CROISSANT AU CHOCOLAT MARGARINE,142,53,individual_fallback,1
+CROISSANT NATURE MARGARINE,140,53,individual_fallback,1
+CAKE MARBRE MARGARINE,40,53,individual_fallback,1
+Citronnade La Classique 1LITRE,5,53,individual_fallback,1
+COCA COLA ZERO 30 CL,24,53,individual_fallback,1
+OLIVE VIOLETTE,4,53,individual_fallback,1
+SUCRE GLACE,3,53,individual_fallback,1
+FROMAGE GOUTA,3,53,individual_fallback,1
+"EAU MELLITI PET 0,5 L",137,53,individual_fallback,1
+COUVERCLE GOBLET TRSP 35 CL EJEM,390,53,individual_fallback,1
+CAKE NATURE MARGARINE,20,53,individual_fallback,1
+ALKASURF DDA 5KG,5,53,individual_fallback,1
+CREME CHANTILLY,3,53,individual_fallback,1
+SCHWEPPES TONIC 24 CL,9,53,individual_fallback,1
+PECHES,2,53,individual_fallback,1
+FROMAGE PARMESAN PB,0,53,individual_fallback,1
+PUREE ANANAS 1 L,1,53,individual_fallback,1
+PUREE MANGUE 1L,1,53,individual_fallback,1
+BOGA CIDRE PET 30 CL,27,53,individual_fallback,1
+SQUEEZE CREME  CHEDDAR 450GR,10,53,individual_fallback,1
+LEVURE CHIMIQUE,1,53,individual_fallback,1
+CREME A FOUETTER 1LT HOLE,4,53,individual_fallback,1
+SAUCE AU POIVRE SAC 500GR PB,1,53,individual_fallback,1
+MARINADE EMINCE DE BOEUF 2KG,2,53,individual_fallback,1
+MELANGE TENDER 2KG PB,2,53,individual_fallback,1
+MELANGE EPICES VIANDE 500GR PB,1,53,individual_fallback,1
+PAILLE NOIR,2,53,individual_fallback,1
+FROMAGE MOZZARELLA CARRE KG,26,53,individual_fallback,1
+TIC TAC SPEARMINT,13,53,individual_fallback,1
+RIZ EN PAQUET,6,53,individual_fallback,1
+POT NUTELLA 3 KG,3,53,individual_fallback,1
+SUCRE VRAC KG,14,53,individual_fallback,1
+PASTEQUE,12,53,individual_fallback,1
+MELON,5,53,individual_fallback,1
+HUILE VEGETALE,3,53,individual_fallback,1
+COUVERCLE DOM PET 450ML AVEC TROU,268,53,individual_fallback,1
+GOBLET PET 16OZ/450 ML TRANSPARENT,290,53,individual_fallback,1
+PRUNES,2,53,individual_fallback,1
+LAIT ENTIER 1L,22,53,individual_fallback,1
+PALETTE A GLACE,489,53,individual_fallback,1
+RAISIN NOIR,2,53,individual_fallback,1
+AVOCAT FRUIT PIECE,4,53,individual_fallback,1
+PUNCH CIDRE 30CL,78,53,individual_fallback,1
+RAISINS JAUNE,2,53,individual_fallback,1
+CHEWING GUM FLORIDENT  EXTRA WHITE 60G,13,53,individual_fallback,1
+AC-SMOOTHIE DETOX,10,53,individual_fallback,1
+AC-SMOOTHIE PEACH'TINI,9,53,individual_fallback,1
+AC-SMOOTHIE TROPIC TRIP,10,53,individual_fallback,1
+AC-SMOOTHIE LE CLASSIQUE,9,53,individual_fallback,1
+LENTILLE VRAC,1,53,individual_fallback,1
+STEACK HACHE (PORTION 115GR),8,53,individual_fallback,1
+CREVETTE 26/30 AVEC QUEUE  SURG.,1,53,individual_fallback,1
+TENDER DE POULET 1KG,25,53,individual_fallback,1
+FILET DE POULET PANE,22,53,individual_fallback,1
+LIPTON ICE TEA FRAMBOISE 33 CL,17,53,individual_fallback,1
+LIPTON ICE TEA PASTEQUE 33CL,16,53,individual_fallback,1
+FROMAGE MOZZARELLA  KG,19,53,individual_fallback,1
+MOZARELLA BOCCONCINI,4,53,individual_fallback,1
+ESCALOPE DE DINDE FRAIS,61,53,individual_fallback,1
+CREME SUPERIEUR DELICE 1L,6,53,individual_fallback,1
+GEL ANTIBAC 500,1,53,individual_fallback,1
+AC-SMOOTHIE EXOTIC,9,53,individual_fallback,1
+HARISSA ARBI,3,53,individual_fallback,1
+RISTRETTO NSPRS_x0009_,249,53,individual_fallback,1
+VIANDE HACHEE SPECIAL MAIGRE CONGELE KG,19,53,individual_fallback,1
+THON HV EN BOITES,16,53,individual_fallback,1
+CURCUMIN MOULU,1,53,individual_fallback,1
+EAU MINÉRALE 6L,3,53,individual_fallback,1
+TOMATE CONCENTREE EN BOITE,8,53,individual_fallback,1
+CREME SUPERIEUR,8,53,individual_fallback,1
+CAPSULE CAFFITALY INTENSO,89,53,individual_fallback,1
+CAPSULE CAFEITALY COLOMBIA,70,53,individual_fallback,1
+FROMAGE BLANC FONDU KG,3,53,individual_fallback,1
+MAYONAISE DEJ,2,53,individual_fallback,1
+MAYONAISE EN DOSETTE,1011,53,individual_fallback,1
+CHAMPIGNON FRAIS,5,53,individual_fallback,1
+SAUCE MAYONNAISE PESTO,2,53,individual_fallback,1
+KETCHUP EN DOSETTE,1018,53,individual_fallback,1
+HARISSA CONCENTRE EN BOITE,4,53,individual_fallback,1
+RIST INTENSO NSPRS,252,53,individual_fallback,1
+PUNCH ORANGE 30CL,51,53,individual_fallback,1
+COCA COLA BOITE ZERO 24CL,27,53,individual_fallback,1
+MARINADE POULET GRILLE,6,53,individual_fallback,1
+MARINADE EMINCE DE BOEUF,2,53,individual_fallback,1
+PUNCH CIDRE 50CL,10,53,individual_fallback,1
+PUNCH ORANGE 50CL,10,53,individual_fallback,1
+COCA ZERO PET 30 CL,26,53,individual_fallback,1
+BOGA LIME PET 30 CL,38,53,individual_fallback,1
+FANTA PET 30,41,53,individual_fallback,1
+MIEL MILLE FLEURS,2,53,individual_fallback,1
+COUTEAU A PAIN 21 CM,1,53,individual_fallback,1
+COUSCOUS,11,53,individual_fallback,1
+FILM ETIRABLE,2,53,individual_fallback,1
+VINAIGRE CREME DE BALSAMIQUE,3,53,individual_fallback,1
+THE NOIR MENTHE SANS SUCRE,171,53,individual_fallback,1
+MELANGE TENDER  PB,2,53,individual_fallback,1
+SEL,2,53,individual_fallback,1
+SAUCE AU POIVRE PB,1,53,individual_fallback,1
+NUTELLA GO 52 GR,28,53,individual_fallback,1
+MAYONAISE,2,53,individual_fallback,1
+MARGARINE,2,53,individual_fallback,1
+THON HV EN BOITE,11,53,individual_fallback,1
+THE VERT MENTHE SANS SUCRE,171,53,individual_fallback,1
+MOZARELLA CERISE,4,53,individual_fallback,1
+COCA COLA PET 30CL.,63,53,individual_fallback,1
+SAUCE PLAN B,5,53,individual_fallback,1
+MOUTARDE DIJON,4,53,individual_fallback,1
+FROMAGE MAASDAM EN BLOC,7,53,individual_fallback,1
+AUBERGINE,2,53,individual_fallback,1
+FROMAGE MEULE GOUDA,4,53,individual_fallback,1
+CITRON FRAIS,2,53,individual_fallback,1
+OIGNION VERT,3,53,individual_fallback,1
+Carotte cake family Margarine,2,53,individual_fallback,1
+fondant chocolat individual Margarine,12,53,individual_fallback,1
+Cake citron family Margarine,2,53,individual_fallback,1
+Cookies  individual Margarine,7,53,individual_fallback,1
+Moelleux  individual  Margarine,8,53,individual_fallback,1
+Cake chocolat family Margarine,2,53,individual_fallback,1
+Cake marbré family Margarine,3,53,individual_fallback,1
+POT NUTELLA,12,53,individual_fallback,1
+ESCALOPE DE DINDE FUME EN TRANCHE,10,53,individual_fallback,1
+MIX A CREPE FRAN,15,53,individual_fallback,1
+RIZ EN PQT,8,53,individual_fallback,1
+ANANAS GRAND,5,53,individual_fallback,1
+GARCI GAZ 1L,13,53,individual_fallback,1
+FROMAGE TRIANGLE FONDU STREET &CO,3,53,individual_fallback,1
+CAPSULE CAFFITALY VIGOROSO,71,53,individual_fallback,1
+"EAU MINERALE 0,5L",184,53,individual_fallback,1
+LOT CAFE GRAIN GOURMANDISE,4,53,individual_fallback,1
+LOT CAFE GRAIN ESPERTO MOYEN GRAIN,3,53,individual_fallback,1
+LOT CAFE GRAIN CLASSICO CLASSIC ROAST,5,53,individual_fallback,1

@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏭 Enhanced Inventory Management - Real-time Predictions (Cycle 53+)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --info-color: #3498db;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --bg-card: #ffffff;
+            --text-primary: #2c3e50;
+            --text-secondary: #7f8c8d;
+            --border-color: #dee2e6;
+            --shadow: 0 2px 10px rgba(0,0,0,0.1);
+            --accent-blue: #3498db;
+            --accent-green: #27ae60;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2d3748;
+            --bg-card: #374151;
+            --text-primary: #f7fafc;
+            --text-secondary: #a0aec0;
+            --border-color: #4a5568;
+            --shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: all 0.3s ease;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color), #8e44ad);
+            color: white;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cycle-badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cycle-badge {
+            background: linear-gradient(45deg, var(--success-color), #2ecc71);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin: 5px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+            transform: perspective(1px) translateZ(0);
+            transition: all 0.3s ease;
+        }
+
+        .cycle-badge:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(39, 174, 96, 0.4);
+        }
+
+        /* NEW: Replenishment Notice Styles */
+        .replenishment-notice {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .replenishment-notice::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #f093fb 0%, #f5576c 50%, #4facfe 100%);
+        }
+
+        .replenishment-notice h3 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .replenishment-notice .notice-icon {
+            font-size: 1.2em;
+            background: rgba(255,255,255,0.2);
+            padding: 8px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .replenishment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .category-item {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 15px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .category-item:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-2px);
+        }
+
+        .category-label {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .category-frequency {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .system-status {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .status-card {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+
+        .status-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15);
+        }
+
+        .status-value {
+            font-size: 2.2em;
+            font-weight: 800;
+            color: var(--accent-blue);
+            margin-bottom: 5px;
+        }
+
+        .status-label {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .control-group {
+            background: var(--bg-card);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+
+        .control-group:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-1px);
+        }
+
+        .control-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 1.1em;
+        }
+
+        .control-group input, .control-group select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1em;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        .control-group input[type="file"] {
+            padding: 10px;
+            border: 2px dashed var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .control-group input[type="file"]:hover {
+            border-color: var(--accent-blue);
+            background: rgba(52, 152, 219, 0.05);
+        }
+
+        .control-group input[type="file"]:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, var(--secondary-color), #2980b9);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #2980b9, var(--secondary-color));
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+        }
+
+        .btn-success {
+            background: linear-gradient(45deg, var(--success-color), #2ecc71);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: linear-gradient(45deg, #2ecc71, var(--success-color));
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(39, 174, 96, 0.3);
+        }
+
+        .btn-warning {
+            background: linear-gradient(45deg, var(--warning-color), #e67e22);
+            color: white;
+        }
+
+        .btn-info {
+            background: linear-gradient(45deg, var(--info-color), #2980b9);
+            color: white;
+        }
+
+        .btn-info:hover {
+            background: linear-gradient(45deg, #2980b9, var(--info-color));
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .product-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-green));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(52, 152, 219, 0.15);
+        }
+
+        .product-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .product-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .product-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: var(--primary-color);
+            max-width: 70%;
+        }
+
+        .product-cycle {
+            background: linear-gradient(45deg, var(--accent-blue), #2980b9);
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(52, 152, 219, 0.3);
+        }
+
+        .stock-input-section {
+            margin-bottom: 25px;
+        }
+
+        .stock-input-section label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .stock-input-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .stock-input {
+            padding: 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-align: center;
+            color: var(--text-primary);
+            background: var(--bg-card);
+            transition: all 0.3s ease;
+        }
+
+        .stock-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .stock-input::placeholder {
+            color: var(--text-secondary);
+            opacity: 0.7;
+        }
+
+        .max-stock-display {
+            background: rgba(248, 249, 250, 0.5);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            font-weight: 700;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        [data-theme="dark"] .max-stock-display {
+            background: rgba(51, 65, 85, 0.5);
+        }
+
+        .capacity-info {
+            font-size: 0.9em;
+            color: var(--text-secondary);
+            margin-top: 8px;
+            text-align: center;
+        }
+
+        .capacity-warning {
+            background: rgba(231, 76, 60, 0.1);
+            border: 2px solid var(--danger-color);
+            color: var(--danger-color);
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-size: 0.95em;
+            font-weight: 600;
+            text-align: center;
+            display: none;
+            animation: shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        .predictions-section {
+            display: none;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .predictions-section.active {
+            display: block;
+            animation: slideDown 0.5s ease;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .prediction-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .prediction-item {
+            background: rgba(248, 249, 250, 0.5);
+            padding: 18px 12px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        [data-theme="dark"] .prediction-item {
+            background: rgba(51, 65, 85, 0.5);
+        }
+
+        .prediction-item:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+        }
+
+        .prediction-label {
+            font-size: 0.8em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .prediction-value {
+            font-size: 1.4em;
+            font-weight: 800;
+            font-family: 'Segoe UI', monospace;
+        }
+
+        .predicted { 
+            color: var(--accent-green);
+            background: rgba(39, 174, 96, 0.1) !important;
+        }
+        
+        .difference-positive { 
+            color: var(--accent-green);
+            background: rgba(39, 174, 96, 0.1) !important;
+        }
+        
+        .difference-negative { 
+            color: var(--danger-color);
+            background: rgba(231, 76, 60, 0.1) !important;
+        }
+        
+        .order-needed { 
+            color: var(--warning-color);
+            background: rgba(243, 156, 18, 0.1) !important;
+        }
+
+        .alerts-container {
+            position: fixed;
+            top: 90px;
+            right: 20px;
+            z-index: 1000;
+            max-width: 400px;
+        }
+
+        .alert {
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            animation: slideInRight 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(100px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .alert::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: currentColor;
+        }
+
+        .alert-success {
+            background: rgba(39, 174, 96, 0.1);
+            color: var(--success-color);
+            border: 2px solid rgba(39, 174, 96, 0.3);
+        }
+
+        .alert-error {
+            background: rgba(231, 76, 60, 0.1);
+            color: var(--danger-color);
+            border: 2px solid rgba(231, 76, 60, 0.3);
+        }
+
+        .alert-warning {
+            background: rgba(243, 156, 18, 0.1);
+            color: var(--warning-color);
+            border: 2px solid rgba(243, 156, 18, 0.3);
+        }
+
+        .alert-info {
+            background: rgba(52, 152, 219, 0.1);
+            color: var(--secondary-color);
+            border: 2px solid rgba(52, 152, 219, 0.3);
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(45deg, var(--secondary-color), #2980b9);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            font-size: 1.5em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            z-index: 999;
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(180deg) scale(1.1);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            background: var(--bg-card);
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 4px solid var(--border-color);
+            border-top: 4px solid var(--accent-blue);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .floating-actions {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 998;
+        }
+
+        .floating-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .floating-btn:hover {
+            transform: translateY(-3px) scale(1.1);
+        }
+
+        .fab-excel {
+            background: linear-gradient(45deg, var(--success-color), #2ecc71);
+            color: white;
+        }
+
+        .fab-sample {
+            background: linear-gradient(45deg, var(--warning-color), #e67e22);
+            color: white;
+        }
+
+        .fab-upload {
+            background: linear-gradient(45deg, #9b59b6, #8e44ad);
+            color: white;
+        }
+
+        .fab-predict {
+            background: linear-gradient(45deg, var(--secondary-color), #2980b9);
+            color: white;
+        }
+
+        .progress-indicator {
+            background: var(--bg-card);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .progress-bar {
+            background: var(--border-color);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-green));
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.8em;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+            z-index: 1000;
+        }
+
+        .tooltip:hover::after {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .prediction-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stock-input-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .controls {
+                grid-template-columns: 1fr;
+            }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .floating-actions {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .replenishment-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-controls">
+                <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">🌙</button>
+            </div>
+
+            <h1>🏭 Enhanced Inventory Management</h1>
+            <p>Real-time Stock Predictions with Capacity Validation & Excel Export</p>
+            <div class="cycle-badges">
+                <div class="cycle-badge">✨ 495 Products (Cycle 53+)</div>
+                <div class="cycle-badge">🎯 Real-time Validation</div>
+                <div class="cycle-badge">📂 Auto-Fill from CSV/Excel</div>
+                <div class="cycle-badge">📊 Smart Analytics</div>
+            </div>
+        </div>
+
+        <!-- NEW: Replenishment Frequency Notice -->
+        <div class="replenishment-notice">
+            <h3>
+                <div class="notice-icon">📋</div>
+                Replenishment Frequency Guidelines
+            </h3>
+            <p style="margin-bottom: 15px; opacity: 0.9;">
+                The replenishment frequency is determined by the product category:
+            </p>
+            <div class="replenishment-grid">
+                <div class="category-item">
+                    <div class="category-label">Category A</div>
+                    <div class="category-frequency">Up to 4 times per cycle</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-label">Category B</div>
+                    <div class="category-frequency">Up to 3 times per cycle</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-label">Category C</div>
+                    <div class="category-frequency">Up to 2 times per cycle</div>
+                </div>
+                <div class="category-item">
+                    <div class="category-label">Category D</div>
+                    <div class="category-frequency">Once per cycle</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="system-status">
+            <div class="status-card">
+                <div class="status-value" id="totalProducts">495</div>
+                <div class="status-label">Total Products (Cycle 53+)</div>
+            </div>
+            <div class="status-card">
+                <div class="status-value" id="totalCategories">0</div>
+                <div class="status-label">Product Categories</div>
+            </div>
+            <div class="status-card">
+                <div class="status-value" id="criticalStock">0</div>
+                <div class="status-label">Critical Stock Items</div>
+            </div>
+            <div class="status-card">
+                <div class="status-value" id="nearMaxStock">0</div>
+                <div class="status-label">Near Max Capacity</div>
+            </div>
+            <div class="status-card">
+                <div class="status-value" id="stocksFilled">0</div>
+                <div class="status-label">Stocks Auto-Filled</div>
+            </div>
+        </div>
+
+        <div class="progress-indicator">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span><strong>Analysis Progress:</strong> <span id="analysisProgress">0%</span></span>
+                <span><strong>Model:</strong> Enhanced GRU (R² = 0.848)</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="alerts-container" id="alerts"></div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="modelSelect">🤖 Prediction Model:</label>
+                <select id="modelSelect">
+                    <option value="enhanced_gru">Enhanced GRU Model (Recommended)</option>
+                    <option value="ensemble">Ensemble Model</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <label for="stockFileUpload">📂 Upload Current Stock (CSV/Excel):</label>
+                <input type="file" id="stockFileUpload" accept=".csv,.xlsx,.xls" 
+                       onchange="uploadCurrentStockFile()" style="margin-bottom: 10px;">
+                <div style="font-size: 0.85em; color: var(--text-secondary);">
+                    Required columns: <strong>Name</strong> or <strong>Product_Name</strong>, <strong>Current_Stock</strong><br>
+                    Default stock is <strong>0</strong> if not provided
+                </div>
+                <div style="margin-top: 8px;">
+                    <button class="btn btn-info" onclick="showExpectedProductNames()" 
+                            style="font-size: 0.8em; padding: 6px 12px; margin-right: 8px;"
+                            data-tooltip="See what product names the system expects">
+                        🔍 Show Expected Names
+                    </button>
+                    <button class="btn btn-info" onclick="checkSystemStatus()" 
+                            style="font-size: 0.8em; padding: 6px 12px;"
+                            data-tooltip="Check if predictions and system are working">
+                        🔧 System Status
+                    </button>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <label for="filterName">🔍 Filter Products:</label>
+                <input type="text" id="filterName" placeholder="Type product name to filter...">
+            </div>
+            
+            <div class="control-group">
+                <label for="quantityFilter">📦 Quantity Range:</label>
+                <input type="text" id="quantityFilter" placeholder="e.g., 100-500 or >200">
+            </div>
+            
+            <div class="control-group">
+                <label>⚡ Quick Actions:</label>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+                    <button class="btn btn-warning" onclick="loadSampleBusinessData()" 
+                            data-tooltip="Load realistic test data">📋 Sample Data</button>
+                    <button class="btn btn-success" onclick="generateBusinessExcel()" 
+                            data-tooltip="Export filtered Excel report">📊 Excel Report</button>
+                    <button class="btn btn-info" onclick="clearAllStocks()" 
+                            data-tooltip="Reset all stocks to 0">🔄 Clear All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div>Processing predictions...</div>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be loaded here dynamically -->
+        </div>
+    </div>
+
+    <div class="floating-actions">
+        <button class="floating-btn fab-upload tooltip" onclick="document.getElementById('stockFileUpload').click()" 
+                data-tooltip="Upload stock file (CSV/Excel)">📂</button>
+        <button class="floating-btn fab-predict tooltip" onclick="runAllPredictions()" 
+                data-tooltip="Run predictions for all products">🔮</button>
+        <button class="floating-btn fab-excel tooltip" onclick="generateBusinessExcel()" 
+                data-tooltip="Generate Excel report">📑</button>
+        <button class="floating-btn fab-sample tooltip" onclick="loadSampleBusinessData()" 
+                data-tooltip="Load sample data">🎲</button>
+    </div>
+
+    <script>
+        // Global variables
+        let businessProducts = {};
+        let businessPredictions = {};
+        let selectedModel = 'enhanced_gru';
+        let serverConnected = false;
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('🚀 Initializing Enhanced Inventory Management System...');
+            
+            // Load theme first
+            loadSavedTheme();
+            
+            // Check server connectivity before proceeding
+            showAlert('🔍 Checking server connection...', 'info');
+            serverConnected = await checkServerConnectivity();
+            
+            if (serverConnected) {
+                showAlert('✅ Server connected successfully', 'success');
+                // Initialize products
+                await loadBusinessProducts();
+            } else {
+                showAlert('⚠️ Server not reachable - using sample data', 'warning');
+                loadSampleProducts();
+            }
+            
+            // Setup event listeners
+            setupEventListeners();
+            
+            // Initial stats update
+            updateSystemStats();
+            
+            console.log('✅ System initialization complete');
+        });
+
+        // FIXED: Add server connectivity check
+        async function checkServerConnectivity() {
+            try {
+                console.log('🔍 Checking server connectivity...');
+                
+                // Try a simple health check first
+                const healthResponse = await fetch('/health', {
+                    method: 'GET',
+                    headers: { 'Accept': 'application/json' },
+                    timeout: 5000
+                });
+                
+                if (healthResponse.ok) {
+                    const contentType = healthResponse.headers.get('content-type');
+                    if (contentType && contentType.includes('application/json')) {
+                        const healthData = await healthResponse.json();
+                        console.log('✅ Server is reachable:', healthData);
+                        return true;
+                    } else {
+                        console.log('⚠️ Server returned non-JSON response');
+                        return false;
+                    }
+                } else {
+                    console.log('⚠️ Health check failed with status:', healthResponse.status);
+                    return false;
+                }
+                
+            } catch (error) {
+                console.error('❌ Server connectivity check failed:', error);
+                return false;
+            }
+        }
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const themeToggle = document.getElementById('themeToggle');
+            
+            const currentTheme = html.getAttribute('data-theme');
+            console.log('Current theme:', currentTheme);
+            
+            if (currentTheme === 'dark') {
+                html.setAttribute('data-theme', 'light');
+                themeToggle.textContent = '🌙';
+                console.log('Switched to light theme');
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                themeToggle.textContent = '☀️';
+                console.log('Switched to dark theme');
+            }
+        }
+
+        // Load theme based on system preference
+        function loadSavedTheme() {
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const themeToggle = document.getElementById('themeToggle');
+            
+            if (prefersDark) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                if (themeToggle) themeToggle.textContent = '☀️';
+                console.log('Loaded dark theme (system preference)');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                if (themeToggle) themeToggle.textContent = '🌙';
+                console.log('Loaded light theme (system preference)');
+            }
+        }
+
+        // FIXED: Enhanced loadBusinessProducts with proper error handling
+        async function loadBusinessProducts() {
+            try {
+                console.log('🔄 Loading business products...');
+                showAlert('🔄 Loading products from system...', 'info');
+                
+                const response = await fetch('/business_products', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                console.log('Products response status:', response.status);
+                
+                // FIXED: Check content type before parsing
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    console.warn('Received non-JSON response, trying sample products');
+                    const responseText = await response.text();
+                    console.log('Response preview:', responseText.substring(0, 200));
+                    showAlert('⚠️ Server returned HTML instead of JSON - using sample data', 'warning');
+                    loadSampleProducts();
+                    return;
+                }
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const products = await response.json();
+                console.log('Products response:', products);
+                
+                if (products.error) {
+                    throw new Error(products.error);
+                }
+                
+                // Check if we got an object of products
+                if (typeof products !== 'object' || Array.isArray(products)) {
+                    throw new Error('Invalid products format received');
+                }
+                
+                // Filter to only show products with cycles 53+
+                businessProducts = {};
+                let filteredCount = 0;
+                
+                Object.entries(products).forEach(([productId, product]) => {
+                    const cycle = parseInt(product.cycle) || 53;
+                    if (cycle >= 53) {
+                        businessProducts[productId] = product;
+                        filteredCount++;
+                    }
+                });
+                
+                console.log(`✅ Loaded ${Object.keys(products).length} total products`);
+                console.log(`✅ Filtered to ${filteredCount} products with cycles 53+`);
+                
+                if (filteredCount === 0) {
+                    throw new Error('No products found with cycles 53 or above');
+                }
+                
+                displayBusinessProducts();
+                updateSystemStats();
+                
+                showAlert(`✅ Loaded ${filteredCount} products for cycle 53+ predictions`, 'success');
+                
+            } catch (error) {
+                console.error('❌ Error loading business products:', error);
+                showAlert(`❌ Failed to load products: ${error.message}`, 'error');
+                
+                // Try to load sample products as fallback
+                console.log('🔄 Loading sample products as fallback...');
+                loadSampleProducts();
+            }
+        }
+
+        function loadSampleProducts() {
+            console.log('Loading sample products...');
+            businessProducts = {};
+            
+            // Create sample products for testing
+            const sampleProductsData = [
+                { id: 'PROD_001', name: 'Industrial Bearing A23', max_stock: 1000, cycle: 53, category: 'Bearings' },
+                { id: 'PROD_002', name: 'Motor Assembly X45', max_stock: 500, cycle: 54, category: 'Motors' },
+                { id: 'PROD_003', name: 'Hydraulic Pump B12', max_stock: 750, cycle: 55, category: 'Pumps' },
+                { id: 'PROD_004', name: 'Control Valve C78', max_stock: 300, cycle: 53, category: 'Valves' },
+                { id: 'PROD_005', name: 'Safety Sensor D90', max_stock: 200, cycle: 56, category: 'Sensors' },
+                { id: 'PROD_006', name: 'Pressure Gauge E12', max_stock: 150, cycle: 53, category: 'Gauges' },
+                { id: 'PROD_007', name: 'Flow Meter F34', max_stock: 400, cycle: 54, category: 'Meters' },
+                { id: 'PROD_008', name: 'Temperature Sensor G56', max_stock: 250, cycle: 55, category: 'Sensors' }
+            ];
+            
+            sampleProductsData.forEach(product => {
+                businessProducts[product.id] = {
+                    name: product.name,
+                    max_stock: product.max_stock,
+                    cycle: product.cycle,
+                    group_name: product.category,
+                    storage_unit: 'UNITS',
+                    stock_class: 'A'
+                };
+            });
+            
+            console.log(`✅ Loaded ${Object.keys(businessProducts).length} sample products`);
+            displayBusinessProducts();
+            updateSystemStats();
+            showAlert(`✅ Sample products loaded for testing (${Object.keys(businessProducts).length} products)`, 'success');
+        }
+
+        function displayBusinessProducts() {
+            const productGrid = document.getElementById('productGrid');
+            const filterValue = document.getElementById('filterName').value.toLowerCase();
+            const quantityFilter = document.getElementById('quantityFilter').value.trim();
+            
+            productGrid.innerHTML = '';
+            
+            let filteredProducts = Object.entries(businessProducts);
+            
+            // Apply name filter
+            if (filterValue) {
+                filteredProducts = filteredProducts.filter(([id, product]) => 
+                    product.name.toLowerCase().includes(filterValue)
+                );
+            }
+            
+            // Apply quantity filter
+            if (quantityFilter) {
+                filteredProducts = filteredProducts.filter(([id, product]) => {
+                    const maxStock = parseInt(product.max_stock) || 0;
+                    return matchesQuantityFilter(maxStock, quantityFilter);
+                });
+            }
+            
+            if (filteredProducts.length === 0) {
+                productGrid.innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--text-secondary);">
+                        <h3>🔍 No products found matching your criteria</h3>
+                        <p>Try adjusting your filters or load sample data</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            filteredProducts.forEach(([productId, product]) => {
+                const productCard = createBusinessProductCard(productId, product);
+                productGrid.appendChild(productCard);
+            });
+            
+            updateSystemStats();
+        }
+
+        function matchesQuantityFilter(value, filter) {
+            try {
+                if (filter.includes('-')) {
+                    const [min, max] = filter.split('-').map(x => parseInt(x.trim()));
+                    return value >= min && value <= max;
+                } else if (filter.startsWith('>')) {
+                    return value > parseInt(filter.slice(1).trim());
+                } else if (filter.startsWith('<')) {
+                    return value < parseInt(filter.slice(1).trim());
+                } else {
+                    return value === parseInt(filter);
+                }
+            } catch (e) {
+                return true; // Invalid filter, show all
+            }
+        }
+
+        function createBusinessProductCard(productId, product) {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            
+            const cycle = parseInt(product.cycle) || 53;
+            const maxStock = parseInt(product.max_stock) || 1000;
+            
+            card.innerHTML = `
+                <div class="product-header">
+                    <div class="product-name" title="${product.name}">${truncateText(product.name, 25)}</div>
+                    <div class="product-cycle tooltip" data-tooltip="Next prediction cycle">Cycle ${cycle}</div>
+                </div>
+                
+                <div class="stock-input-section">
+                    <label>📦 Current Stock Input:</label>
+                    <div class="stock-input-container">
+                        <input 
+                            type="number" 
+                            class="stock-input tooltip" 
+                            id="stock_${productId}"
+                            placeholder="Enter current stock (default: 0)..."
+                            min="0"
+                            max="${maxStock}"
+                            value="0"
+                            data-tooltip="Enter current stock (defaults to 0 if empty, validates against max capacity)"
+                            onInput="validateAndUpdateBusinessStock('${productId}')"
+                        >
+                        <div class="max-stock-display tooltip" data-tooltip="Maximum warehouse capacity">
+                            Max: ${formatNumber(maxStock)}
+                        </div>
+                    </div>
+                    <div class="capacity-info">💾 Max capacity: ${formatNumber(maxStock)} units | Default: 0 (auto-filled from uploaded file)</div>
+                    <div id="capacityWarning_${productId}" class="capacity-warning">
+                        ⚠️ Cannot exceed max capacity of ${formatNumber(maxStock)} units!
+                    </div>
+                </div>
+
+                <div class="predictions-section" id="predictions_${productId}">
+                    <h4 style="margin-bottom: 15px; color: var(--accent-blue);">🔮 Real-time Prediction</h4>
+                    <div class="prediction-grid">
+                        <div class="prediction-item predicted tooltip" data-tooltip="Predicted stock needed">
+                            <div class="prediction-label">Predicted Need</div>
+                            <div class="prediction-value" id="predicted_${productId}">--</div>
+                        </div>
+                        <div class="prediction-item tooltip" id="diff_container_${productId}" data-tooltip="Adjustment from current stock">
+                            <div class="prediction-label">Adjustment</div>
+                            <div class="prediction-value" id="difference_${productId}">--</div>
+                        </div>
+                        <div class="prediction-item order-needed tooltip" data-tooltip="Recommended order quantity">
+                            <div class="prediction-label">Order Needed</div>
+                            <div class="prediction-value" id="order_${productId}">--</div>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; font-size: 0.9em; color: var(--text-secondary);">
+                        📈 Updates automatically as you type
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function validateAndUpdateBusinessStock(productId) {
+            const stockInput = document.getElementById(`stock_${productId}`);
+            const capacityWarning = document.getElementById(`capacityWarning_${productId}`);
+            const predictionsPanel = document.getElementById(`predictions_${productId}`);
+            
+            if (!stockInput || !businessProducts[productId]) return;
+            
+            // Get input value - if empty or invalid, default to 0
+            let inputValue = parseFloat(stockInput.value);
+            if (isNaN(inputValue) || inputValue === null || inputValue === undefined) {
+                inputValue = 0;
+                stockInput.value = 0; // Explicitly set to 0 if empty
+            }
+            
+            const maxStock = parseInt(businessProducts[productId].max_stock) || 1000;
+            
+            // Validate against max capacity
+            if (inputValue > maxStock) {
+                stockInput.value = maxStock;
+                capacityWarning.style.display = 'block';
+                showAlert(`⚠️ Max capacity exceeded! Adjusted to ${formatNumber(maxStock)} units.`, 'warning');
+                
+                setTimeout(() => {
+                    capacityWarning.style.display = 'none';
+                }, 3000);
+            } else {
+                capacityWarning.style.display = 'none';
+            }
+            
+            // Ensure positive integer (defaults to 0 if empty/invalid)
+            const currentStock = Math.max(0, Math.round(parseFloat(stockInput.value) || 0));
+            stockInput.value = currentStock;
+            
+            // Make real-time prediction (even with 0 stock)
+            makeBusinessPrediction(productId, currentStock);
+            updateSystemStats();
+        }
+
+        // FIXED: Enhanced makeBusinessPrediction with proper error handling
+        async function makeBusinessPrediction(productId, currentStock) {
+            const product = businessProducts[productId];
+            if (!product) {
+                console.error('Product not found:', productId);
+                return;
+            }
+            
+            try {
+                console.log(`Making prediction for ${productId} with stock ${currentStock}`);
+                
+                // Only try API if server is connected
+                if (serverConnected) {
+                    const response = await fetch('/real_time_predict', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            product_id: productId,
+                            current_stock: currentStock
+                        })
+                    });
+                    
+                    console.log('Prediction response status:', response.status);
+                    
+                    // Check content type before parsing
+                    const contentType = response.headers.get('content-type');
+                    if (contentType && contentType.includes('application/json') && response.ok) {
+                        const result = await response.json();
+                        console.log('Prediction result:', result);
+                        
+                        if (result.status === 'success') {
+                            updateBusinessPredictionDisplay(productId, result);
+                            return;
+                        } else {
+                            console.warn('Prediction API returned error:', result.message);
+                        }
+                    } else {
+                        console.warn('Prediction API returned non-JSON or failed with status:', response.status);
+                    }
+                }
+                
+                // Fallback to client-side prediction
+                makeFallbackPrediction(productId, currentStock);
+                
+            } catch (error) {
+                console.error('❌ Real-time prediction error:', error);
+                // Fallback to client-side prediction
+                makeFallbackPrediction(productId, currentStock);
+            }
+        }
+
+        function makeFallbackPrediction(productId, currentStock) {
+            const product = businessProducts[productId];
+            if (!product) return;
+            
+            console.log(`Making fallback prediction for ${productId}`);
+            
+            const maxStock = parseInt(product.max_stock) || 1000;
+            
+            // Simple business logic fallback
+            const basePrediction = Math.round(maxStock * (0.3 + Math.random() * 0.4)); // 30-70% of max
+            const adjustedPrediction = Math.max(0, basePrediction - currentStock);
+            const finalPrediction = Math.min(adjustedPrediction, maxStock - currentStock);
+            
+            const result = {
+                status: 'success',
+                product_id: productId,
+                current_stock: currentStock,
+                adjusted_prediction: finalPrediction,
+                difference: finalPrediction,
+                order_quantity: Math.max(0, finalPrediction),
+                max_stock: maxStock,
+                prediction_type: 'Fallback Logic'
+            };
+            
+            console.log('Fallback prediction result:', result);
+            updateBusinessPredictionDisplay(productId, result);
+        }
+
+        function updateBusinessPredictionDisplay(productId, prediction) {
+            const predictionsPanel = document.getElementById(`predictions_${productId}`);
+            const predictedElement = document.getElementById(`predicted_${productId}`);
+            const differenceElement = document.getElementById(`difference_${productId}`);
+            const diffContainer = document.getElementById(`diff_container_${productId}`);
+            const orderElement = document.getElementById(`order_${productId}`);
+            
+            if (!predictionsPanel || !predictedElement) return;
+            
+            // Show predictions panel with animation
+            predictionsPanel.classList.add('active');
+            
+            // Update values - NO COMMAS, ROUNDED
+            const adjustedPred = Math.round(prediction.adjusted_prediction || prediction.predicted_stock || 0);
+            const diff = Math.round(prediction.difference || 0);
+            const order = Math.round(prediction.order_quantity || 0);
+            
+            predictedElement.textContent = formatNumber(adjustedPred);
+            
+            differenceElement.textContent = (diff >= 0 ? '+' : '') + formatNumber(diff);
+            diffContainer.className = `prediction-item ${diff >= 0 ? 'difference-positive' : 'difference-negative'}`;
+            
+            orderElement.textContent = order > 0 ? formatNumber(order) : 'None';
+            
+            // Store prediction for later use
+            businessPredictions[productId] = {
+                predicted_stock: adjustedPred,
+                difference: diff,
+                order_quantity: order,
+                max_stock: prediction.max_stock || 1000
+            };
+        }
+
+        // FIXED: Enhanced uploadCurrentStockFile with proper error handling
+        async function uploadCurrentStockFile() {
+            const fileInput = document.getElementById('stockFileUpload');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                showAlert('⚠️ Please select a file first', 'warning');
+                return;
+            }
+            
+            showAlert('📂 Uploading current stock file...', 'info');
+            
+            const formData = new FormData();
+            formData.append('stock_file', file);
+            
+            try {
+                const response = await fetch('/upload_current_stock', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                // Check content type before parsing
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    const responseText = await response.text();
+                    console.error('Upload returned HTML instead of JSON:', responseText.substring(0, 200));
+                    showAlert('❌ Server returned HTML instead of JSON. Please check Flask server logs.', 'error');
+                    return;
+                }
+                
+                const result = await response.json();
+                
+                console.log('Upload result:', result); // Debug logging
+                
+                if (result.status === 'success') {
+                    // Auto-fill the stock input fields
+                    let filledCount = 0;
+                    Object.entries(result.stock_updates).forEach(([productId, stock]) => {
+                        const stockInput = document.getElementById(`stock_${productId}`);
+                        if (stockInput) {
+                            stockInput.value = stock;
+                            validateAndUpdateBusinessStock(productId);
+                            filledCount++;
+                        }
+                    });
+                    
+                    document.getElementById('stocksFilled').textContent = filledCount;
+                    
+                    showAlert(`✅ Successfully loaded ${result.matched_products} stock values from file!`, 'success');
+                    
+                    if (result.total_unmatched > 0) {
+                        showAlert(`⚠️ ${result.total_unmatched} products couldn't be matched. Check product names.`, 'warning');
+                    }
+                    
+                    if (result.processing_errors && result.processing_errors.length > 0) {
+                        console.log('Processing errors:', result.processing_errors);
+                        showAlert(`ℹ️ Some rows had issues during processing. Check console for details.`, 'info');
+                    }
+                    
+                    updateSystemStats();
+                } else {
+                    // Handle detailed error information
+                    let errorMessage = result.error || 'Upload failed';
+                    
+                    if (result.available_columns) {
+                        errorMessage += `\n\nAvailable columns in your file: ${result.available_columns.join(', ')}`;
+                        console.log('Available columns:', result.available_columns);
+                    }
+                    
+                    if (result.message) {
+                        errorMessage += `\n\n${result.message}`;
+                    }
+                    
+                    if (result.suggestion) {
+                        errorMessage += `\n\nSuggestion: ${result.suggestion}`;
+                    }
+                    
+                    showAlert('❌ Upload failed: ' + errorMessage, 'error');
+                    
+                    // Show detailed error in console for debugging
+                    console.error('Upload error details:', result);
+                }
+            } catch (error) {
+                console.error('Network error:', error);
+                
+                if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                    showAlert('❌ Cannot connect to Flask server. Make sure it\'s running on port 5000.', 'error');
+                } else {
+                    showAlert('❌ Network error: ' + error.message, 'error');
+                }
+            } finally {
+                // Clear file input
+                fileInput.value = '';
+            }
+        }
+
+        // FIXED: Enhanced checkSystemStatus with proper error handling
+        async function checkSystemStatus() {
+            try {
+                showAlert('🔧 Checking system status...', 'info');
+                
+                const response = await fetch('/debug_system', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                console.log('Response status:', response.status);
+                console.log('Response headers:', Object.fromEntries(response.headers.entries()));
+                
+                // Check content type before parsing
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    const htmlText = await response.text();
+                    console.error('Received HTML instead of JSON:', htmlText.substring(0, 200));
+                    showAlert('❌ Server returned HTML instead of JSON. Check if Flask server is running properly.', 'error');
+                    return;
+                }
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const result = await response.json();
+                
+                console.log('=== SYSTEM STATUS CHECK ===');
+                console.log('System Status:', result);
+                
+                if (result.status === 'healthy') {
+                    let statusMessage = `✅ System is healthy!\n`;
+                    statusMessage += `Business Predictor: ${result.business_predictor_loaded ? '✅ Loaded' : '❌ Not Loaded'}\n`;
+                    statusMessage += `Products Available: ${result.products_available}\n`;
+                    statusMessage += `Sample Products: ${result.sample_products_available}\n`;
+                    statusMessage += `CSV File: ${result.csv_file_loaded ? '✅ Loaded' : '❌ Not Loaded'}\n`;
+                    
+                    console.log(statusMessage);
+                    showAlert('✅ System check complete - see console for details', 'success');
+                } else {
+                    showAlert('❌ System check failed: ' + (result.error || 'Unknown error'), 'error');
+                }
+                
+            } catch (error) {
+                console.error('System status check failed:', error);
+                
+                if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                    showAlert('❌ Cannot connect to Flask server. Make sure it\'s running on port 5000.', 'error');
+                } else if (error.message.includes('Unexpected token')) {
+                    showAlert('❌ Server returned HTML instead of JSON. Check Flask server logs.', 'error');
+                } else {
+                    showAlert('❌ Could not check system status: ' + error.message, 'error');
+                }
+            }
+        }
+
+        async function showExpectedProductNames() {
+            try {
+                showAlert('🔍 Loading expected product names...', 'info');
+                
+                const response = await fetch('/debug_products', {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                // Check content type
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    showAlert('❌ Server returned non-JSON response for product names', 'error');
+                    return;
+                }
+                
+                const result = await response.json();
+                
+                if (result.status === 'success') {
+                    console.log('=== EXPECTED PRODUCT NAMES (Sample) ===');
+                    console.log(`Total products in system: ${result.total_products}`);
+                    console.log('Sample product names (first 20):');
+                    
+                    result.sample_products.forEach((product, index) => {
+                        console.log(`${index + 1}. "${product.name}" (Cycle: ${product.cycle}, Max: ${product.max_stock})`);
+                    });
+                    
+                    console.log('=== END PRODUCT NAMES ===');
+                    
+                    showAlert(`✅ Product names logged to console. Total: ${result.total_products} products. Check browser console (F12) for details.`, 'success');
+                } else {
+                    showAlert('❌ Failed to load product names: ' + result.error, 'error');
+                }
+            } catch (error) {
+                console.error('Error loading product names:', error);
+                showAlert('❌ Error loading product names: ' + error.message, 'error');
+            }
+        }
+
+        function clearAllStocks() {
+            if (!confirm('🔄 Are you sure you want to clear all stock values? This will reset all inputs to 0.')) {
+                return;
+            }
+            
+            Object.keys(businessProducts).forEach(productId => {
+                const stockInput = document.getElementById(`stock_${productId}`);
+                if (stockInput) {
+                    stockInput.value = 0;
+                    validateAndUpdateBusinessStock(productId);
+                }
+            });
+            
+            document.getElementById('stocksFilled').textContent = '0';
+            updateSystemStats();
+            showAlert('🔄 All stock values cleared and reset to 0', 'info');
+        }
+
+        function updateSystemStats() {
+            let totalWithStock = 0;
+            let criticalCount = 0;
+            let nearMaxCount = 0;
+            let filledCount = 0;
+            
+            Object.keys(businessProducts).forEach(productId => {
+                const stockInput = document.getElementById(`stock_${productId}`);
+                if (!stockInput) return;
+                
+                const currentStock = Math.round(parseFloat(stockInput.value) || 0);
+                const maxStock = businessProducts[productId].max_stock;
+                const stockLevel = currentStock / maxStock;
+                
+                if (currentStock > 0) {
+                    totalWithStock++;
+                    filledCount++;
+                }
+                if (stockLevel <= 0.2 && currentStock > 0) criticalCount++;
+                if (stockLevel >= 0.8) nearMaxCount++;
+            });
+            
+            document.getElementById('criticalStock').textContent = formatNumber(criticalCount);
+            document.getElementById('nearMaxStock').textContent = formatNumber(nearMaxCount);
+            document.getElementById('stocksFilled').textContent = formatNumber(filledCount);
+            
+            const progressPercent = Math.round((totalWithStock / Object.keys(businessProducts).length * 100) || 0);
+            document.getElementById('analysisProgress').textContent = `${progressPercent}%`;
+            document.getElementById('progressFill').style.width = `${progressPercent}%`;
+        }
+
+        function loadSampleBusinessData() {
+            showAlert('🎲 Loading realistic sample data...', 'info');
+            
+            Object.entries(businessProducts).forEach(([productId, product]) => {
+                const stockInput = document.getElementById(`stock_${productId}`);
+                if (stockInput) {
+                    // Generate stock between 15% and 65% of max stock for realistic business scenarios
+                    const maxStock = parseInt(product.max_stock) || 1000;
+                    const sampleStock = Math.round(maxStock * (0.15 + Math.random() * 0.5));
+                    stockInput.value = sampleStock;
+                    validateAndUpdateBusinessStock(productId);
+                }
+            });
+            
+            setTimeout(() => {
+                showAlert('✅ Sample business data loaded successfully! Ready for next cycle analysis.', 'success');
+            }, 1000);
+        }
+
+        async function runAllPredictions() {
+            const stockData = {};
+            
+            // Collect all stock inputs
+            Object.keys(businessProducts).forEach(productId => {
+                const stockInput = document.getElementById(`stock_${productId}`);
+                if (stockInput && stockInput.value) {
+                    stockData[productId] = parseInt(stockInput.value) || 0;
+                }
+            });
+            
+            if (Object.keys(stockData).length === 0) {
+                showAlert('⚠️ Please enter stock values first or load sample data.', 'warning');
+                return;
+            }
+            
+            const loading = document.getElementById('loading');
+            loading.style.display = 'block';
+            
+            showAlert(`🤖 ${selectedModel.toUpperCase()} is analyzing next cycle predictions for ${formatNumber(Object.keys(stockData).length)} products...`, 'info');
+            
+            try {
+                // Only try API if server is connected
+                if (!serverConnected) {
+                    showAlert('⚠️ Server not connected - using local predictions', 'warning');
+                    
+                    // Generate local predictions for all products
+                    Object.keys(stockData).forEach(productId => {
+                        const currentStock = stockData[productId];
+                        makeFallbackPrediction(productId, currentStock);
+                    });
+                    
+                    showAlert(`✅ Local predictions completed for ${Object.keys(stockData).length} products`, 'success');
+                    return;
+                }
+                
+                const response = await fetch('/business_predict_realtime', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        stock_data: stockData,
+                        model_type: selectedModel
+                    })
+                });
+                
+                // Check content type
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    showAlert('❌ Server returned non-JSON response for predictions', 'error');
+                    return;
+                }
+                
+                const result = await response.json();
+                
+                if (result.status === 'success') {
+                    businessPredictions = {};
+                    
+                    result.predictions.forEach(prediction => {
+                        businessPredictions[prediction.product_id] = prediction;
+                        updateBusinessPredictionDisplay(prediction.product_id, prediction);
+                    });
+                    
+                    updateSystemStats();
+                    showAlert(`✅ Predictions completed for ${result.total_processed} products (Cycles 53+)`, 'success');
+                    
+                    if (result.validation_errors && result.validation_errors.length > 0) {
+                        result.validation_errors.forEach(error => {
+                            showAlert(`⚠️ ${error}`, 'warning');
+                        });
+                    }
+                } else {
+                    showAlert('❌ Prediction failed: ' + result.message, 'error');
+                }
+                
+            } catch (error) {
+                console.error('Batch prediction error:', error);
+                
+                if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                    showAlert('❌ Cannot connect to server for batch predictions', 'error');
+                } else {
+                    showAlert('❌ Batch prediction error: ' + error.message, 'error');
+                }
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+
+        async function generateBusinessExcel() {
+            showAlert('📊 Generating Excel report with filtered columns (Cycles 53+ only)...', 'info');
+            
+            try {
+                const response = await fetch('/download_excel_filtered', {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `inventory_predictions_cycle53plus_${new Date().toISOString().slice(0, 10)}.xlsx`;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    document.body.removeChild(a);
+                    
+                    showAlert('✅ Excel report downloaded successfully! (Excluded: order_value, unit_price, days_of_supply, total_cycles)', 'success');
+                } else {
+                    showAlert('❌ Excel generation failed: HTTP error ' + response.status, 'error');
+                }
+            } catch (error) {
+                console.error('Excel generation error:', error);
+                showAlert('❌ Failed to generate Excel report: ' + error.message, 'error');
+            }
+        }
+
+        function setupEventListeners() {
+            // Filter products in real-time
+            document.getElementById('filterName').addEventListener('input', debounce(displayBusinessProducts, 300));
+            document.getElementById('quantityFilter').addEventListener('input', debounce(displayBusinessProducts, 300));
+            
+            // Model selection
+            document.getElementById('modelSelect').addEventListener('change', function() {
+                selectedModel = this.value;
+                const modelName = this.selectedOptions[0].text;
+                showAlert(`🤖 Model switched to: ${modelName} for next cycle predictions`, 'info');
+            });
+            
+            // Keyboard shortcuts
+            document.addEventListener('keydown', function(event) {
+                if (event.ctrlKey || event.metaKey) {
+                    switch(event.key) {
+                        case 'f':
+                            event.preventDefault();
+                            document.getElementById('filterName').focus();
+                            break;
+                        case 't':
+                            event.preventDefault();
+                            toggleTheme();
+                            break;
+                        case 's':
+                            event.preventDefault();
+                            loadSampleBusinessData();
+                            break;
+                        case 'Enter':
+                            if (event.shiftKey) {
+                                event.preventDefault();
+                                runAllPredictions();
+                            }
+                            break;
+                    }
+                }
+            });
+        }
+
+        function showAlert(message, type) {
+            const alertsContainer = document.getElementById('alerts');
+            const alert = document.createElement('div');
+            alert.className = `alert alert-${type}`;
+            alert.textContent = message;
+            
+            alertsContainer.appendChild(alert);
+            
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                if (alert.parentNode) {
+                    alert.remove();
+                }
+            }, 5000);
+        }
+
+        // Utility functions
+        function formatNumber(num) {
+            // Format number without commas, just integers as requested
+            return Math.round(num || 0).toString();
+        }
+
+        function truncateText(text, maxLength) {
+            return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+        }
+
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Debug function for troubleshooting
+        function showDebugInfo() {
+            console.log('=== DEBUG INFORMATION ===');
+            console.log('Current URL:', window.location.href);
+            console.log('Flask Server Expected:', window.location.origin);
+            console.log('Server Connected:', serverConnected);
+            console.log('Products loaded:', Object.keys(businessProducts).length);
+            console.log('Theme:', document.documentElement.getAttribute('data-theme'));
+            console.log('User Agent:', navigator.userAgent);
+            console.log('=== END DEBUG ===');
+        }
+
+        // Make debug function available globally
+        window.showDebugInfo = showDebugInfo;
+
+        console.log('🎯 Enhanced Inventory Management System initialized successfully!');
+        console.log('📊 System Info: 495 products, Cycle 53+, Default stock = 0');
+        console.log('📂 File Upload: Support CSV/Excel with Current_Stock column');
+        console.log('🔧 Features: Real-time validation, capacity alerts, auto-fill from files');
+        console.log('🛠️ FIXED: Proper JSON error handling, content-type checking, server connectivity tests');
+    </script>
+</body>
+</html>

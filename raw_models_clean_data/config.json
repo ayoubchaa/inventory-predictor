@@ -1,0 +1,63 @@
+{
+  "feature_names": [
+    "current_stock",
+    "cycle",
+    "month",
+    "max_stock",
+    "product_encoded",
+    "category_encoded",
+    "storage_unit_encoded",
+    "stock_class_encoded"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "Raw GRU - Clean Dataset",
+      "train_metrics": {
+        "r2": 0.8154982945763727,
+        "mae": 288.9743253439191,
+        "rmse": 802.0240487934344,
+        "mape": 120.02294573410173
+      },
+      "test_metrics": {
+        "r2": 0.8102205757741471,
+        "mae": 214.32895594029003,
+        "rmse": 555.6309807843022,
+        "mape": 98.84767873429766
+      },
+      "epochs_trained": 15,
+      "features_used": 8,
+      "approach": "raw_features_clean",
+      "dataset_type": "clean",
+      "dataset_size": 11067,
+      "sequences_created": 7380
+    },
+    "bidirectional_lstm": {
+      "description": "Raw BiLSTM - Clean Dataset",
+      "train_metrics": {
+        "r2": 0.837728459789648,
+        "mae": 271.53852000415026,
+        "rmse": 752.1567851124246,
+        "mape": 116.60783893935857
+      },
+      "test_metrics": {
+        "r2": 0.7895517199388388,
+        "mae": 233.93022296217148,
+        "rmse": 585.1060396784843,
+        "mape": 121.73328208599582
+      },
+      "epochs_trained": 15,
+      "features_used": 8,
+      "approach": "raw_features_clean",
+      "dataset_type": "clean",
+      "dataset_size": 11067,
+      "sequences_created": 7380
+    }
+  },
+  "sequence_length": 10,
+  "approach": "raw_features_clean",
+  "num_features": 8,
+  "dataset_type": "clean",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T18:05:55.308257",
+  "system_version": "dual_raw_clean_v1"
+}

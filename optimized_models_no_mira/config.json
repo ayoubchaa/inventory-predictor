@@ -1,0 +1,135 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "lag_7",
+    "ma_3",
+    "ma_5",
+    "ma_7",
+    "ma_10",
+    "std_5",
+    "std_7",
+    "median_5",
+    "median_7",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "quarter_sin",
+    "quarter_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "stock_util_lag_3",
+    "near_capacity",
+    "low_stock",
+    "critical_low",
+    "groupname_encoded",
+    "stock_class_encoded",
+    "trend_1_3",
+    "trend_3_7",
+    "momentum_3",
+    "momentum_7",
+    "volatility_normalized_5",
+    "volatility_normalized_10",
+    "ma_ratio_3_7",
+    "ma_ratio_5_14",
+    "product_volatility_interaction",
+    "class_volatility_interaction",
+    "is_weekend",
+    "is_friday",
+    "is_monday",
+    "z_score_3",
+    "z_score_7"
+  ],
+  "model_metadata": {
+    "attention_gru": {
+      "description": "Attention GRU - Optimized",
+      "train_metrics": {
+        "r2": 0.030777794398153424,
+        "mae": 488.4996366878701,
+        "rmse": 1726.7537549639644,
+        "mape": 200.0,
+        "median_ae": 81.40425109863281
+      },
+      "test_metrics": {
+        "r2": 0.047921421429916844,
+        "mae": 336.40257446344134,
+        "rmse": 1087.1178503211784,
+        "mape": 200.0,
+        "median_ae": 74.34422302246094
+      },
+      "epochs_trained": 13,
+      "features_used": 42,
+      "data_version": "optimized_no_mira_0.6L"
+    },
+    "optimized_gru": {
+      "description": "Optimized GRU - MAPE Focus",
+      "train_metrics": {
+        "r2": -0.0875865306146002,
+        "mae": 574.092916966865,
+        "rmse": 1829.1555599106232,
+        "mape": 200.0,
+        "median_ae": 93.11573791503906
+      },
+      "test_metrics": {
+        "r2": -0.10045158113608821,
+        "mae": 414.4339046959081,
+        "rmse": 1168.7609676885224,
+        "mape": 200.0,
+        "median_ae": 107.71873474121094
+      },
+      "epochs_trained": 13,
+      "features_used": 42,
+      "data_version": "optimized_no_mira_0.6L"
+    },
+    "lstm": {
+      "description": "Asymmetric LSTM",
+      "train_metrics": {
+        "r2": 0.621478941910719,
+        "mae": 346.9984250045547,
+        "rmse": 1079.1051221670148,
+        "mape": 200.0,
+        "median_ae": 54.27545318603516
+      },
+      "test_metrics": {
+        "r2": 0.7394802766164146,
+        "mae": 225.94941732368179,
+        "rmse": 568.6702832933507,
+        "mape": 200.0,
+        "median_ae": 51.51831817626953
+      },
+      "epochs_trained": 16,
+      "features_used": 42,
+      "data_version": "optimized_no_mira_0.6L"
+    },
+    "ensemble": {
+      "description": "Optimized Ensemble",
+      "test_metrics": {
+        "r2": 0.4144198787028899,
+        "mae": 286.9440137239121,
+        "rmse": 852.5765683344139,
+        "mape": 200.0,
+        "median_ae": 70.69914245605469
+      },
+      "weights": {
+        "attention_gru": 0.3333333333333333,
+        "optimized_gru": 0.3333333333333333,
+        "lstm": 0.3333333333333333
+      },
+      "data_version": "optimized_no_mira_0.6L"
+    }
+  },
+  "ensemble_weights": {
+    "attention_gru": 0.3333333333333333,
+    "optimized_gru": 0.3333333333333333,
+    "lstm": 0.3333333333333333
+  },
+  "sequence_length": 15,
+  "cycles_per_year": 36.5,
+  "data_version": "optimized_no_mira_0.6L",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T20:09:34.665831",
+  "system_version": "optimized_ensemble_v1"
+}

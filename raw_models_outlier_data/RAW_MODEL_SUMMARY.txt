@@ -1,0 +1,35 @@
+RAW FEATURES INVENTORY FORECASTING - OUTLIER DATASET
+============================================================
+
+Created: 2025-09-23 18:05:55
+Dataset: outlier data (2 records)
+Approach: Raw CSV features only (no engineering)
+Models: 2 trained
+Features: 8
+
+RAW FEATURES USED:
+1. current_stock
+2. cycle
+3. month
+4. max_stock
+5. product_encoded
+6. category_encoded
+7. storage_unit_encoded
+8. stock_class_encoded
+
+GRU - Raw GRU - Outlier Dataset
+----------------------------------------
+Test R²: 0.380
+Test MAE: 26.98
+Test MAPE: 200.00%
+Raw features: 8
+Dataset size: 3382 rows
+
+BIDIRECTIONAL_LSTM - Raw BiLSTM - Outlier Dataset
+----------------------------------------
+Test R²: 0.443
+Test MAE: 26.77
+Test MAPE: 200.00%
+Raw features: 8
+Dataset size: 3382 rows
+

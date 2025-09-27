@@ -1,0 +1,59 @@
+{
+  "model_files": {
+    "minimal_gru": "minimal_models\\minimal_gru_model.h5",
+    "minimal_lstm": "minimal_models\\minimal_lstm_model.h5"
+  },
+  "scaler_path": "minimal_models\\scalers.pkl",
+  "encoder_path": "minimal_models\\encoders.pkl",
+  "model_metadata": {
+    "minimal_gru": {
+      "description": "Minimal GRU (Raw Features Only)",
+      "train_metrics": {
+        "r2": 0.697843681024428,
+        "mae": 47.092991517992544,
+        "rmse": 147.69383972277151,
+        "mape": 535.8704981038741
+      },
+      "test_metrics": {
+        "r2": 0.7501236747040384,
+        "mae": 36.81872390304035,
+        "rmse": 114.72057304577135,
+        "mape": 594.1439194255215
+      },
+      "epochs_trained": 12,
+      "features_used": 7,
+      "approach": "raw_columns_only"
+    },
+    "minimal_lstm": {
+      "description": "Minimal LSTM (Raw Features Only)",
+      "train_metrics": {
+        "r2": 0.6965711284107552,
+        "mae": 47.05035611452328,
+        "rmse": 148.00452445173445,
+        "mape": 566.6598149525333
+      },
+      "test_metrics": {
+        "r2": 0.741306402010795,
+        "mae": 38.20799920154596,
+        "rmse": 116.72707233608129,
+        "mape": 679.1012423641919
+      },
+      "epochs_trained": 15,
+      "features_used": 7,
+      "approach": "raw_columns_only"
+    }
+  },
+  "feature_names": [
+    "Physical Storage Quantity",
+    "Inventory_Cycle",
+    "Month",
+    "Max_Stock",
+    "GroupName_encoded",
+    "Storage_Unit_encoded",
+    "Stock_Class_encoded"
+  ],
+  "sequence_length": 10,
+  "approach": "raw_columns_only",
+  "saved_date": "2025-09-21T10:26:13.621489",
+  "system_version": "minimal_raw_v1"
+}

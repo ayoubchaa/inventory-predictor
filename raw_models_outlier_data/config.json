@@ -1,0 +1,63 @@
+{
+  "feature_names": [
+    "current_stock",
+    "cycle",
+    "month",
+    "max_stock",
+    "product_encoded",
+    "category_encoded",
+    "storage_unit_encoded",
+    "stock_class_encoded"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "Raw GRU - Outlier Dataset",
+      "train_metrics": {
+        "r2": 0.7336557364214567,
+        "mae": 94.26000278494345,
+        "rmse": 356.5030285329272,
+        "mape": 200.0
+      },
+      "test_metrics": {
+        "r2": 0.3797908754458421,
+        "mae": 26.97699398467786,
+        "rmse": 82.40218086682675,
+        "mape": 200.0
+      },
+      "epochs_trained": 19,
+      "features_used": 8,
+      "approach": "raw_features_outlier",
+      "dataset_type": "outlier",
+      "dataset_size": 3382,
+      "sequences_created": 2242
+    },
+    "bidirectional_lstm": {
+      "description": "Raw BiLSTM - Outlier Dataset",
+      "train_metrics": {
+        "r2": 0.7992011108512466,
+        "mae": 80.9035285108594,
+        "rmse": 309.54386629229475,
+        "mape": 200.0
+      },
+      "test_metrics": {
+        "r2": 0.4427330912813948,
+        "mae": 26.76623906881182,
+        "rmse": 78.10903236620149,
+        "mape": 200.0
+      },
+      "epochs_trained": 34,
+      "features_used": 8,
+      "approach": "raw_features_outlier",
+      "dataset_type": "outlier",
+      "dataset_size": 3382,
+      "sequences_created": 2242
+    }
+  },
+  "sequence_length": 10,
+  "approach": "raw_features_outlier",
+  "num_features": 8,
+  "dataset_type": "outlier",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T18:05:55.381258",
+  "system_version": "dual_raw_outlier_v1"
+}

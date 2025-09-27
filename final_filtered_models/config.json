@@ -1,0 +1,74 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "ma_3",
+    "ma_5",
+    "std_3",
+    "std_5",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "near_capacity",
+    "low_stock",
+    "group_encoded",
+    "stock_class_encoded",
+    "storage_unit_encoded",
+    "trend_1_3",
+    "volatility",
+    "volatility_normalized",
+    "ma_ratio_3_7",
+    "stock_class_util_interaction",
+    "is_weekend",
+    "is_friday"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Optimized for 10-day cycles",
+      "train_metrics": {
+        "r2": 0.794458357447855,
+        "mae": 232.38907063214515,
+        "rmse": 769.7454800919261,
+        "mape": 743.4721282080712
+      },
+      "test_metrics": {
+        "r2": 0.8225995028218249,
+        "mae": 162.3933588407913,
+        "rmse": 476.9245360239116,
+        "mape": 894.0733439203474
+      },
+      "epochs_trained": 40,
+      "features_used": 26,
+      "cycle_type": "10_day_cycles"
+    },
+    "bidirectional_lstm": {
+      "description": "Bidirectional LSTM - Best for trend capture",
+      "train_metrics": {
+        "r2": 0.7881780432138612,
+        "mae": 227.20448992415268,
+        "rmse": 781.4167636613148,
+        "mape": 791.9700781420506
+      },
+      "test_metrics": {
+        "r2": 0.7386936297987772,
+        "mae": 183.79453568551293,
+        "rmse": 578.8249569713171,
+        "mape": 947.7156396296925
+      },
+      "epochs_trained": 35,
+      "features_used": 26,
+      "cycle_type": "10_day_cycles"
+    }
+  },
+  "sequence_length": 10,
+  "cycles_per_year": 36.5,
+  "cycle_type": "10_day_cycles",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T12:29:46.436181",
+  "system_version": "final_filtered_v1"
+}

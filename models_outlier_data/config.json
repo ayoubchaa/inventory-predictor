@@ -1,0 +1,58 @@
+{
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "ma_3",
+    "ma_5",
+    "std_3",
+    "std_5",
+    "cycle_sin",
+    "cycle_cos",
+    "month_sin",
+    "month_cos",
+    "stock_utilization",
+    "stock_util_lag_1",
+    "near_capacity",
+    "low_stock",
+    "group_encoded",
+    "stock_class_encoded",
+    "storage_unit_encoded",
+    "trend_1_3",
+    "volatility",
+    "volatility_normalized",
+    "ma_ratio_3_7",
+    "stock_class_util_interaction",
+    "is_weekend",
+    "is_friday"
+  ],
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Outlier Dataset",
+      "train_metrics": {
+        "r2": 0.27970008212367325,
+        "mae": 132.79512430564125,
+        "rmse": 586.2707572491439,
+        "mape": 200.0
+      },
+      "test_metrics": {
+        "r2": 0.43386438603122646,
+        "mae": 27.829359194497926,
+        "rmse": 78.72811773457855,
+        "mape": 200.0
+      },
+      "epochs_trained": 24,
+      "features_used": 26,
+      "dataset_type": "outlier",
+      "dataset_size": 3382,
+      "sequences_created": 2242
+    }
+  },
+  "sequence_length": 10,
+  "cycles_per_year": 36.5,
+  "dataset_type": "outlier",
+  "target_column": "Physical Storage Quantity",
+  "saved_date": "2025-09-23T17:56:53.628652",
+  "system_version": "dual_dataset_outlier_v1"
+}

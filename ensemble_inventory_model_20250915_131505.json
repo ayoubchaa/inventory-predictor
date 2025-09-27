@@ -1,0 +1,31 @@
+{
+  "model_weights": {
+    "moving_average_3": 0.13079940716769511,
+    "moving_average_5": 0.13419789863542317,
+    "weighted_moving_average": 0.13142374249193722,
+    "linear_trend": 0.10170523518112748,
+    "exponential_smoothing": 0.13375507927625815,
+    "seasonal_naive": 0.10329795745449533,
+    "drift": 0.1169907407227699,
+    "median": 0.14782993907029365
+  },
+  "model_performance": {
+    "moving_average_3": 35.71344723502304,
+    "moving_average_5": 34.8090228964489,
+    "weighted_moving_average": 35.543788646426314,
+    "linear_trend": 45.92976672180769,
+    "exponential_smoothing": 34.92426419640977,
+    "seasonal_naive": 45.221588513147196,
+    "drift": 39.92878152062678,
+    "median": 31.599131783681212
+  },
+  "data_stats": {
+    "total_products": 496,
+    "total_periods": 52,
+    "total_records": 72752,
+    "target_mean": 88.38733637673054,
+    "target_std": 267.78842748516934
+  },
+  "timestamp": "20250915_131505",
+  "model_type": "ensemble"
+}

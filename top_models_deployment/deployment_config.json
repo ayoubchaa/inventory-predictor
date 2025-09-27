@@ -1,0 +1,59 @@
+{
+  "model_files": {
+    "gru": "top_models_deployment\\gru_model.h5",
+    "bidirectional_lstm": "top_models_deployment\\bidirectional_lstm_model.h5"
+  },
+  "scaler_path": "top_models_deployment\\scalers.pkl",
+  "model_metadata": {
+    "gru": {
+      "description": "GRU - Best Overall R\u00b2",
+      "train_metrics": {
+        "r2": 0.7378588447176788,
+        "mae": 37.253521139099504,
+        "rmse": 137.57818602737237,
+        "mape": 250.1001202126936
+      },
+      "test_metrics": {
+        "r2": 0.7620765317087378,
+        "mae": 29.171981964648722,
+        "rmse": 112.00395536144336,
+        "mape": 235.81129501870294
+      },
+      "epochs_trained": 35,
+      "best_epoch": 1
+    },
+    "bidirectional_lstm": {
+      "description": "Bidirectional LSTM - Best MAE",
+      "train_metrics": {
+        "r2": 0.7120898575812791,
+        "mae": 39.151483089175414,
+        "rmse": 144.18180449718594,
+        "mape": 314.7611783361393
+      },
+      "test_metrics": {
+        "r2": 0.7080542774819873,
+        "mae": 32.22310486908821,
+        "rmse": 124.069712836119,
+        "mape": 304.6364809359029
+      },
+      "epochs_trained": 40,
+      "best_epoch": 40
+    }
+  },
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "ma_3",
+    "ma_7",
+    "std_3",
+    "weekend",
+    "cycle_sin",
+    "cycle_cos",
+    "trend_1_3",
+    "volatility"
+  ],
+  "sequence_length": 10,
+  "saved_date": "2025-09-18T13:20:27.371002",
+  "system_version": "top_2_models_v1"
+}
